@@ -8,7 +8,11 @@ const Header=()=>{
                 </div>
                 <div>
                     <Link to ='/'>Home</Link>
-                    <Link to ='/LoginPage'>LoginPage</Link>
+                    <Link to ='/AboutPage'>About</Link>
+                </div>
+                <div>
+                    <p>Welcome, </p>
+                    <button type='button'>Log Out</button>
                 </div>
             </header>
         </>

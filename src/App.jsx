@@ -3,17 +3,19 @@ import {Routes,Route}from 'react-router'
 
 //PAGES
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
-//COMPONENTS
-import Header from './components/Header'
+
 const App =()=>{
   return(
     <>
-    <Header/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
+        <Route path='/AboutPage' element={<AboutPage/>}/>
         <Route path='/LoginPage' element={<LoginPage/>}/>
+        <Route path='/RegisterPage' element={<RegisterPage/>}/>
       </Routes>
     </>
   )

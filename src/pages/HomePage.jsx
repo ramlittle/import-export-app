@@ -1,7 +1,12 @@
+//COMPONENTS
+import Header from '../components/Header'
+
 const HomePage=()=>{
     return(
         <>
-            I am the Home Page
+            <Header/>
+            <h2>Home</h2>
+            <p>I am the Home Page</p>
         </>
     )
 }
