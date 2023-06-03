@@ -7,9 +7,9 @@ const RegisterPage=()=>{
     const navigate=useNavigate();
 
     // STATES
-    const [email,setEmail]=useState();
-    const [password,setPassword]=useState();
-    const [confirmPassword, setConfirmPassword]=useState();
+    const [email,setEmail]=useState('');
+    const [password,setPassword]=useState('');
+    const [confirmPassword, setConfirmPassword]=useState('');
     const [showPassword,setShowPassword]=useState('password');
     const [errorMessage,setErrorMessage]=useState();
 
@@ -28,8 +28,8 @@ const RegisterPage=()=>{
     const registerUser=(e)=>{
         e.preventDefault();
 
-        if(!!!email){
-            setErrorMessage('Email cannot be empty!')
+        if(!!!email || !!!password || !!!confirmPassword){
+            setErrorMessage('Please complete the form')
         }else if(password!=confirmPassword){
             setErrorMessage('Passwords Entered Do Not Match')
         }else{

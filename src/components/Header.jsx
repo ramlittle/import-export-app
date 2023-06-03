@@ -1,5 +1,11 @@
+//DEPENDENCIES
 import { Link } from "react-router-dom"
+
+// COMPONENTS
+import Logout from './Logout'
+
 const Header=()=>{
+    const UserEmail = localStorage.getItem('userEmail')
     return(
         <>
             <header>
@@ -11,8 +17,8 @@ const Header=()=>{
                     <Link to ='/AboutPage'>About</Link>
                 </div>
                 <div>
-                    <p>Welcome, </p>
-                    <button type='button'>Log Out</button>
+                    <p>Welcome, {UserEmail}</p>
+                    <Logout/>
                 </div>
             </header>
         </>
