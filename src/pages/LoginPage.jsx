@@ -1,6 +1,6 @@
 // DEPENDECIS
 import {Link,useNavigate} from 'react-router-dom'
-import{useState} from 'react'
+import{useEffect, useState} from 'react'
 import axios from 'axios'
 
 const LoginPage=()=>{
@@ -14,10 +14,12 @@ const LoginPage=()=>{
 
     // ONPAGE LOAD EVENT
 
-    //check if user is loggedIn
-    const userLoggedIn=localStorage.getItem('userId');
-    if(userLoggedIn){
-        navigate('/')
+    //redirect to home page if already logged in
+    const userId=localStorage.getItem('userId');
+    if(userId){
+        useEffect(()=>{
+            navigate('/')
+        })
     }
 
     // FUNCTIONS
@@ -59,6 +61,10 @@ const LoginPage=()=>{
                     setErrorMessage('Access Granted')
                     localStorage.setItem('userId',result.data.id);
                     localStorage.setItem('userEmail',result.data.email)
+                    localStorage.setItem('userIsAdmin',result.data.isAdmin)
+                    localStorage.setItem('userFirstName',result.data.firstName)
+                    localStorage.setItem('userLastName',result.data.lastName)
+                    localStorage.setItem('userBirthDate',result.data.birthDate)
                     navigate('/')
                 }
             })

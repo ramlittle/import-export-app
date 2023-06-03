@@ -1,18 +1,21 @@
 //DEPENDENCIES
 import {useNavigate} from 'react-router-dom'
+import {useEffect} from 'react';
 //COMPONENTS
 import Header from '../components/Header'
 
 const HomePage=()=>{
     const navigate=useNavigate();
-    const userID=localStorage.getItem('userId')
-    const userEmail=localStorage.getItem('userEmail');
+    const userId=localStorage.getItem('userId')
 
     //ON PAGE LOAD EVENT
 
-    //check if user is loggedIn
-    if(!!!userID){
-        navigate('/LoginPage')
+    //redirect user if not yet loggedIn
+    if(!!!userId){
+        //why have useEffect? best to let initial render finish, before calling this
+        useEffect(()=>{
+            navigate('/LoginPage')
+        })   
     }
 
     return(
