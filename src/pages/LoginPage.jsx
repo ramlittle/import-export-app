@@ -3,6 +3,8 @@ import {Link,useNavigate} from 'react-router-dom'
 import{useEffect, useState} from 'react'
 import axios from 'axios'
 
+// CSS
+import '../css/App.css'
 const LoginPage=()=>{
     const navigate=useNavigate();
 
@@ -72,40 +74,51 @@ const LoginPage=()=>{
     }
 
     return(
-        <>
-            <h2>Login</h2>
-            <div>
-                <form onSubmit={(e)=>login(e)}>
-                    <label htmlFor = 'email'>Email</label>
-                    <input type='email' name='email'
-                        placeholder='example@email.com'
-                        value={email}
-                        onChange={(e)=>setEmail(e.target.value)}
-                    />
-
-                    <label htmlFor ='password'>Password</label>
-                    <input type={showPassword} name='password'
-                        placeholder='your password here'
-                        value={password}
-                        onChange={(e)=>setPassword(e.target.value)}
-                    />
-
-                    <label htmlFor='showPassword'>Show Password</label>
-                    <input type='checkbox' name='showPassword'
-                        onChange={onShowPassword}
-                    />
-
-                    <button type='submit'>Submit</button>
-                    <span>{errorMessage}</span>
-                </form>
-            </div>
-            <div>
-                <p>Don't have an account?</p>
-                <Link to ='/RegisterPage'>Register</Link>
-            </div>
-            
-            
-        </>
+        <section className='login-body'>
+            <section className='login-section'>
+                <h2>Login</h2>
+                <div>
+                    <form onSubmit={(e)=>login(e)}>
+                        <div className='form-group'>
+                            <label htmlFor = 'email'>Email</label>
+                            <input type='email' name='email'
+                                placeholder='example@email.com'
+                                value={email}
+                                onChange={(e)=>setEmail(e.target.value)}
+                            />
+                        </div>
+                        
+                        <div className='form-group'>
+                            <label htmlFor ='password'>Password</label>
+                            <input type={showPassword} name='password'
+                                placeholder='your password here'
+                                value={password}
+                                onChange={(e)=>setPassword(e.target.value)}
+                            />
+                        </div>
+                        
+                        <div className='form-group'>
+                            <label htmlFor='showPassword'>Show Password</label>
+                            <input type='checkbox' name='showPassword'
+                                onChange={onShowPassword}
+                            />
+                        </div>
+                       
+                        <div className='form-button'>
+                            <button type='submit'>Submit</button>
+                            <span>{errorMessage}</span>
+                        </div>
+                        
+                    </form>
+                </div>
+                <div>
+                    <p>Don't have an account?</p>
+                    <Link className='register-link'to ='/RegisterPage'>Register Here</Link>
+                </div>
+                
+                
+            </section>
+        </section>
     )
 }
 

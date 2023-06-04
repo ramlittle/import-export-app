@@ -17,18 +17,18 @@ const Header=()=>{
                     <h1>Logo</h1>
                 </div>
                 <div>
-                    <Link to ='/'>Home</Link>
-                    <Link to ='/AboutPage'>About</Link>
+                    <Link className='menu-link' to ='/'>Home</Link>
+                    <Link className='menu-link' to ='/AboutPage'>About</Link>
                     {
                         // This Link only appears if User is admin
                         UserIsAdmin=='true' ? 
-                        (<Link to ='/AdministrationPage'>Administration</Link>):
+                        (<Link className='menu-link' to ='/AdministrationPage'>Administration</Link>):
                         (null)
                     }
                 </div>
                 <div>
-                    <p>Welcome {UserFirstName} {UserLastName}, {UserEmail}, {UserBirthDate}</p>
-                    <Link to ='/SettingsPage'>Settings</Link>
+                    <p>Welcome {UserFirstName}, {UserEmail}</p>
+                    <Link className ='setting-link'to ='/SettingsPage'>Settings</Link>
                     <Logout/>
                 </div>
             </header>

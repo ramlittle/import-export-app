@@ -1,0 +1,140 @@
+/* DEFAULTS */
+*{
+    padding:0;
+    margin:0;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+body{
+    background-color: cornsilk;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: dodgerblue;
+    padding: 0.25rem;
+    display:flex;
+    align-items:center;
+    color:white;
+    width:100%;
+    height:100%;
+}
+header div:first-child{
+    width: 20%;
+    height:100%;
+    text-align:center;
+}
+header div:nth-child(2){
+    width: 50%;
+    height:100%;
+    display:flex;
+    height: auto;
+    justify-content: space-evenly;
+}
+.menu-link{
+    font-size:small;
+    text-decoration:none;
+    color:white;
+}
+.menu-link:hover{
+    color: gold;
+}
+header > div:last-child{
+    width: 30%;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+    align-items:center;
+}
+
+.setting-link,
+.log-out-button{
+    color: white;
+    text-decoration: none;
+    font-size: x-small;
+    background-color: grey;
+    padding: 0.25rem;
+    border: none;
+}
+
+.setting-link:hover,
+.log-out-button:hover{
+    background-color:white;
+    color:black;
+}
+
+/* LOGIN PAGE */
+.login-body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-section{
+    background-color: dodgerblue;
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+.login-section h2{
+    text-align:center;
+    color:white;
+}
+.login-section form{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.form-group{
+    display:flex;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0.25rem;
+}
+.form-group label{
+    width: 30%;
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    padding: 0.25rem;
+}
+.form-group input{
+    width:70%;
+    padding: 0.25rem;
+}
+.form-button{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.form-button button{
+    padding: 0.5rem;
+    border:none;
+    margin: 0.5rem;
+}
+.form-button span{
+    color:maroon;
+}
+
+.login-section div:last-child{
+    display:flex;
+    justify-content:center;
+    color:white;
+}
+.login-section > div:last-child > .register-link{
+    color: gold;
+    text-decoration:none;
+    margin-left: 0.25rem;
+}
+.login-section > div:last-child > .register-link:hover{
+    color:black;
+}

@@ -7,6 +7,8 @@ import AboutPage from './pages/AboutPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 
+// CSS
+import './css/App.css'
 
 const App =()=>{
   return(
