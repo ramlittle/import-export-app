@@ -63,66 +63,85 @@ const RegisterPage=()=>{
         }
     }
     return(
-        <>
-            <h2>Register An Account</h2>
-            <form onSubmit={(e)=>registerUser(e)}>
-                <label htmlFor='firstName'>First Name</label>
-                <input type = 'text' name ='firstName'
-                    placeholder='given name'
-                    value={firstName}
-                    onChange={(e)=>setFirstName(e.target.value)}
-                    required
-                />
+        <section className='registration-body'>
+            <section className='registration-section'>
+                <h2>Register An Account</h2>
+                <form onSubmit={(e)=>registerUser(e)}>
+                    <div className='form-group'>
+                        <label htmlFor='firstName'>First Name</label>
+                        <input type = 'text' name ='firstName'
+                            placeholder='given name'
+                            value={firstName}
+                            onChange={(e)=>setFirstName(e.target.value)}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='lastName'>Last Name</label>
-                <input type = 'text' name ='lastName'
-                    placeholder='family name'
-                    value={lastName}
-                    onChange={(e)=>setLastName(e.target.value)}
-                    required
-                />
+                    <div className='form-group'>
+                        <label htmlFor='lastName'>Last Name</label>
+                        <input type = 'text' name ='lastName'
+                            placeholder='family name'
+                            value={lastName}
+                            onChange={(e)=>setLastName(e.target.value)}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='birthDate'>Birth Date</label>
-                <input type='date' name='birthDate'
-                    value={birthDate}
-                    onChange={(e)=>setBirthDate(e.target.value)}
-                    required
-                />
+                    <div className='form-group'>
+                        <label htmlFor='birthDate'>Birth Date</label>
+                        <input type='date' name='birthDate'
+                            value={birthDate}
+                            onChange={(e)=>setBirthDate(e.target.value)}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='email'>Email: </label>
-                <input type='email' name='email'
-                    placeholder='sample@email.com' 
-                    value={email}
-                    onChange={(e)=>setEmail((e.target.value).toLowerCase())}
-                    required
-                />
+                    <div className='form-group'>
+                        <label htmlFor='email'>Email: </label>
+                        <input type='email' name='email'
+                            placeholder='sample@email.com' 
+                            value={email}
+                            onChange={(e)=>setEmail((e.target.value).toLowerCase())}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='password'>Password</label>
-                <input type={showPassword} name='password'
-                    placeholder='enter password'
-                    value={password}
-                    onChange={(e)=>setPassword((e.target.value))}
-                    required
-                />
+                    <div className='form-group'>
+                        <label htmlFor='password'>Password</label>
+                        <input type={showPassword} name='password'
+                            placeholder='enter password'
+                            value={password}
+                            onChange={(e)=>setPassword((e.target.value))}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='confirmPassword'>Confirm Password: </label>
-                <input type = {showPassword} name='confirmPassword'
-                    placeholder='enter password'
-                    value={confirmPassword}
-                    onChange={(e)=>setConfirmPassword((e.target.value))}
-                    required
-                />
+                    <div className='form-group'>
+                        <label htmlFor='confirmPassword'>Confirm Password: </label>
+                        <input type = {showPassword} name='confirmPassword'
+                            placeholder='confirm password'
+                            value={confirmPassword}
+                            onChange={(e)=>setConfirmPassword((e.target.value))}
+                            required
+                        />
+                    </div>
 
-                <label htmlFor='showPassword'>Show Password</label>
-                <input type='checkbox' name = 'showPassword'
-                    onChange={onShowPassword}
-                />
+                    <div className='form-group'>
+                        <label htmlFor='showPassword'>Show Password</label>
+                        <input type='checkbox' name = 'showPassword'
+                            onChange={onShowPassword}
+                        />
+                    </div>
 
-                <button type='submit'>Submit</button>
-                <Link to ='/LoginPage'>Cancel</Link>
-                <span> {errorMessage}</span>
-            </form>
-        </>
+                    <div className='form-button'>
+                        <button type='submit'>Submit</button>
+                        <Link to ='/LoginPage'>Cancel</Link>
+                        <span> {errorMessage}</span>
+                    </div>
+                </form>
+
+            </section>
+        </section>
     )
 }
 export default RegisterPage;

@@ -68,12 +68,28 @@ header > div:last-child{
     color:black;
 }
 
-/* LOGIN PAGE */
+/* LOGIN PAGE AND REGISTRATION*/
 .login-body{
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
+}
+
+.registration-body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.registration-section{
+    background-color: dodgerblue;
+    display:flex;
+    flex-direction:column;
+    width: 80%;
+    border-radius: 0.25rem;
+    padding: 1rem;
 }
 
 .login-section{
@@ -84,7 +100,8 @@ header > div:last-child{
     border-radius: 0.25rem;
     padding: 1rem;
 }
-.login-section h2{
+.login-section h2,
+.registration-section h2{
     text-align:center;
     color:white;
 }
