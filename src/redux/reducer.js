@@ -1,15 +1,15 @@
 const initialState={
-    emergencies:[]
+    users:[]
 };
 
 const reducer =(state=initialState, action)=>{
    switch(action.type){
-    case 'POPULATE_EMERGENCIES':
-        return {...state,emergencies:action.payload.emergencies}
+    case 'POPULATE_USERS':
+        return {...state,users:action.payload.users}
     case 'DELETE_EMERGENCY':
         return{
             ...state,
-            mentors: state.emergencies.filter(emergency=>emergency._id !==action.payload.id)
+            mentors: state.users.filter(emergency=>emergency._id !==action.payload.id)
         }
     default:
         return state;
