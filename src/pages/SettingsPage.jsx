@@ -16,7 +16,8 @@ const SettingsPage =()=>{
     const [birthDate,setBirthDate]=useState('');
     const [password,setPassword]=useState('');
     const [showPassword,setShowPassword]=useState('password');
-    const [Message,setMessage]=useState('');
+    const [userMessage,setUserMessage]=useState('');
+    const [passwordMessage,setPasswordMessage]=useState('');
 
     //OBTAIN USER DATA BASED ON ID LOCAL STORAGE
     const initialLoad=()=>{
@@ -30,7 +31,7 @@ const SettingsPage =()=>{
                 setBirthDate(res.data.birthDate.split('T')[0])
             })
             .catch(err =>{
-                console.log('server error',err);
+                setUserMessage('Unable to Obtain User Information, err')
             })
         },[])
     }
@@ -54,7 +55,27 @@ const SettingsPage =()=>{
             data: {
               firstName,
               lastName,
-              birthDate,
+              birthDate
+            },
+          };
+      
+          // make the API call
+          axios(configuration)
+            .then((result) => {
+                setUserMessage(result.data.status)
+            })
+            .catch((error) => {
+                setUserMessage(error.response.data.status);
+            });
+    }
+
+    //update password
+    const updatePassword=(e)=>{
+        e.preventDefault();
+        const configuration = {
+            method: "put",
+            url: `http://localhost:8008/api/v1/users/password/${UserId}`,
+            data: {
               password
             },
           };
@@ -62,10 +83,10 @@ const SettingsPage =()=>{
           // make the API call
           axios(configuration)
             .then((result) => {
-                setMessage(result.data.status)
+                setPasswordMessage(result.data.status)
             })
             .catch((error) => {
-                setMessage(error.response.data.status);
+                setPasswordMessage(error.response.data.status);
             });
     }
 
@@ -128,13 +149,13 @@ const SettingsPage =()=>{
                 <div className='form-button'>
                         <button type='submit'>Update User Information</button>
                         {
-                            Message =='User has been updated'? 
-                            (<span style={{color:'green'}}>{Message}</span> ):(<span>{Message}</span>)
+                            userMessage =='User Information has been updated Successfully'? 
+                            (<span style={{color:'green'}}>{userMessage}</span> ):(<span>{userMessage}</span>)
                         }
                 </div>
             </form>
 
-            <form onSubmit={(e)=>updateUserInformation(e)}>
+            <form onSubmit={(e)=>updatePassword(e)}>
                 <fieldset>
                     <legend>Security</legend>
                         <div className='form-group'>
@@ -157,8 +178,8 @@ const SettingsPage =()=>{
                 <div className='form-button'>
                         <button type='submit'>Update Password</button>
                         {
-                            Message =='Password has been updated'? 
-                            (<span style={{color:'green'}}>{Message}</span> ):(<span>{Message}</span>)
+                            passwordMessage =='Password Update is successful!'? 
+                            (<span style={{color:'green'}}>{passwordMessage}</span> ):(<span>{passwordMessage}</span>)
                         }
                 </div>
             </form>   
