@@ -59,6 +59,7 @@ const AdministrationPage=()=>{
         <>
             <Header/>
             <h2>Users List</h2>
+            <Link to='/RegisterPage'>Add New</Link>
             <label>Search: </label>
             <input type='text'
                 placeholder='enter family name'

@@ -77,10 +77,6 @@ const ManageUserPage=()=>{
             });
     }
 
-    const checkChange=(e)=>{
-        setIsAdmin(e.target.checked)
-        console.log('se admin',isAdmin)
-    }
     return (
         <>
             <Header/>
