@@ -9,6 +9,7 @@ const AdministrationPage=()=>{
     const [users,setUsers]=useState([]);
     const [search,setSearch]=useState('');
     const [count,setCount]=useState(0);
+    const [message,setMessage]=useState('')
 
     const  fetchData =()=>{
         if(search!=''){
@@ -31,6 +32,18 @@ const AdministrationPage=()=>{
             })
     }
 
+    const onDeleteHandler=(userId)=>{
+        const confirmBox=window.confirm(`WARNING: This will delete this record ${userId}`);
+        return axios.delete(`http://localhost:8008/api/v1/users/${userId}`)
+        .then((response)=>{
+            setMessage(response.data.status,` with ID ${userId}`)
+            fetchData();
+        })
+        .catch(()=>{
+            setMessage(error.response.data.status)
+        })
+    }
+
     useEffect(()=>{
         fetchData();
     },[search])
@@ -45,6 +58,7 @@ const AdministrationPage=()=>{
                 onChange = {(e)=>setSearch(e.target.value)}
             />
             <span> showing {count} results</span>
+            <span>{message}</span>
             <table>
                 <thead>
                     <tr>
@@ -67,7 +81,7 @@ const AdministrationPage=()=>{
                                 <td>{user.isAdmin}</td>
                                 <td>
                                     <button>Manage</button>
-                                    <button>Delete</button>
+                                    <button onClick={()=>onDeleteHandler(user._id)}>Delete</button>
                                 </td>
                             </tr>
                         ))
