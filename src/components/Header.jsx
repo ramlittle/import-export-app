@@ -8,8 +8,6 @@ const Header=()=>{
     const UserEmail = localStorage.getItem('userEmail')
     const UserIsAdmin = localStorage.getItem('userIsAdmin')
     const UserFirstName = localStorage.getItem('userFirstName')
-    const UserLastName = localStorage.getItem('userLastName')
-    const UserBirthDate = localStorage.getItem('userBirthDate')
     return(
         <>
             <header>

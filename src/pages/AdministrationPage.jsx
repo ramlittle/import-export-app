@@ -1,6 +1,7 @@
 // DEPENDENCIES
 import axios from 'axios';
 import {useEffect,useState} from 'react'
+import {Link} from 'react-router-dom'
 
 // COMPONENTS
 import Header from '../components/Header'
@@ -34,14 +35,20 @@ const AdministrationPage=()=>{
 
     const onDeleteHandler=(userId)=>{
         const confirmBox=window.confirm(`WARNING: This will delete this record ${userId}`);
-        return axios.delete(`http://localhost:8008/api/v1/users/${userId}`)
-        .then((response)=>{
-            setMessage(response.data.status,` with ID ${userId}`)
-            fetchData();
-        })
-        .catch(()=>{
-            setMessage(error.response.data.status)
-        })
+        const loggedInUser=localStorage.getItem('userId');
+        if(loggedInUser!=userId){
+            return axios.delete(`http://localhost:8008/api/v1/users/${userId}`)
+            .then((response)=>{
+                setMessage(` ${response.data.status} with ID ${userId}`)
+                fetchData();
+            })
+            .catch(()=>{
+                setMessage(error.response.data.status)
+            })
+        }else{
+            setMessage('You are the admin logged In, unable to delete')
+            alert(message);
+        }
     }
 
     useEffect(()=>{
@@ -66,7 +73,7 @@ const AdministrationPage=()=>{
                         <td>Email</td>
                         <td>First Name</td>
                         <td>Last Name</td>
-                        <td>Is Admin</td>
+                        <td>User Level</td>
                         <td>Action</td>
                     </tr>
                 </thead>
@@ -78,9 +85,13 @@ const AdministrationPage=()=>{
                                 <td>{user.email}</td>
                                 <td>{user.firstName}</td>
                                 <td>{user.lastName}</td>
-                                <td>{user.isAdmin}</td>
+                                {
+                                    user.isAdmin?
+                                    (<td>Administrator</td>):(<td>Standard User</td>)
+                                }
                                 <td>
-                                    <button>Manage</button>
+                                    {/* user is the prop to be passed to ManageUserPage */}
+                                    <Link to='/ManageUserPage' state={{user}}>Manage</Link>
                                     <button onClick={()=>onDeleteHandler(user._id)}>Delete</button>
                                 </td>
                             </tr>
