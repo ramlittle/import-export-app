@@ -7,47 +7,44 @@ import {Link} from 'react-router-dom'
 import Header from '../components/Header'
 
 const AdministrationPage=()=>{
+    //VARIABLES
+    let displayUsers=[];
+
+    // STATES
     const [users,setUsers]=useState([]);
     const [search,setSearch]=useState('');
     const [count,setCount]=useState(0);
     const [message,setMessage]=useState('')
     const [selected,setSelected]=useState(0);
 
+    
     // FUNCTIONS
 
     //fetchData
-    const  fetchData =()=>{
-        if(search!=''){
-            return axios.get(`http://localhost:8008/api/v1/users/search/${search}`)
-            .then((response)=>{
-                //I added a new field temporary for tickbox select in each user
-                //by default it is false
-                let users=response.data.map((user)=>{
-                    return {select:false,...user}
-                })
-                //then update the user state
-                setUsers(users)
-                setCount(response.data.length)
-                console.log(users)
-            })
-            .catch((error)=>{
-                setMessage(error.response.data.status)
-            })
-        }
+    const fetchData =()=>{
         return axios.get(`http://localhost:8008/api/v1/users`)
             .then((response)=>{
-                //I added a new field temporary for tickbox select in each user
-                //by default it is false
-                let users=response.data.map((user)=>{
-                    return {select:false,...user}
-                })
-                //then update the user state
-                setUsers(users)
+                setUsers(response.data)
                 setCount(response.data.length)
             })
             .catch((error)=>{
                 setMessage(error.response.data.status)
             })
+    }
+
+    //display of data
+    function displayData(){
+        if(search!=''){
+           console.log('you searched')
+        //    LOG: still working on search and multiple check box feature
+        // you are stuck here, dapat sa tuwing may search, ung selected value ay updated din, hindi laging false
+        }else{
+            let newList=users.map(user=>{
+                return{selected:false,...user}
+            })
+            console.log('displayUsers',newList)
+            return displayUsers=newList
+        }
     }
 
     //delete single record
@@ -98,9 +95,11 @@ const AdministrationPage=()=>{
 
     useEffect(()=>{
         fetchData();
-    },[search])
+    },[])
+    console.log('fetched users',users)
 
-    
+    displayData();
+        
     return(
         <>
             <Header/>
@@ -127,11 +126,11 @@ const AdministrationPage=()=>{
                 </thead>
                 <tbody>
                     {
-                        users.map(user=>(
+                        displayUsers.map(user=>(
                             <tr key={user._id}>
                                 <td>
                                     <input type ='checkbox'
-                                        onChange={(()=>onCheckBoxHandler(users,user._id,user.select))}
+                                        onChange={(()=>onCheckBoxHandler(displayUsers,user._id,user.select))}
                                     />
                                 </td>
                                 <td>{user._id}</td>
