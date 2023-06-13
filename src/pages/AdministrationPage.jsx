@@ -11,38 +11,23 @@ const AdministrationPage=()=>{
     const [search,setSearch]=useState('');
     const [count,setCount]=useState(0);
     const [message,setMessage]=useState('')
-    const [selected,setSelected]=useState(0);
+    const [checked,setChecked]=useState([]);
 
     // FUNCTIONS
 
     //fetchData
-    const  fetchData =()=>{
+    const fetchData =()=>{
+        let url=`http://localhost:8008/api/v1/users`;
         if(search!=''){
-            return axios.get(`http://localhost:8008/api/v1/users/search/${search}`)
-            .then((response)=>{
-                //I added a new field temporary for tickbox select in each user
-                //by default it is false
-                let users=response.data.map((user)=>{
-                    return {select:false,...user}
-                })
-                //then update the user state
-                setUsers(users)
-                setCount(response.data.length)
-                console.log(users)
-            })
-            .catch((error)=>{
-                setMessage(error.response.data.status)
-            })
+            url=`http://localhost:8008/api/v1/users/search/${search}`
         }
-        return axios.get(`http://localhost:8008/api/v1/users`)
+
+        return axios.get(url)
             .then((response)=>{
-                //I added a new field temporary for tickbox select in each user
-                //by default it is false
-                let users=response.data.map((user)=>{
-                    return {select:false,...user}
-                })
-                //then update the user state
-                setUsers(users)
+                // let users=response.data.map((user)=>{
+                // return {select:false,...user}
+                // }) sample code to add a new field without actually adding it to the models
+                setUsers(response.data)
                 setCount(response.data.length)
             })
             .catch((error)=>{
@@ -72,28 +57,21 @@ const AdministrationPage=()=>{
         
     }
 
-    //multiple select, this will update the list where records are selected
-    const onCheckBoxHandler=(users,userId,userSelect)=>{
-        console.log('all users',users)
-        console.log('userId Selected',userId)
-        console.log('boolean', userSelect)
+    //selectAll
+    const onHandleSelectAll=(e)=>{
+        if(e.target.checked==false){
+            const allUsers=users.map(user=>{
+                return user._id
+            })
+            setChecked(allUsers)
+            console.log('checked',checked)
+            setMessage(`WARNING: You have selected all ${checked.length} records!`)
+        }else{
+            setChecked([])
+            console.log('checked',checked)
+            setMessage(` You have selected ${checked.length} records`)
+        }
         
-        let selectedUserIds=users.map((user)=>{
-            if(user._id==userId){
-                if(user.select==false){
-                    user.select=true;
-                }else{
-                    user.select=false;
-                }
-            }
-            return user;
-        })
-        
-        setUsers(selectedUserIds)
-
-        console.log('selected user Id',users)
-
-        // search has bug, this part function has bug, looks like I won't need API for the search
     }
 
     useEffect(()=>{
@@ -117,15 +95,10 @@ const AdministrationPage=()=>{
                 <thead>
                     <tr>
                         <td>
-                            <input type ='checkbox'
-                                onChange={(e)=>setUsers(
-                                    users.map(user=>{
-                                        user.selected=e.target.checked;
-                                        return user;
-                                    })
-                                )}
+                            <input type='checkbox'
+                                checked={checked.length===users.length}
+                                onChange={onHandleSelectAll}
                             />
-                            {console.log(users)}
                         </td>
                         <td>ID</td>
                         <td>Email</td>

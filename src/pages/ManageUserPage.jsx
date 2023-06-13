@@ -1,6 +1,7 @@
 //DEPENDENCIES
 import {useState} from 'react'
 import {useLocation} from 'react-router'//used when obtaining props from router
+import {Link} from 'react-router-dom'
 import axios from 'axios';
 //COMPONENTS
 import Header from '../components/Header'
@@ -173,6 +174,7 @@ const ManageUserPage=()=>{
                         }
                 </div>
             </form>   
+            <Link to ='/AdministrationPage'>Return</Link>
         </>
     )
 }
