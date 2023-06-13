@@ -7,6 +7,8 @@ import {Link} from 'react-router-dom'
 import Header from '../components/Header'
 
 const AdministrationPage=()=>{
+
+    // STATES
     const [users,setUsers]=useState([]);
     const [search,setSearch]=useState('');
     const [count,setCount]=useState(0);
@@ -58,46 +60,61 @@ const AdministrationPage=()=>{
     }
 
     //selectAll
-    const onHandleSelectAll=(e)=>{
-        if(e.target.checked==false){
-            const allUsers=users.map(user=>{
-                return user._id
-            })
-            setChecked(allUsers)
-            console.log('checked',checked)
-            setMessage(`WARNING: You have selected all ${checked.length} records!`)
-        }else{
-            setChecked([])
-            console.log('checked',checked)
-            setMessage(` You have selected ${checked.length} records`)
-        }
-        
-    }
+    // reference: https://fontawesomeicons.com/tryit/code/react-js-checkbox-select-all-unselect-all/0
+    const onSelectAllHandler = (e) => {
+          if (e.target.checked) {
+            const allUsers = users.map((user) => user._id);
+            setChecked(allUsers);
+          } else {
+            setChecked([]);
+          }
+          setMessage(`WARNING: You have selected all ${checked.length} users`)
+        };
 
+    const onSelectSomeHandler = (e, user) => {
+        if (e.target.checked) {
+        setChecked([...checked, user._id]);
+        } else {
+        setChecked(checked.filter((item) => item !== user._id));
+        }
+    };
+
+    //Render Fetch Data on first load and change in search state
     useEffect(()=>{
         fetchData();
     },[search])
-
     
+    //render log of selected records 
+    useEffect(()=>{
+        setMessage(` You have selected ${checked.length} users`)
+    },[checked])
+
     return(
         <>
             <Header/>
             <h2>Users List</h2>
+            {/* <p>{checked.join(", ")}</p> */}
             <Link to='/RegisterPage'>Add New</Link>
-            <label>Search: </label>
-            <input type='text'
-                placeholder='enter family name'
-                onChange = {(e)=>setSearch(e.target.value)}
-            />
-            <span> showing {count} results</span>
-            <span>{message}</span>
+            <div>
+                <label>Search: </label>
+                <input type='text'
+                    placeholder='enter family name'
+                    onChange = {(e)=>setSearch(e.target.value)}
+                />
+                <span> showing {count} results</span>
+            </div>
+            
+            <p>LOG HISTORY:{message}</p>
+            
             <table>
                 <thead>
                     <tr>
                         <td>
-                            <input type='checkbox'
-                                checked={checked.length===users.length}
-                                onChange={onHandleSelectAll}
+                        <input
+                            className="form-check-input"
+                            type="checkbox"
+                            checked={checked.length === users.length}
+                            onChange={onSelectAllHandler}
                             />
                         </td>
                         <td>ID</td>
@@ -114,7 +131,9 @@ const AdministrationPage=()=>{
                             <tr key={user._id}>
                                 <td>
                                     <input type ='checkbox'
-                                        onChange={(()=>onCheckBoxHandler(users,user._id,user.select))}
+                                        id={user._id}
+                                        checked={checked.includes(user._id)}
+                                        onChange={((e)=>onSelectSomeHandler(e,user))}
                                     />
                                 </td>
                                 <td>{user._id}</td>
