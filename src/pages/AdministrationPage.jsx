@@ -17,7 +17,7 @@ const AdministrationPage=()=>{
 
     // FUNCTIONS
 
-    //fetchData
+    //fetchData API
     const fetchData =()=>{
         let url=`http://localhost:8008/api/v1/users`;
         if(search!=''){
@@ -32,13 +32,13 @@ const AdministrationPage=()=>{
                 setUsers(response.data)
                 setCount(response.data.length)
             })
-            .catch((error)=>{
-                setMessage(error.response.data.status)
+            .catch(()=>{
+                setMessage('sorry unable to retrieve data')
             })
     }
 
-    //delete single record
-    const onDeleteHandler=(userId)=>{
+    //delete single record API
+    const onSingleDeleteHandler=(userId)=>{
         const confirmBox=window.confirm(`WARNING: This will delete this record ${userId}`);
         const loggedInUser=localStorage.getItem('userId');
         if(confirmBox){
@@ -49,7 +49,7 @@ const AdministrationPage=()=>{
                     fetchData();
                 })
                 .catch(()=>{
-                    setMessage(error.response.data.status)
+                    setMessage('sorry unable to delete user')
                 })
             }else{
                 setMessage('You are the admin logged In, unable to delete')
@@ -57,6 +57,23 @@ const AdministrationPage=()=>{
             }
         }
         
+    }
+
+    //delete multiple records API
+    const onMultipleDeleteHandler=()=>{
+        if(checked.length<1){
+            alert('select at least 1 record')
+        }else{
+            return axios.delete(`http://localhost:8008/api/v1/users/delete/many`)
+            .then((response)=>{
+                setMessage(`${response.data.status} count ${checked.length}`)
+                fetchData();
+            })
+            .catch((error)=>{
+                setMessage('unable to delete sorry')
+            })
+            
+        }
     }
 
     //selectAll
@@ -71,6 +88,7 @@ const AdministrationPage=()=>{
           setMessage(`WARNING: You have selected all ${checked.length} users`)
         };
 
+    // select some
     const onSelectSomeHandler = (e, user) => {
         if (e.target.checked) {
         setChecked([...checked, user._id]);
@@ -87,6 +105,7 @@ const AdministrationPage=()=>{
     //render log of selected records 
     useEffect(()=>{
         setMessage(` You have selected ${checked.length} users`)
+        console.log('checked list',checked)
     },[checked])
 
     return(
@@ -103,9 +122,11 @@ const AdministrationPage=()=>{
                 />
                 <span> showing {count} results</span>
             </div>
-            
+            <div>
+                <button onClick={onMultipleDeleteHandler}>DELETE</button>
+            </div>
             <p>LOG HISTORY:{message}</p>
-            
+
             <table>
                 <thead>
                     <tr>
@@ -147,7 +168,7 @@ const AdministrationPage=()=>{
                                 <td>
                                     {/* user is the prop to be passed to ManageUserPage */}
                                     <Link to='/ManageUserPage' state={{user}}>Manage</Link>
-                                    <button onClick={()=>onDeleteHandler(user._id)}>Delete</button>
+                                    <button onClick={()=>onSingleDeleteHandler(user._id)}>Delete</button>
                                 </td>
                             </tr>
                         ))
