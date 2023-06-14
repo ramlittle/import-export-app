@@ -8,6 +8,9 @@ import Header from '../components/Header'
 
 const AdministrationPage=()=>{
 
+    //Initial variables
+    const loggedInUser=localStorage.getItem('userId')
+
     // STATES
     const [users,setUsers]=useState([]);
     const [search,setSearch]=useState('');
@@ -40,12 +43,12 @@ const AdministrationPage=()=>{
     //delete single record API
     const onSingleDeleteHandler=(userId)=>{
         const confirmBox=window.confirm(`WARNING: This will delete this record ${userId}`);
-        const loggedInUser=localStorage.getItem('userId');
+
         if(confirmBox){
             if(loggedInUser!=userId){
                 return axios.delete(`http://localhost:8008/api/v1/users/${userId}`)
                 .then((response)=>{
-                    setMessage(` ${response.data.status} with ID ${userId}`)
+                    setMessage(` ${response.data.status} with ID ${userId}`)  
                     fetchData();
                 })
                 .catch(()=>{
@@ -61,18 +64,40 @@ const AdministrationPage=()=>{
 
     //delete multiple records API
     const onMultipleDeleteHandler=()=>{
+        
+        //check if user selected the logged in user to be deleted
+        const checkLoggedIn=checked.filter(check=>{
+            if(check == loggedInUser){
+                setMessage(' You have selected your own log in to be deleted, please remove it from the selection')
+                return check
+            }
+        })
+
+        //stops user from deleting own account
+        if(checkLoggedIn==loggedInUser){
+            return alert('You have selected your own log in to be deleted, please remove it from the selection')
+        }
+        
+        //at one record should be selected
         if(checked.length<1){
-            alert('select at least 1 record')
-        }else{
-            return axios.delete(`http://localhost:8008/api/v1/users/delete/many`)
-            .then((response)=>{
-                setMessage(`${response.data.status} count ${checked.length}`)
-                fetchData();
-            })
-            .catch((error)=>{
-                setMessage('unable to delete sorry')
-            })
-            
+            setMessage(' Select at least one record')
+            return alert('Select at least one record')
+        }
+        
+        //if all is well, execute below code
+        const confirmBox=window.confirm(`WARNING: This will delete ${checked.legnth} records`)
+
+        if(confirmBox){
+            return axios.post(`http://localhost:8008/api/v1/users/delete/many`,checked)
+                .then((result)=>{
+                    console.log('you have selected to delete', checked)
+                    setChecked([])//clear check count
+                    setMessage(result.data.status)
+                    fetchData();//refresh data list
+                })
+                .catch((error)=>{
+                    console.log('unable to delete, check logs')
+                })    
         }
     }
 
@@ -105,7 +130,6 @@ const AdministrationPage=()=>{
     //render log of selected records 
     useEffect(()=>{
         setMessage(` You have selected ${checked.length} users`)
-        console.log('checked list',checked)
     },[checked])
 
     return(
