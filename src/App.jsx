@@ -10,6 +10,8 @@ import SettingsPage from './pages/SettingsPage';
 import AdministrationPage from './pages/AdministrationPage';
 import ManageUserPage from './pages/ManageUserPage'
 
+//TESTS
+import Address from './tests/Address'
 // CSS
 import './css/App.css'
 
@@ -24,6 +26,7 @@ const App =()=>{
         <Route path='SettingsPage' element={<SettingsPage/>}/>
         <Route path='AdministrationPage' element ={<AdministrationPage/>}/>
         <Route path ='ManageUserPage' element = {<ManageUserPage/>}/>
+        <Route path='/Address' element ={<Address/>}/>
       </Routes>
     </>
   )
