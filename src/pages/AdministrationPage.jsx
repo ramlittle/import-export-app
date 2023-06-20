@@ -6,12 +6,15 @@ import {Link} from 'react-router-dom'
 // COMPONENTS
 import Header from '../components/Header'
 
+//PAGES
+import RegisterPage from './RegisterPage.jsx';
 const AdministrationPage=()=>{
 
     //Initial variables
     const loggedInUser=localStorage.getItem('userId')
 
     // STATES
+    const [openModal,setOpenModal]=useState(false);
     const [users,setUsers]=useState([]);
     const [search,setSearch]=useState('');
     const [count,setCount]=useState(0);
@@ -137,7 +140,12 @@ const AdministrationPage=()=>{
             <Header/>
             <h2>Users List</h2>
             {/* <p>{checked.join(", ")}</p> */}
-            <Link to='/RegisterPage'>Add New</Link>
+            {/* <Link to='/RegisterPage'>Add New</Link> */}
+            <button onClick={()=>setOpenModal(true)}>Add New User</button>
+            <RegisterPage 
+                openModal={openModal}
+                onClose={()=>setOpenModal(false)}
+            />
             <div>
                 <label>Search: </label>
                 <input type='text'

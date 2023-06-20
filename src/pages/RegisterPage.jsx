@@ -3,7 +3,13 @@ import {Link,useNavigate} from 'react-router-dom';
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 
-const RegisterPage=()=>{
+const RegisterPage=({openModal,onClose})=>{
+    // openModal is a boolean
+    //onClose is a function passed by Admin Page
+    if(!openModal){
+        return null
+    }
+
     const navigate=useNavigate();
 
     // STATES
@@ -65,6 +71,7 @@ const RegisterPage=()=>{
     return(
         <section className='registration-body'>
             <section className='registration-section'>
+                <p onClick={onClose}>Close</p>
                 <h2>Register An Account</h2>
                 <form onSubmit={(e)=>registerUser(e)}>
                     <div className='form-group'>
