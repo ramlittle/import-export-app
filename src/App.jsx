@@ -11,9 +11,12 @@ import AdministrationPage from './pages/AdministrationPage';
 import ManageUserPage from './pages/ManageUserPage'
 
 //TESTS
-import Address from './tests/Address'
+import Address from './tests/Address';
+import MyPage from './tests/MyPage'
 // CSS
+import './index.css'
 import './css/App.css'
+
 
 const App =()=>{
   return(
@@ -27,6 +30,7 @@ const App =()=>{
         <Route path='AdministrationPage' element ={<AdministrationPage/>}/>
         <Route path ='ManageUserPage' element = {<ManageUserPage/>}/>
         <Route path='/Address' element ={<Address/>}/>
+        <Route path='/MyPage' element={<MyPage/>}/>
       </Routes>
     </>
   )
