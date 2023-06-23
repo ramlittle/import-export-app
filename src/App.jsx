@@ -13,6 +13,7 @@ import ManageUserPage from './pages/ManageUserPage'
 //TESTS
 import Address from './tests/Address';
 import MyPage from './tests/MyPage'
+import GlobalSearchSample from './tests/GlobalSearchSample/GlobalSearchSample'
 // CSS
 import './index.css'
 import './css/App.css'
@@ -31,6 +32,7 @@ const App =()=>{
         <Route path ='ManageUserPage' element = {<ManageUserPage/>}/>
         <Route path='/Address' element ={<Address/>}/>
         <Route path='/MyPage' element={<MyPage/>}/>
+        <Route path='/GlobalSearchSample' element ={<GlobalSearchSample/>}/>
       </Routes>
     </>
   )
