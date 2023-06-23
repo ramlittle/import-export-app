@@ -27,6 +27,7 @@ const AdministrationPage=()=>{
     const fetchData =()=>{
         let url=`http://localhost:8008/api/v1/users`;
         if(search!=''){
+            //below is what you call server side filtering, it uses email as reference
             url=`http://localhost:8008/api/v1/users/search/${search}`
         }
 

@@ -8,6 +8,7 @@ const GlobalSearchSample=()=>{
     const [search,setSearch]=useState();
     const [count,setCount]=useState(0);
     const [filteredUsers, setFilteredUsers]=useState([]);
+    const [message,setMessage]=useState('');
 
     // API
     const fetchData=()=>{
@@ -55,7 +56,11 @@ const GlobalSearchSample=()=>{
     return(
         <>
             <input type='search' onChange={(e)=>setSearch(e.target.value)}/>
-            <h6>below count {count}</h6>
+            { 
+                count<1 ? 
+                (<h6>{count} results found </h6>):(<h6>showing {count} users</h6>)
+            }
+            
             <table>
                 <thead>
                     <tr>
@@ -75,7 +80,7 @@ const GlobalSearchSample=()=>{
                 <tbody>
                     
                 {
-                    filteredUsers.map(user=>(
+                    filteredUsers.slice(0).reverse().map(user=>(
                         
                         <tr key={user._id}>
                             <td>{user._id}</td>
