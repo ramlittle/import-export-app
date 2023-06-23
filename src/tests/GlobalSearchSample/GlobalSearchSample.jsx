@@ -61,9 +61,9 @@ const GlobalSearchSample=()=>{
                 (<h6>{count} results found </h6>):(<h6>showing {count} users</h6>)
             }
             
-            <table>
+            <table className='bg-green-500'>
                 <thead>
-                    <tr>
+                    <tr className='border border-red-50'>
                         <td>ID</td>
                         <td>firstName</td>
                         <td>lastName</td>
@@ -82,7 +82,10 @@ const GlobalSearchSample=()=>{
                 {
                     filteredUsers.slice(0).reverse().map(user=>(
                         
-                        <tr key={user._id}>
+                        <tr key={user._id}
+                            className='border border-red-500 hover:bg-yellow-500'
+                        >
+                            
                             <td>{user._id}</td>
                             <td>{user.firstName}</td>
                             <td>{user.lastName}</td>
