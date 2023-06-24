@@ -2,6 +2,9 @@
 import axios from 'axios';
 import {useEffect,useState} from 'react'
 
+// component
+import Pagination from './Pagination'
+
 const GlobalSearchSample=()=>{
     // STATES
     const [users,setUsers]=useState([]);
@@ -9,6 +12,16 @@ const GlobalSearchSample=()=>{
     const [count,setCount]=useState(0);
     const [filteredUsers, setFilteredUsers]=useState([]);
     const [message,setMessage]=useState('');
+    // pagination states
+    const[currentPage,setCurrentPage] = useState(1)//initial page
+    const[recordsPerPage]=useState(3);
+    
+    //pagination variables
+    const indexOfLastRecord=currentPage * recordsPerPage;
+    const indexOfFirstRecord=indexOfLastRecord-recordsPerPage;
+    const currentRecords=users.slice(indexOfFirstRecord,indexOfLastRecord)
+    const nPages=Math.ceil(users.length/recordsPerPage)
+
 
     // API
     const fetchData=()=>{
@@ -60,7 +73,11 @@ const GlobalSearchSample=()=>{
                 count<1 ? 
                 (<h6>{count} results found </h6>):(<h6>showing {count} users</h6>)
             }
-            
+            <Pagination
+                nPages={nPages}
+                currentPage={currentPage}
+                setCurrentPage={setCurrentPage}
+            />
             <table className='bg-green-500'>
                 <thead>
                     <tr className='border border-red-50'>
@@ -80,7 +97,7 @@ const GlobalSearchSample=()=>{
                 <tbody>
                     
                 {
-                    filteredUsers.slice(0).reverse().map(user=>(
+                    currentRecords.slice(0).reverse().map(user=>(
                         
                         <tr key={user._id}
                             className='border border-red-500 hover:bg-yellow-500'
