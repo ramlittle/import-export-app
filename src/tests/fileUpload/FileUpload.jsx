@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import axios from 'axios';
 const FileUpload=()=>{
     const [image,setImage]=useState('')
 
@@ -7,13 +7,34 @@ const FileUpload=()=>{
         e.preventDefault();
         console.log('selected image',image)
 
-        //Call API here to store selected image to server and record data to mongodb
+        const configuration = {
+                    method: 'post',
+                    url: 'http://localhost:8008/api/v1/image/upload',
+                    data: {
+                        image:image,
+                    },
+                  };
+                
+                  // make the API call
+                  axios(configuration)
+                    // .then((result) => {
+                    //   if(result.data.status=='User already exists'){
+                    //     setErrorMessage('User already exists');
+                    //   }else{
+                    //     alert(result.data.status);
+                    //     navigate('/LoginPage');
+                    //   }
+                      
+                    // })
+                    .catch((error) => {
+                      alert(error.response.data.status);
+                    }); 
     }
     return(
         <>
-            <form onSubmit={(e)=>handleSubmit(e)}>
+            <form onSubmit={(e)=>handleSubmit(e)} enctype='multipart/form-data'>
                 <label>Image</label>
-                <input type='file' 
+                <input type='file' name='image'
                     onChange={(e)=>setImage(e.target.files[0])}
                 />
                 <button>Submit</button>
