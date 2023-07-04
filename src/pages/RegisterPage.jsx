@@ -6,13 +6,14 @@ import axios from 'axios';
 const RegisterPage=({openModal,onClose})=>{
     // openModal is a boolean
     //onClose is a function passed by Admin Page
-    if(!openModal){
-        return null
-    }
+    // if(!openModal){
+    //     return null
+    // }
 
     const navigate=useNavigate();
 
     // STATES
+    const [picture,setPicture]=useState('')
     const [firstName,setFirstName]=useState('');
     const [lastName,setLastName]=useState('');
     const [birthDate,setBirthDate]=useState('');
@@ -33,40 +34,46 @@ const RegisterPage=({openModal,onClose})=>{
         }
     }
 
+    //handle image
+    function handlePicture(e){
+        console.log(e.target.files)
+        setPicture(e.target.files[0])
+    }
     //register user
     const registerUser=(e)=>{
         e.preventDefault();
-
-        if(password!=confirmPassword){
-            setErrorMessage('Passwords Entered Do Not Match')
-        }else{
-            const configuration = {
-                method: 'post',
-                url: 'http://localhost:8008/api/v1/auth/register',
-                data: {
-                  firstName:firstName,
-                  lastName:lastName,
-                  birthDate:birthDate,
-                  email:email,
-                  password:password,
-                },
-              };
+        console.log('dito data',picture, firstName)
+        // if(password!=confirmPassword){
+        //     setErrorMessage('Passwords Entered Do Not Match')
+        // }else{
+        //     const configuration = {
+        //         method: 'post',
+        //         url: 'http://localhost:8008/api/v1/auth/register',
+        //         data: {
+        //           picture:picture,
+        //           firstName:firstName,
+        //           lastName:lastName,
+        //           birthDate:birthDate,
+        //           email:email,
+        //           password:password,
+        //         },
+        //       };
             
-              // make the API call
-              axios(configuration)
-                .then((result) => {
-                  if(result.data.status=='User already exists'){
-                    setErrorMessage('User already exists');
-                  }else{
-                    alert(result.data.status);
-                    navigate('/LoginPage');
-                  }
+        //       // make the API call
+        //       axios(configuration)
+        //         .then((result) => {
+        //           if(result.data.status=='User already exists'){
+        //             setErrorMessage('User already exists');
+        //           }else{
+        //             alert(result.data.status);
+        //             navigate('/LoginPage');
+        //           }
                   
-                })
-                .catch((error) => {
-                  alert(error.response.data.status);
-                }); 
-        }
+        //         })
+        //         .catch((error) => {
+        //           alert(error.response.data.status);
+        //         }); 
+        // }
     }
     return(
         <section className='registration-body'>
@@ -74,6 +81,12 @@ const RegisterPage=({openModal,onClose})=>{
                 <p onClick={onClose}>Close</p>
                 <h2>Register An Account</h2>
                 <form onSubmit={(e)=>registerUser(e)}>
+                    <div className='form-group'>
+                        <label htmlFor='picture'>Picture</label>
+                        <input type='file' name='picture'
+                            onChange={handlePicture}
+                        />
+                    </div>
                     <div className='form-group'>
                         <label htmlFor='firstName'>First Name</label>
                         <input type = 'text' name ='firstName'

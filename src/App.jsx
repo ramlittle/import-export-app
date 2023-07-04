@@ -15,6 +15,7 @@ import Address from './tests/Address';
 import MyPage from './tests/MyPage'
 import GlobalSearchSample from './tests/GlobalSearchSample/GlobalSearchSample'
 import Calendar from './tests/FullCalendar/Calendar';
+import FileUpload from './tests/fileUpload/FileUpload';
 // CSS
 import './index.css'
 import './css/App.css'
@@ -35,6 +36,7 @@ const App =()=>{
         <Route path='/MyPage' element={<MyPage/>}/>
         <Route path='/GlobalSearchSample' element ={<GlobalSearchSample/>}/>
         <Route path='/Calendar' element ={<Calendar/>}/>
+        <Route path='/FileUpload' element={<FileUpload/>}/>
       </Routes>
     </>
   )
