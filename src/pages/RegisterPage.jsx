@@ -43,37 +43,40 @@ const RegisterPage=({openModal,onClose})=>{
     const registerUser=(e)=>{
         e.preventDefault();
         console.log('dito data',picture, firstName)
-        // if(password!=confirmPassword){
-        //     setErrorMessage('Passwords Entered Do Not Match')
-        // }else{
-        //     const configuration = {
-        //         method: 'post',
-        //         url: 'http://localhost:8008/api/v1/auth/register',
-        //         data: {
-        //           picture:picture,
-        //           firstName:firstName,
-        //           lastName:lastName,
-        //           birthDate:birthDate,
-        //           email:email,
-        //           password:password,
-        //         },
-        //       };
+        if(password!=confirmPassword){
+            setErrorMessage('Passwords Entered Do Not Match')
+        }else{
+            const configuration = {
+                method: 'post',
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                  },
+                url: 'http://localhost:8008/api/v1/auth/register',
+                data: {
+                  file:picture,
+                  firstName:firstName,
+                  lastName:lastName,
+                  birthDate:birthDate,
+                  email:email,
+                  password:password,
+                },
+              };
             
-        //       // make the API call
-        //       axios(configuration)
-        //         .then((result) => {
-        //           if(result.data.status=='User already exists'){
-        //             setErrorMessage('User already exists');
-        //           }else{
-        //             alert(result.data.status);
-        //             navigate('/LoginPage');
-        //           }
+              // make the API call
+              axios(configuration)
+                .then((result) => {
+                  if(result.data.status=='User already exists'){
+                    setErrorMessage('User already exists');
+                  }else{
+                    alert(result.data.status);
+                    navigate('/LoginPage');
+                  }
                   
-        //         })
-        //         .catch((error) => {
-        //           alert(error.response.data.status);
-        //         }); 
-        // }
+                })
+                .catch((error) => {
+                  alert(error.response.data.status);
+                }); 
+        }
     }
     return(
         <section className='registration-body'>

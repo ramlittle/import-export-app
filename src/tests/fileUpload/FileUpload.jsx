@@ -22,15 +22,7 @@ const FileUpload = () => {
 
         // make the API call
         axios(configuration)
-            // .then((result) => {
-            //   if(result.data.status=='User already exists'){
-            //     setErrorMessage('User already exists');
-            //   }else{
-            //     alert(result.data.status);
-            //     navigate('/LoginPage');
-            //   }
-
-            // })
+            //you can a .then here
             .catch((error) => {
                 alert(error.response.data.status);
             });
