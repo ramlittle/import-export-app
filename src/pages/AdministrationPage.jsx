@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 
 // COMPONENTS
 import Header from '../components/Header'
+import {CheckAuth} from '../components/CheckAuth';
 
 //PAGES
 import RegisterPage from './RegisterPage.jsx';
@@ -12,7 +13,12 @@ const AdministrationPage=()=>{
 
     //Initial variables
     const loggedInUser=localStorage.getItem('userId')
-
+    const isAdmin=localStorage.getItem('userIsAdmin');
+    
+    console.log('is admin?',isAdmin)
+    CheckAuth(isAdmin);
+    
+    //CHECK IF USER IS 
     // STATES
     const [openModal,setOpenModal]=useState(false);
     const [users,setUsers]=useState([]);

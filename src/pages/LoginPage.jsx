@@ -3,10 +3,12 @@ import {Link,useNavigate} from 'react-router-dom'
 import{useEffect, useState} from 'react'
 import axios from 'axios'
 
+
 // CSS
 import '../css/App.css'
 const LoginPage=()=>{
     const navigate=useNavigate();
+    
 
     // STATES
     const [email,setEmail]=useState('');
@@ -67,6 +69,7 @@ const LoginPage=()=>{
                     localStorage.setItem('userFirstName',result.data.firstName)
                     localStorage.setItem('userLastName',result.data.lastName)
                     localStorage.setItem('userBirthDate',result.data.birthDate)
+                
                     navigate('/')
                 }
             })
