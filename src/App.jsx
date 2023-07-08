@@ -17,6 +17,7 @@ import MyPage from './tests/MyPage'
 import GlobalSearchSample from './tests/GlobalSearchSample/GlobalSearchSample'
 import Calendar from './tests/FullCalendar/Calendar';
 import FileUpload from './tests/fileUpload/FileUpload';
+import ShoppingCart from './tests/autorefresh/ShoppingCart'
 // CSS
 import './index.css'
 import './css/App.css'
@@ -40,6 +41,7 @@ const App = () => {
           <Route path='/Calendar' element={<Calendar />} />
           <Route path='/FileUpload' element={<FileUpload />} />
           <Route path='/NoPermission' element={<NoPermission />} />
+          <Route path='/ShoppingCart' element={<ShoppingCart />} />
         </Routes>
       
     </>
