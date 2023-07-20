@@ -1,0 +1,9884 @@
+[
+    {
+     "city_id": 12801,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Adams"
+    },
+    {
+     "city_id": 12802,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Bacarra"
+    },
+    {
+     "city_id": 12803,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Badoc"
+    },
+    {
+     "city_id": 12804,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Bangui"
+    },
+    {
+     "city_id": 12805,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "City Of Batac"
+    },
+    {
+     "city_id": 12806,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 12807,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Carasi"
+    },
+    {
+     "city_id": 12808,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Currimao"
+    },
+    {
+     "city_id": 12809,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Dingras"
+    },
+    {
+     "city_id": 12810,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Dumalneg"
+    },
+    {
+     "city_id": 12811,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Banna (Espiritu)"
+    },
+    {
+     "city_id": 12812,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Laoag City (Capital)"
+    },
+    {
+     "city_id": 12813,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Marcos"
+    },
+    {
+     "city_id": 12814,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Nueva Era"
+    },
+    {
+     "city_id": 12815,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Pagudpud"
+    },
+    {
+     "city_id": 12816,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Paoay"
+    },
+    {
+     "city_id": 12817,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Pasuquin"
+    },
+    {
+     "city_id": 12818,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Piddig"
+    },
+    {
+     "city_id": 12819,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Pinili"
+    },
+    {
+     "city_id": 12820,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "San Nicolas"
+    },
+    {
+     "city_id": 12821,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Sarrat"
+    },
+    {
+     "city_id": 12822,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Solsona"
+    },
+    {
+     "city_id": 12823,
+     "region_id": 1,
+     "province_id": 128,
+     "city_name": "Vintar"
+    },
+    {
+     "city_id": 12901,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Alilem"
+    },
+    {
+     "city_id": 12902,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Banayoyo"
+    },
+    {
+     "city_id": 12903,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Bantay"
+    },
+    {
+     "city_id": 12904,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 12905,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Cabugao"
+    },
+    {
+     "city_id": 12906,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "City Of Candon"
+    },
+    {
+     "city_id": 12907,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Caoayan"
+    },
+    {
+     "city_id": 12908,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Cervantes"
+    },
+    {
+     "city_id": 12909,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Galimuyod"
+    },
+    {
+     "city_id": 12910,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Gregorio Del Pilar (Concepcion)"
+    },
+    {
+     "city_id": 12911,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Lidlidda"
+    },
+    {
+     "city_id": 12912,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Magsingal"
+    },
+    {
+     "city_id": 12913,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Nagbukel"
+    },
+    {
+     "city_id": 12914,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Narvacan"
+    },
+    {
+     "city_id": 12915,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Quirino (Angkaki)"
+    },
+    {
+     "city_id": 12916,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Salcedo (Baugen)"
+    },
+    {
+     "city_id": 12917,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "San Emilio"
+    },
+    {
+     "city_id": 12918,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "San Esteban"
+    },
+    {
+     "city_id": 12919,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "San Ildefonso"
+    },
+    {
+     "city_id": 12920,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "San Juan (Lapog)"
+    },
+    {
+     "city_id": 12921,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "San Vicente"
+    },
+    {
+     "city_id": 12922,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santa"
+    },
+    {
+     "city_id": 12923,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santa Catalina"
+    },
+    {
+     "city_id": 12924,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 12925,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santa Lucia"
+    },
+    {
+     "city_id": 12926,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 12927,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santiago"
+    },
+    {
+     "city_id": 12928,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Santo Domingo"
+    },
+    {
+     "city_id": 12929,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Sigay"
+    },
+    {
+     "city_id": 12930,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Sinait"
+    },
+    {
+     "city_id": 12931,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Sugpon"
+    },
+    {
+     "city_id": 12932,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Suyo"
+    },
+    {
+     "city_id": 12933,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "Tagudin"
+    },
+    {
+     "city_id": 12934,
+     "region_id": 1,
+     "province_id": 129,
+     "city_name": "City Of Vigan (Capital)"
+    },
+    {
+     "city_id": 13301,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Agoo"
+    },
+    {
+     "city_id": 13302,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Aringay"
+    },
+    {
+     "city_id": 13303,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Bacnotan"
+    },
+    {
+     "city_id": 13304,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Bagulin"
+    },
+    {
+     "city_id": 13305,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Balaoan"
+    },
+    {
+     "city_id": 13306,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Bangar"
+    },
+    {
+     "city_id": 13307,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Bauang"
+    },
+    {
+     "city_id": 13308,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 13309,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Caba"
+    },
+    {
+     "city_id": 13310,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Luna"
+    },
+    {
+     "city_id": 13311,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Naguilian"
+    },
+    {
+     "city_id": 13312,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Pugo"
+    },
+    {
+     "city_id": 13313,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Rosario"
+    },
+    {
+     "city_id": 13314,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "City Of San Fernando (Capital)"
+    },
+    {
+     "city_id": 13315,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "San Gabriel"
+    },
+    {
+     "city_id": 13316,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "San Juan"
+    },
+    {
+     "city_id": 13317,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 13318,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Santol"
+    },
+    {
+     "city_id": 13319,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Sudipen"
+    },
+    {
+     "city_id": 13320,
+     "region_id": 1,
+     "province_id": 133,
+     "city_name": "Tubao"
+    },
+    {
+     "city_id": 15501,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Agno"
+    },
+    {
+     "city_id": 15502,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Aguilar"
+    },
+    {
+     "city_id": 15503,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "City Of Alaminos"
+    },
+    {
+     "city_id": 15504,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Alcala"
+    },
+    {
+     "city_id": 15505,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Anda"
+    },
+    {
+     "city_id": 15506,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Asingan"
+    },
+    {
+     "city_id": 15507,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Balungao"
+    },
+    {
+     "city_id": 15508,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Bani"
+    },
+    {
+     "city_id": 15509,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Basista"
+    },
+    {
+     "city_id": 15510,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Bautista"
+    },
+    {
+     "city_id": 15511,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Bayambang"
+    },
+    {
+     "city_id": 15512,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Binalonan"
+    },
+    {
+     "city_id": 15513,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Binmaley"
+    },
+    {
+     "city_id": 15514,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Bolinao"
+    },
+    {
+     "city_id": 15515,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Bugallon"
+    },
+    {
+     "city_id": 15516,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 15517,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Calasiao"
+    },
+    {
+     "city_id": 15518,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Dagupan City"
+    },
+    {
+     "city_id": 15519,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Dasol"
+    },
+    {
+     "city_id": 15520,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Infanta"
+    },
+    {
+     "city_id": 15521,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Labrador"
+    },
+    {
+     "city_id": 15522,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Lingayen (Capital)"
+    },
+    {
+     "city_id": 15523,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Mabini"
+    },
+    {
+     "city_id": 15524,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Malasiqui"
+    },
+    {
+     "city_id": 15525,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Manaoag"
+    },
+    {
+     "city_id": 15526,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Mangaldan"
+    },
+    {
+     "city_id": 15527,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Mangatarem"
+    },
+    {
+     "city_id": 15528,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Mapandan"
+    },
+    {
+     "city_id": 15529,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Natividad"
+    },
+    {
+     "city_id": 15530,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Pozorrubio"
+    },
+    {
+     "city_id": 15531,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Rosales"
+    },
+    {
+     "city_id": 15532,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Carlos City"
+    },
+    {
+     "city_id": 15533,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Fabian"
+    },
+    {
+     "city_id": 15534,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Jacinto"
+    },
+    {
+     "city_id": 15535,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Manuel"
+    },
+    {
+     "city_id": 15536,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Nicolas"
+    },
+    {
+     "city_id": 15537,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "San Quintin"
+    },
+    {
+     "city_id": 15538,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Santa Barbara"
+    },
+    {
+     "city_id": 15539,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 15540,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 15541,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Sison"
+    },
+    {
+     "city_id": 15542,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Sual"
+    },
+    {
+     "city_id": 15543,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Tayug"
+    },
+    {
+     "city_id": 15544,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Umingan"
+    },
+    {
+     "city_id": 15545,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Urbiztondo"
+    },
+    {
+     "city_id": 15546,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "City Of Urdaneta"
+    },
+    {
+     "city_id": 15547,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Villasis"
+    },
+    {
+     "city_id": 15548,
+     "region_id": 1,
+     "province_id": 155,
+     "city_name": "Laoac"
+    },
+    {
+     "city_id": 20901,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Basco (Capital)"
+    },
+    {
+     "city_id": 20902,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Itbayat"
+    },
+    {
+     "city_id": 20903,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Ivana"
+    },
+    {
+     "city_id": 20904,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Mahatao"
+    },
+    {
+     "city_id": 20905,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Sabtang"
+    },
+    {
+     "city_id": 20906,
+     "region_id": 2,
+     "province_id": 209,
+     "city_name": "Uyugan"
+    },
+    {
+     "city_id": 21501,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Abulug"
+    },
+    {
+     "city_id": 21502,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Alcala"
+    },
+    {
+     "city_id": 21503,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Allacapan"
+    },
+    {
+     "city_id": 21504,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Amulung"
+    },
+    {
+     "city_id": 21505,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Aparri"
+    },
+    {
+     "city_id": 21506,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Baggao"
+    },
+    {
+     "city_id": 21507,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Ballesteros"
+    },
+    {
+     "city_id": 21508,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Buguey"
+    },
+    {
+     "city_id": 21509,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Calayan"
+    },
+    {
+     "city_id": 21510,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Camalaniugan"
+    },
+    {
+     "city_id": 21511,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Claveria"
+    },
+    {
+     "city_id": 21512,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Enrile"
+    },
+    {
+     "city_id": 21513,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Gattaran"
+    },
+    {
+     "city_id": 21514,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Gonzaga"
+    },
+    {
+     "city_id": 21515,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Iguig"
+    },
+    {
+     "city_id": 21516,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Lal-lo"
+    },
+    {
+     "city_id": 21517,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Lasam"
+    },
+    {
+     "city_id": 21518,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Pamplona"
+    },
+    {
+     "city_id": 21519,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Peñablanca"
+    },
+    {
+     "city_id": 21520,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Piat"
+    },
+    {
+     "city_id": 21521,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Rizal"
+    },
+    {
+     "city_id": 21522,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Sanchez-mira"
+    },
+    {
+     "city_id": 21523,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Santa Ana"
+    },
+    {
+     "city_id": 21524,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Santa Praxedes"
+    },
+    {
+     "city_id": 21525,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Santa Teresita"
+    },
+    {
+     "city_id": 21526,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Santo Niño (Faire)"
+    },
+    {
+     "city_id": 21527,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Solana"
+    },
+    {
+     "city_id": 21528,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Tuao"
+    },
+    {
+     "city_id": 21529,
+     "region_id": 2,
+     "province_id": 215,
+     "city_name": "Tuguegarao City (Capital)"
+    },
+    {
+     "city_id": 23101,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Alicia"
+    },
+    {
+     "city_id": 23102,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Angadanan"
+    },
+    {
+     "city_id": 23103,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Aurora"
+    },
+    {
+     "city_id": 23104,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Benito Soliven"
+    },
+    {
+     "city_id": 23105,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 23106,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Cabagan"
+    },
+    {
+     "city_id": 23107,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Cabatuan"
+    },
+    {
+     "city_id": 23108,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "City Of Cauayan"
+    },
+    {
+     "city_id": 23109,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Cordon"
+    },
+    {
+     "city_id": 23110,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Dinapigue"
+    },
+    {
+     "city_id": 23111,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Divilacan"
+    },
+    {
+     "city_id": 23112,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Echague"
+    },
+    {
+     "city_id": 23113,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Gamu"
+    },
+    {
+     "city_id": 23114,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Ilagan City (Capital)"
+    },
+    {
+     "city_id": 23115,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Jones"
+    },
+    {
+     "city_id": 23116,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Luna"
+    },
+    {
+     "city_id": 23117,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Maconacon"
+    },
+    {
+     "city_id": 23118,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Delfin Albano (Magsaysay)"
+    },
+    {
+     "city_id": 23119,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Mallig"
+    },
+    {
+     "city_id": 23120,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Naguilian"
+    },
+    {
+     "city_id": 23121,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Palanan"
+    },
+    {
+     "city_id": 23122,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 23123,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Quirino"
+    },
+    {
+     "city_id": 23124,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Ramon"
+    },
+    {
+     "city_id": 23125,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Reina Mercedes"
+    },
+    {
+     "city_id": 23126,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Roxas"
+    },
+    {
+     "city_id": 23127,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Agustin"
+    },
+    {
+     "city_id": 23128,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Guillermo"
+    },
+    {
+     "city_id": 23129,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 23130,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Manuel"
+    },
+    {
+     "city_id": 23131,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Mariano"
+    },
+    {
+     "city_id": 23132,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Mateo"
+    },
+    {
+     "city_id": 23133,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "San Pablo"
+    },
+    {
+     "city_id": 23134,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 23135,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "City Of Santiago"
+    },
+    {
+     "city_id": 23136,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 23137,
+     "region_id": 2,
+     "province_id": 231,
+     "city_name": "Tumauini"
+    },
+    {
+     "city_id": 25001,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Ambaguio"
+    },
+    {
+     "city_id": 25002,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Aritao"
+    },
+    {
+     "city_id": 25003,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Bagabag"
+    },
+    {
+     "city_id": 25004,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Bambang"
+    },
+    {
+     "city_id": 25005,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Bayombong (Capital)"
+    },
+    {
+     "city_id": 25006,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Diadi"
+    },
+    {
+     "city_id": 25007,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Dupax Del Norte"
+    },
+    {
+     "city_id": 25008,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Dupax Del Sur"
+    },
+    {
+     "city_id": 25009,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Kasibu"
+    },
+    {
+     "city_id": 25010,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Kayapa"
+    },
+    {
+     "city_id": 25011,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 25012,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Santa Fe"
+    },
+    {
+     "city_id": 25013,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Solano"
+    },
+    {
+     "city_id": 25014,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Villaverde"
+    },
+    {
+     "city_id": 25015,
+     "region_id": 2,
+     "province_id": 250,
+     "city_name": "Alfonso Castaneda"
+    },
+    {
+     "city_id": 25701,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Aglipay"
+    },
+    {
+     "city_id": 25702,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Cabarroguis (Capital)"
+    },
+    {
+     "city_id": 25703,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Diffun"
+    },
+    {
+     "city_id": 25704,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Maddela"
+    },
+    {
+     "city_id": 25705,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Saguday"
+    },
+    {
+     "city_id": 25706,
+     "region_id": 2,
+     "province_id": 257,
+     "city_name": "Nagtipunan"
+    },
+    {
+     "city_id": 30801,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Abucay"
+    },
+    {
+     "city_id": 30802,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Bagac"
+    },
+    {
+     "city_id": 30803,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "City Of Balanga (Capital)"
+    },
+    {
+     "city_id": 30804,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Dinalupihan"
+    },
+    {
+     "city_id": 30805,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Hermosa"
+    },
+    {
+     "city_id": 30806,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Limay"
+    },
+    {
+     "city_id": 30807,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Mariveles"
+    },
+    {
+     "city_id": 30808,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Morong"
+    },
+    {
+     "city_id": 30809,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Orani"
+    },
+    {
+     "city_id": 30810,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Orion"
+    },
+    {
+     "city_id": 30811,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 30812,
+     "region_id": 3,
+     "province_id": 308,
+     "city_name": "Samal"
+    },
+    {
+     "city_id": 31401,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Angat"
+    },
+    {
+     "city_id": 31402,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Balagtas (Bigaa)"
+    },
+    {
+     "city_id": 31403,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Baliuag"
+    },
+    {
+     "city_id": 31404,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Bocaue"
+    },
+    {
+     "city_id": 31405,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Bulacan"
+    },
+    {
+     "city_id": 31406,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Bustos"
+    },
+    {
+     "city_id": 31407,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Calumpit"
+    },
+    {
+     "city_id": 31408,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Guiguinto"
+    },
+    {
+     "city_id": 31409,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Hagonoy"
+    },
+    {
+     "city_id": 31410,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "City Of Malolos (Capital)"
+    },
+    {
+     "city_id": 31411,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Marilao"
+    },
+    {
+     "city_id": 31412,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "City Of Meycauayan"
+    },
+    {
+     "city_id": 31413,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Norzagaray"
+    },
+    {
+     "city_id": 31414,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Obando"
+    },
+    {
+     "city_id": 31415,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Pandi"
+    },
+    {
+     "city_id": 31416,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Paombong"
+    },
+    {
+     "city_id": 31417,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Plaridel"
+    },
+    {
+     "city_id": 31418,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Pulilan"
+    },
+    {
+     "city_id": 31419,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "San Ildefonso"
+    },
+    {
+     "city_id": 31420,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "City Of San Jose Del Monte"
+    },
+    {
+     "city_id": 31421,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 31422,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "San Rafael"
+    },
+    {
+     "city_id": 31423,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 31424,
+     "region_id": 3,
+     "province_id": 314,
+     "city_name": "Doña Remedios Trinidad"
+    },
+    {
+     "city_id": 34901,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Aliaga"
+    },
+    {
+     "city_id": 34902,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Bongabon"
+    },
+    {
+     "city_id": 34903,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Cabanatuan City"
+    },
+    {
+     "city_id": 34904,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Cabiao"
+    },
+    {
+     "city_id": 34905,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Carranglan"
+    },
+    {
+     "city_id": 34906,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Cuyapo"
+    },
+    {
+     "city_id": 34907,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Gabaldon (Bitulok & Sabani)"
+    },
+    {
+     "city_id": 34908,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "City Of Gapan"
+    },
+    {
+     "city_id": 34909,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "General Mamerto Natividad"
+    },
+    {
+     "city_id": 34910,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "General Tinio (Papaya)"
+    },
+    {
+     "city_id": 34911,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Guimba"
+    },
+    {
+     "city_id": 34912,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Jaen"
+    },
+    {
+     "city_id": 34913,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Laur"
+    },
+    {
+     "city_id": 34914,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Licab"
+    },
+    {
+     "city_id": 34915,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Llanera"
+    },
+    {
+     "city_id": 34916,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Lupao"
+    },
+    {
+     "city_id": 34917,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Science City Of Muñoz"
+    },
+    {
+     "city_id": 34918,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Nampicuan"
+    },
+    {
+     "city_id": 34919,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Palayan City (Capital)"
+    },
+    {
+     "city_id": 34920,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Pantabangan"
+    },
+    {
+     "city_id": 34921,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Peñaranda"
+    },
+    {
+     "city_id": 34922,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 34923,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Rizal"
+    },
+    {
+     "city_id": 34924,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "San Antonio"
+    },
+    {
+     "city_id": 34925,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 34926,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "San Jose City"
+    },
+    {
+     "city_id": 34927,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "San Leonardo"
+    },
+    {
+     "city_id": 34928,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Santa Rosa"
+    },
+    {
+     "city_id": 34929,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Santo Domingo"
+    },
+    {
+     "city_id": 34930,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Talavera"
+    },
+    {
+     "city_id": 34931,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Talugtug"
+    },
+    {
+     "city_id": 34932,
+     "region_id": 3,
+     "province_id": 349,
+     "city_name": "Zaragoza"
+    },
+    {
+     "city_id": 35401,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Angeles City"
+    },
+    {
+     "city_id": 35402,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Apalit"
+    },
+    {
+     "city_id": 35403,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Arayat"
+    },
+    {
+     "city_id": 35404,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Bacolor"
+    },
+    {
+     "city_id": 35405,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Candaba"
+    },
+    {
+     "city_id": 35406,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Floridablanca"
+    },
+    {
+     "city_id": 35407,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Guagua"
+    },
+    {
+     "city_id": 35408,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Lubao"
+    },
+    {
+     "city_id": 35409,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Mabalacat City"
+    },
+    {
+     "city_id": 35410,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Macabebe"
+    },
+    {
+     "city_id": 35411,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Magalang"
+    },
+    {
+     "city_id": 35412,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Masantol"
+    },
+    {
+     "city_id": 35413,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Mexico"
+    },
+    {
+     "city_id": 35414,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Minalin"
+    },
+    {
+     "city_id": 35415,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Porac"
+    },
+    {
+     "city_id": 35416,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "City Of San Fernando (Capital)"
+    },
+    {
+     "city_id": 35417,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "San Luis"
+    },
+    {
+     "city_id": 35418,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "San Simon"
+    },
+    {
+     "city_id": 35419,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Santa Ana"
+    },
+    {
+     "city_id": 35420,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Santa Rita"
+    },
+    {
+     "city_id": 35421,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 35422,
+     "region_id": 3,
+     "province_id": 354,
+     "city_name": "Sasmuan (Sexmoan)"
+    },
+    {
+     "city_id": 36901,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Anao"
+    },
+    {
+     "city_id": 36902,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Bamban"
+    },
+    {
+     "city_id": 36903,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Camiling"
+    },
+    {
+     "city_id": 36904,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Capas"
+    },
+    {
+     "city_id": 36905,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Concepcion"
+    },
+    {
+     "city_id": 36906,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Gerona"
+    },
+    {
+     "city_id": 36907,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "La Paz"
+    },
+    {
+     "city_id": 36908,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Mayantoc"
+    },
+    {
+     "city_id": 36909,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Moncada"
+    },
+    {
+     "city_id": 36910,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Paniqui"
+    },
+    {
+     "city_id": 36911,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Pura"
+    },
+    {
+     "city_id": 36912,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Ramos"
+    },
+    {
+     "city_id": 36913,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "San Clemente"
+    },
+    {
+     "city_id": 36914,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "San Manuel"
+    },
+    {
+     "city_id": 36915,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Santa Ignacia"
+    },
+    {
+     "city_id": 36916,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "City Of Tarlac (Capital)"
+    },
+    {
+     "city_id": 36917,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "Victoria"
+    },
+    {
+     "city_id": 36918,
+     "region_id": 3,
+     "province_id": 369,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 37101,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Botolan"
+    },
+    {
+     "city_id": 37102,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Cabangan"
+    },
+    {
+     "city_id": 37103,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Candelaria"
+    },
+    {
+     "city_id": 37104,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Castillejos"
+    },
+    {
+     "city_id": 37105,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Iba (Capital)"
+    },
+    {
+     "city_id": 37106,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Masinloc"
+    },
+    {
+     "city_id": 37107,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Olongapo City"
+    },
+    {
+     "city_id": 37108,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Palauig"
+    },
+    {
+     "city_id": 37109,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "San Antonio"
+    },
+    {
+     "city_id": 37110,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "San Felipe"
+    },
+    {
+     "city_id": 37111,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "San Marcelino"
+    },
+    {
+     "city_id": 37112,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "San Narciso"
+    },
+    {
+     "city_id": 37113,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 37114,
+     "region_id": 3,
+     "province_id": 371,
+     "city_name": "Subic"
+    },
+    {
+     "city_id": 37701,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Baler (Capital)"
+    },
+    {
+     "city_id": 37702,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Casiguran"
+    },
+    {
+     "city_id": 37703,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Dilasag"
+    },
+    {
+     "city_id": 37704,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Dinalungan"
+    },
+    {
+     "city_id": 37705,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Dingalan"
+    },
+    {
+     "city_id": 37706,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Dipaculao"
+    },
+    {
+     "city_id": 37707,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "Maria Aurora"
+    },
+    {
+     "city_id": 37708,
+     "region_id": 3,
+     "province_id": 377,
+     "city_name": "San Luis"
+    },
+    {
+     "city_id": 41001,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Agoncillo"
+    },
+    {
+     "city_id": 41002,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Alitagtag"
+    },
+    {
+     "city_id": 41003,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Balayan"
+    },
+    {
+     "city_id": 41004,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Balete"
+    },
+    {
+     "city_id": 41005,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Batangas City (Capital)"
+    },
+    {
+     "city_id": 41006,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Bauan"
+    },
+    {
+     "city_id": 41007,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Calaca"
+    },
+    {
+     "city_id": 41008,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Calatagan"
+    },
+    {
+     "city_id": 41009,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Cuenca"
+    },
+    {
+     "city_id": 41010,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Ibaan"
+    },
+    {
+     "city_id": 41011,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Laurel"
+    },
+    {
+     "city_id": 41012,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Lemery"
+    },
+    {
+     "city_id": 41013,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Lian"
+    },
+    {
+     "city_id": 41014,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Lipa City"
+    },
+    {
+     "city_id": 41015,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Lobo"
+    },
+    {
+     "city_id": 41016,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Mabini"
+    },
+    {
+     "city_id": 41017,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Malvar"
+    },
+    {
+     "city_id": 41018,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Mataasnakahoy"
+    },
+    {
+     "city_id": 41019,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Nasugbu"
+    },
+    {
+     "city_id": 41020,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Padre Garcia"
+    },
+    {
+     "city_id": 41021,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Rosario"
+    },
+    {
+     "city_id": 41022,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 41023,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "San Juan"
+    },
+    {
+     "city_id": 41024,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "San Luis"
+    },
+    {
+     "city_id": 41025,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "San Nicolas"
+    },
+    {
+     "city_id": 41026,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "San Pascual"
+    },
+    {
+     "city_id": 41027,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Santa Teresita"
+    },
+    {
+     "city_id": 41028,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 41029,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Taal"
+    },
+    {
+     "city_id": 41030,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Talisay"
+    },
+    {
+     "city_id": 41031,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "City Of Tanauan"
+    },
+    {
+     "city_id": 41032,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Taysan"
+    },
+    {
+     "city_id": 41033,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Tingloy"
+    },
+    {
+     "city_id": 41034,
+     "region_id": 4,
+     "province_id": 410,
+     "city_name": "Tuy"
+    },
+    {
+     "city_id": 42101,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Alfonso"
+    },
+    {
+     "city_id": 42102,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Amadeo"
+    },
+    {
+     "city_id": 42103,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Bacoor City"
+    },
+    {
+     "city_id": 42104,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Carmona"
+    },
+    {
+     "city_id": 42105,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Cavite City"
+    },
+    {
+     "city_id": 42106,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "City Of Dasmariñas"
+    },
+    {
+     "city_id": 42107,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "General Emilio Aguinaldo"
+    },
+    {
+     "city_id": 42108,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "General Trias"
+    },
+    {
+     "city_id": 42109,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Imus City"
+    },
+    {
+     "city_id": 42110,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Indang"
+    },
+    {
+     "city_id": 42111,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Kawit"
+    },
+    {
+     "city_id": 42112,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Magallanes"
+    },
+    {
+     "city_id": 42113,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Maragondon"
+    },
+    {
+     "city_id": 42114,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Mendez (Mendez-nuñez)"
+    },
+    {
+     "city_id": 42115,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Naic"
+    },
+    {
+     "city_id": 42116,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Noveleta"
+    },
+    {
+     "city_id": 42117,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Rosario"
+    },
+    {
+     "city_id": 42118,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Silang"
+    },
+    {
+     "city_id": 42119,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Tagaytay City"
+    },
+    {
+     "city_id": 42120,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Tanza"
+    },
+    {
+     "city_id": 42121,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Ternate"
+    },
+    {
+     "city_id": 42122,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Trece Martires City (Capital)"
+    },
+    {
+     "city_id": 42123,
+     "region_id": 4,
+     "province_id": 421,
+     "city_name": "Gen. Mariano Alvarez"
+    },
+    {
+     "city_id": 43401,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Alaminos"
+    },
+    {
+     "city_id": 43402,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Bay"
+    },
+    {
+     "city_id": 43403,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "City Of Biñan"
+    },
+    {
+     "city_id": 43404,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Cabuyao City"
+    },
+    {
+     "city_id": 43405,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "City Of Calamba"
+    },
+    {
+     "city_id": 43406,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Calauan"
+    },
+    {
+     "city_id": 43407,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Cavinti"
+    },
+    {
+     "city_id": 43408,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Famy"
+    },
+    {
+     "city_id": 43409,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Kalayaan"
+    },
+    {
+     "city_id": 43410,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Liliw"
+    },
+    {
+     "city_id": 43411,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Los Baños"
+    },
+    {
+     "city_id": 43412,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Luisiana"
+    },
+    {
+     "city_id": 43413,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Lumban"
+    },
+    {
+     "city_id": 43414,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Mabitac"
+    },
+    {
+     "city_id": 43415,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Magdalena"
+    },
+    {
+     "city_id": 43416,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Majayjay"
+    },
+    {
+     "city_id": 43417,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Nagcarlan"
+    },
+    {
+     "city_id": 43418,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Paete"
+    },
+    {
+     "city_id": 43419,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Pagsanjan"
+    },
+    {
+     "city_id": 43420,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Pakil"
+    },
+    {
+     "city_id": 43421,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Pangil"
+    },
+    {
+     "city_id": 43422,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Pila"
+    },
+    {
+     "city_id": 43423,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Rizal"
+    },
+    {
+     "city_id": 43424,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "San Pablo City"
+    },
+    {
+     "city_id": 43425,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "City Of San Pedro"
+    },
+    {
+     "city_id": 43426,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Santa Cruz (Capital)"
+    },
+    {
+     "city_id": 43427,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 43428,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "City Of Santa Rosa"
+    },
+    {
+     "city_id": 43429,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Siniloan"
+    },
+    {
+     "city_id": 43430,
+     "region_id": 4,
+     "province_id": 434,
+     "city_name": "Victoria"
+    },
+    {
+     "city_id": 45601,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Agdangan"
+    },
+    {
+     "city_id": 45602,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Alabat"
+    },
+    {
+     "city_id": 45603,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Atimonan"
+    },
+    {
+     "city_id": 45605,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Buenavista"
+    },
+    {
+     "city_id": 45606,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Burdeos"
+    },
+    {
+     "city_id": 45607,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Calauag"
+    },
+    {
+     "city_id": 45608,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Candelaria"
+    },
+    {
+     "city_id": 45610,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Catanauan"
+    },
+    {
+     "city_id": 45615,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Dolores"
+    },
+    {
+     "city_id": 45616,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "General Luna"
+    },
+    {
+     "city_id": 45617,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "General Nakar"
+    },
+    {
+     "city_id": 45618,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Guinayangan"
+    },
+    {
+     "city_id": 45619,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Gumaca"
+    },
+    {
+     "city_id": 45620,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Infanta"
+    },
+    {
+     "city_id": 45621,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Jomalig"
+    },
+    {
+     "city_id": 45622,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Lopez"
+    },
+    {
+     "city_id": 45623,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Lucban"
+    },
+    {
+     "city_id": 45624,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Lucena City (Capital)"
+    },
+    {
+     "city_id": 45625,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Macalelon"
+    },
+    {
+     "city_id": 45627,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Mauban"
+    },
+    {
+     "city_id": 45628,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Mulanay"
+    },
+    {
+     "city_id": 45629,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Padre Burgos"
+    },
+    {
+     "city_id": 45630,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Pagbilao"
+    },
+    {
+     "city_id": 45631,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Panukulan"
+    },
+    {
+     "city_id": 45632,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Patnanungan"
+    },
+    {
+     "city_id": 45633,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Perez"
+    },
+    {
+     "city_id": 45634,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Pitogo"
+    },
+    {
+     "city_id": 45635,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Plaridel"
+    },
+    {
+     "city_id": 45636,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Polillo"
+    },
+    {
+     "city_id": 45637,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 45638,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Real"
+    },
+    {
+     "city_id": 45639,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Sampaloc"
+    },
+    {
+     "city_id": 45640,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "San Andres"
+    },
+    {
+     "city_id": 45641,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "San Antonio"
+    },
+    {
+     "city_id": 45642,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "San Francisco (Aurora)"
+    },
+    {
+     "city_id": 45644,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "San Narciso"
+    },
+    {
+     "city_id": 45645,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Sariaya"
+    },
+    {
+     "city_id": 45646,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Tagkawayan"
+    },
+    {
+     "city_id": 45647,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "City Of Tayabas"
+    },
+    {
+     "city_id": 45648,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Tiaong"
+    },
+    {
+     "city_id": 45649,
+     "region_id": 4,
+     "province_id": 456,
+     "city_name": "Unisan"
+    },
+    {
+     "city_id": 45801,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Angono"
+    },
+    {
+     "city_id": 45802,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "City Of Antipolo"
+    },
+    {
+     "city_id": 45803,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Baras"
+    },
+    {
+     "city_id": 45804,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Binangonan"
+    },
+    {
+     "city_id": 45805,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Cainta"
+    },
+    {
+     "city_id": 45806,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Cardona"
+    },
+    {
+     "city_id": 45807,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Jala-jala"
+    },
+    {
+     "city_id": 45808,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Rodriguez (Montalban)"
+    },
+    {
+     "city_id": 45809,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Morong"
+    },
+    {
+     "city_id": 45810,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Pililla"
+    },
+    {
+     "city_id": 45811,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "San Mateo"
+    },
+    {
+     "city_id": 45812,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Tanay"
+    },
+    {
+     "city_id": 45813,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Taytay"
+    },
+    {
+     "city_id": 45814,
+     "region_id": 4,
+     "province_id": 458,
+     "city_name": "Teresa"
+    },
+    {
+     "city_id": 174001,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Boac (Capital)"
+    },
+    {
+     "city_id": 174002,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Buenavista"
+    },
+    {
+     "city_id": 174003,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Gasan"
+    },
+    {
+     "city_id": 174004,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Mogpog"
+    },
+    {
+     "city_id": 174005,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 174006,
+     "region_id": 17,
+     "province_id": 1740,
+     "city_name": "Torrijos"
+    },
+    {
+     "city_id": 175101,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Abra De Ilog"
+    },
+    {
+     "city_id": 175102,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Calintaan"
+    },
+    {
+     "city_id": 175103,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Looc"
+    },
+    {
+     "city_id": 175104,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Lubang"
+    },
+    {
+     "city_id": 175105,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Magsaysay"
+    },
+    {
+     "city_id": 175106,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Mamburao (Capital)"
+    },
+    {
+     "city_id": 175107,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Paluan"
+    },
+    {
+     "city_id": 175108,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Rizal"
+    },
+    {
+     "city_id": 175109,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Sablayan"
+    },
+    {
+     "city_id": 175110,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 175111,
+     "region_id": 17,
+     "province_id": 1751,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 175201,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Baco"
+    },
+    {
+     "city_id": 175202,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Bansud"
+    },
+    {
+     "city_id": 175203,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Bongabong"
+    },
+    {
+     "city_id": 175204,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Bulalacao (San Pedro)"
+    },
+    {
+     "city_id": 175205,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "City Of Calapan (Capital)"
+    },
+    {
+     "city_id": 175206,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Gloria"
+    },
+    {
+     "city_id": 175207,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Mansalay"
+    },
+    {
+     "city_id": 175208,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Naujan"
+    },
+    {
+     "city_id": 175209,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Pinamalayan"
+    },
+    {
+     "city_id": 175210,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Pola"
+    },
+    {
+     "city_id": 175211,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Puerto Galera"
+    },
+    {
+     "city_id": 175212,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Roxas"
+    },
+    {
+     "city_id": 175213,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "San Teodoro"
+    },
+    {
+     "city_id": 175214,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Socorro"
+    },
+    {
+     "city_id": 175215,
+     "region_id": 17,
+     "province_id": 1752,
+     "city_name": "Victoria"
+    },
+    {
+     "city_id": 175301,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Aborlan"
+    },
+    {
+     "city_id": 175302,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Agutaya"
+    },
+    {
+     "city_id": 175303,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Araceli"
+    },
+    {
+     "city_id": 175304,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Balabac"
+    },
+    {
+     "city_id": 175305,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Bataraza"
+    },
+    {
+     "city_id": 175306,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Brooke's Point"
+    },
+    {
+     "city_id": 175307,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Busuanga"
+    },
+    {
+     "city_id": 175308,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Cagayancillo"
+    },
+    {
+     "city_id": 175309,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Coron"
+    },
+    {
+     "city_id": 175310,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Cuyo"
+    },
+    {
+     "city_id": 175311,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Dumaran"
+    },
+    {
+     "city_id": 175312,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "El Nido (Bacuit)"
+    },
+    {
+     "city_id": 175313,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Linapacan"
+    },
+    {
+     "city_id": 175314,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Magsaysay"
+    },
+    {
+     "city_id": 175315,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Narra"
+    },
+    {
+     "city_id": 175316,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Puerto Princesa City (Capital)"
+    },
+    {
+     "city_id": 175317,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 175318,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Roxas"
+    },
+    {
+     "city_id": 175319,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "San Vicente"
+    },
+    {
+     "city_id": 175320,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Taytay"
+    },
+    {
+     "city_id": 175321,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Kalayaan"
+    },
+    {
+     "city_id": 175322,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Culion"
+    },
+    {
+     "city_id": 175323,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Rizal (Marcos)"
+    },
+    {
+     "city_id": 175324,
+     "region_id": 17,
+     "province_id": 1753,
+     "city_name": "Sofronio Española"
+    },
+    {
+     "city_id": 175901,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Alcantara"
+    },
+    {
+     "city_id": 175902,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Banton"
+    },
+    {
+     "city_id": 175903,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Cajidiocan"
+    },
+    {
+     "city_id": 175904,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Calatrava"
+    },
+    {
+     "city_id": 175905,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Concepcion"
+    },
+    {
+     "city_id": 175906,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Corcuera"
+    },
+    {
+     "city_id": 175907,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Looc"
+    },
+    {
+     "city_id": 175908,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Magdiwang"
+    },
+    {
+     "city_id": 175909,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Odiongan"
+    },
+    {
+     "city_id": 175910,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Romblon (Capital)"
+    },
+    {
+     "city_id": 175911,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "San Agustin"
+    },
+    {
+     "city_id": 175912,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "San Andres"
+    },
+    {
+     "city_id": 175913,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "San Fernando"
+    },
+    {
+     "city_id": 175914,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 175915,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Santa Fe"
+    },
+    {
+     "city_id": 175916,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Ferrol"
+    },
+    {
+     "city_id": 175917,
+     "region_id": 17,
+     "province_id": 1759,
+     "city_name": "Santa Maria (Imelda)"
+    },
+    {
+     "city_id": 50501,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Bacacay"
+    },
+    {
+     "city_id": 50502,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Camalig"
+    },
+    {
+     "city_id": 50503,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Daraga (Locsin)"
+    },
+    {
+     "city_id": 50504,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Guinobatan"
+    },
+    {
+     "city_id": 50505,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Jovellar"
+    },
+    {
+     "city_id": 50506,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Legazpi City (Capital)"
+    },
+    {
+     "city_id": 50507,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Libon"
+    },
+    {
+     "city_id": 50508,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "City Of Ligao"
+    },
+    {
+     "city_id": 50509,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Malilipot"
+    },
+    {
+     "city_id": 50510,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Malinao"
+    },
+    {
+     "city_id": 50511,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Manito"
+    },
+    {
+     "city_id": 50512,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Oas"
+    },
+    {
+     "city_id": 50513,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Pio Duran"
+    },
+    {
+     "city_id": 50514,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Polangui"
+    },
+    {
+     "city_id": 50515,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Rapu-rapu"
+    },
+    {
+     "city_id": 50516,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Santo Domingo (Libog)"
+    },
+    {
+     "city_id": 50517,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "City Of Tabaco"
+    },
+    {
+     "city_id": 50518,
+     "region_id": 5,
+     "province_id": 505,
+     "city_name": "Tiwi"
+    },
+    {
+     "city_id": 51601,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Basud"
+    },
+    {
+     "city_id": 51602,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Capalonga"
+    },
+    {
+     "city_id": 51603,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Daet (Capital)"
+    },
+    {
+     "city_id": 51604,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "San Lorenzo Ruiz (Imelda)"
+    },
+    {
+     "city_id": 51605,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Jose Panganiban"
+    },
+    {
+     "city_id": 51606,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Labo"
+    },
+    {
+     "city_id": 51607,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Mercedes"
+    },
+    {
+     "city_id": 51608,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Paracale"
+    },
+    {
+     "city_id": 51609,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "San Vicente"
+    },
+    {
+     "city_id": 51610,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Santa Elena"
+    },
+    {
+     "city_id": 51611,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Talisay"
+    },
+    {
+     "city_id": 51612,
+     "region_id": 5,
+     "province_id": 516,
+     "city_name": "Vinzons"
+    },
+    {
+     "city_id": 51701,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Baao"
+    },
+    {
+     "city_id": 51702,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Balatan"
+    },
+    {
+     "city_id": 51703,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Bato"
+    },
+    {
+     "city_id": 51704,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Bombon"
+    },
+    {
+     "city_id": 51705,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Buhi"
+    },
+    {
+     "city_id": 51706,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Bula"
+    },
+    {
+     "city_id": 51707,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Cabusao"
+    },
+    {
+     "city_id": 51708,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Calabanga"
+    },
+    {
+     "city_id": 51709,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Camaligan"
+    },
+    {
+     "city_id": 51710,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Canaman"
+    },
+    {
+     "city_id": 51711,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Caramoan"
+    },
+    {
+     "city_id": 51712,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Del Gallego"
+    },
+    {
+     "city_id": 51713,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Gainza"
+    },
+    {
+     "city_id": 51714,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Garchitorena"
+    },
+    {
+     "city_id": 51715,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Goa"
+    },
+    {
+     "city_id": 51716,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Iriga City"
+    },
+    {
+     "city_id": 51717,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Lagonoy"
+    },
+    {
+     "city_id": 51718,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Libmanan"
+    },
+    {
+     "city_id": 51719,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Lupi"
+    },
+    {
+     "city_id": 51720,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Magarao"
+    },
+    {
+     "city_id": 51721,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Milaor"
+    },
+    {
+     "city_id": 51722,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Minalabac"
+    },
+    {
+     "city_id": 51723,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Nabua"
+    },
+    {
+     "city_id": 51724,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Naga City"
+    },
+    {
+     "city_id": 51725,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Ocampo"
+    },
+    {
+     "city_id": 51726,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Pamplona"
+    },
+    {
+     "city_id": 51727,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Pasacao"
+    },
+    {
+     "city_id": 51728,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Pili (Capital)"
+    },
+    {
+     "city_id": 51729,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Presentacion (Parubcan)"
+    },
+    {
+     "city_id": 51730,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Ragay"
+    },
+    {
+     "city_id": 51731,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Sagñay"
+    },
+    {
+     "city_id": 51732,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "San Fernando"
+    },
+    {
+     "city_id": 51733,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 51734,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Sipocot"
+    },
+    {
+     "city_id": 51735,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Siruma"
+    },
+    {
+     "city_id": 51736,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Tigaon"
+    },
+    {
+     "city_id": 51737,
+     "region_id": 5,
+     "province_id": 517,
+     "city_name": "Tinambac"
+    },
+    {
+     "city_id": 52001,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Bagamanoc"
+    },
+    {
+     "city_id": 52002,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Baras"
+    },
+    {
+     "city_id": 52003,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Bato"
+    },
+    {
+     "city_id": 52004,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Caramoran"
+    },
+    {
+     "city_id": 52005,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Gigmoto"
+    },
+    {
+     "city_id": 52006,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Pandan"
+    },
+    {
+     "city_id": 52007,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Panganiban"
+    },
+    {
+     "city_id": 52008,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "San Andres"
+    },
+    {
+     "city_id": 52009,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 52010,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Viga"
+    },
+    {
+     "city_id": 52011,
+     "region_id": 5,
+     "province_id": 520,
+     "city_name": "Virac"
+    },
+    {
+     "city_id": 54101,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Aroroy"
+    },
+    {
+     "city_id": 54102,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Baleno"
+    },
+    {
+     "city_id": 54103,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Balud"
+    },
+    {
+     "city_id": 54104,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Batuan"
+    },
+    {
+     "city_id": 54105,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Cataingan"
+    },
+    {
+     "city_id": 54106,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Cawayan"
+    },
+    {
+     "city_id": 54107,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Claveria"
+    },
+    {
+     "city_id": 54108,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Dimasalang"
+    },
+    {
+     "city_id": 54109,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Esperanza"
+    },
+    {
+     "city_id": 54110,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Mandaon"
+    },
+    {
+     "city_id": 54111,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "City Of Masbate (Capital)"
+    },
+    {
+     "city_id": 54112,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Milagros"
+    },
+    {
+     "city_id": 54113,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Mobo"
+    },
+    {
+     "city_id": 54114,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Monreal"
+    },
+    {
+     "city_id": 54115,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Palanas"
+    },
+    {
+     "city_id": 54116,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Pio V. Corpuz (Limbuhan)"
+    },
+    {
+     "city_id": 54117,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Placer"
+    },
+    {
+     "city_id": 54118,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "San Fernando"
+    },
+    {
+     "city_id": 54119,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "San Jacinto"
+    },
+    {
+     "city_id": 54120,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "San Pascual"
+    },
+    {
+     "city_id": 54121,
+     "region_id": 5,
+     "province_id": 541,
+     "city_name": "Uson"
+    },
+    {
+     "city_id": 56202,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Barcelona"
+    },
+    {
+     "city_id": 56203,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Bulan"
+    },
+    {
+     "city_id": 56204,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Bulusan"
+    },
+    {
+     "city_id": 56205,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Casiguran"
+    },
+    {
+     "city_id": 56206,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Castilla"
+    },
+    {
+     "city_id": 56207,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Donsol"
+    },
+    {
+     "city_id": 56208,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Gubat"
+    },
+    {
+     "city_id": 56209,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Irosin"
+    },
+    {
+     "city_id": 56210,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Juban"
+    },
+    {
+     "city_id": 56211,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Magallanes"
+    },
+    {
+     "city_id": 56212,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Matnog"
+    },
+    {
+     "city_id": 56213,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 56214,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Prieto Diaz"
+    },
+    {
+     "city_id": 56215,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "Santa Magdalena"
+    },
+    {
+     "city_id": 56216,
+     "region_id": 5,
+     "province_id": 562,
+     "city_name": "City Of Sorsogon (Capital)"
+    },
+    {
+     "city_id": 60401,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Altavas"
+    },
+    {
+     "city_id": 60402,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Balete"
+    },
+    {
+     "city_id": 60403,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Banga"
+    },
+    {
+     "city_id": 60404,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Batan"
+    },
+    {
+     "city_id": 60405,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Buruanga"
+    },
+    {
+     "city_id": 60406,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Ibajay"
+    },
+    {
+     "city_id": 60407,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Kalibo (Capital)"
+    },
+    {
+     "city_id": 60408,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Lezo"
+    },
+    {
+     "city_id": 60409,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Libacao"
+    },
+    {
+     "city_id": 60410,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Madalag"
+    },
+    {
+     "city_id": 60411,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Makato"
+    },
+    {
+     "city_id": 60412,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Malay"
+    },
+    {
+     "city_id": 60413,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Malinao"
+    },
+    {
+     "city_id": 60414,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Nabas"
+    },
+    {
+     "city_id": 60415,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "New Washington"
+    },
+    {
+     "city_id": 60416,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Numancia"
+    },
+    {
+     "city_id": 60417,
+     "region_id": 6,
+     "province_id": 604,
+     "city_name": "Tangalan"
+    },
+    {
+     "city_id": 60601,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Anini-y"
+    },
+    {
+     "city_id": 60602,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Barbaza"
+    },
+    {
+     "city_id": 60603,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Belison"
+    },
+    {
+     "city_id": 60604,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Bugasong"
+    },
+    {
+     "city_id": 60605,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Caluya"
+    },
+    {
+     "city_id": 60606,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Culasi"
+    },
+    {
+     "city_id": 60607,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Tobias Fornier (Dao)"
+    },
+    {
+     "city_id": 60608,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Hamtic"
+    },
+    {
+     "city_id": 60609,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Laua-an"
+    },
+    {
+     "city_id": 60610,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Libertad"
+    },
+    {
+     "city_id": 60611,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Pandan"
+    },
+    {
+     "city_id": 60612,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Patnongon"
+    },
+    {
+     "city_id": 60613,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "San Jose (Capital)"
+    },
+    {
+     "city_id": 60614,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "San Remigio"
+    },
+    {
+     "city_id": 60615,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Sebaste"
+    },
+    {
+     "city_id": 60616,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Sibalom"
+    },
+    {
+     "city_id": 60617,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Tibiao"
+    },
+    {
+     "city_id": 60618,
+     "region_id": 6,
+     "province_id": 606,
+     "city_name": "Valderrama"
+    },
+    {
+     "city_id": 61901,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Cuartero"
+    },
+    {
+     "city_id": 61902,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Dao"
+    },
+    {
+     "city_id": 61903,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Dumalag"
+    },
+    {
+     "city_id": 61904,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Dumarao"
+    },
+    {
+     "city_id": 61905,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Ivisan"
+    },
+    {
+     "city_id": 61906,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Jamindan"
+    },
+    {
+     "city_id": 61907,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Ma-ayon"
+    },
+    {
+     "city_id": 61908,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Mambusao"
+    },
+    {
+     "city_id": 61909,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Panay"
+    },
+    {
+     "city_id": 61910,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Panitan"
+    },
+    {
+     "city_id": 61911,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 61912,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Pontevedra"
+    },
+    {
+     "city_id": 61913,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "President Roxas"
+    },
+    {
+     "city_id": 61914,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Roxas City (Capital)"
+    },
+    {
+     "city_id": 61915,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Sapi-an"
+    },
+    {
+     "city_id": 61916,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Sigma"
+    },
+    {
+     "city_id": 61917,
+     "region_id": 6,
+     "province_id": 619,
+     "city_name": "Tapaz"
+    },
+    {
+     "city_id": 63001,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Ajuy"
+    },
+    {
+     "city_id": 63002,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Alimodian"
+    },
+    {
+     "city_id": 63003,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Anilao"
+    },
+    {
+     "city_id": 63004,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Badiangan"
+    },
+    {
+     "city_id": 63005,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Balasan"
+    },
+    {
+     "city_id": 63006,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Banate"
+    },
+    {
+     "city_id": 63007,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Barotac Nuevo"
+    },
+    {
+     "city_id": 63008,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Barotac Viejo"
+    },
+    {
+     "city_id": 63009,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Batad"
+    },
+    {
+     "city_id": 63010,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Bingawan"
+    },
+    {
+     "city_id": 63012,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Cabatuan"
+    },
+    {
+     "city_id": 63013,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Calinog"
+    },
+    {
+     "city_id": 63014,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Carles"
+    },
+    {
+     "city_id": 63015,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Concepcion"
+    },
+    {
+     "city_id": 63016,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Dingle"
+    },
+    {
+     "city_id": 63017,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Dueñas"
+    },
+    {
+     "city_id": 63018,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Dumangas"
+    },
+    {
+     "city_id": 63019,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Estancia"
+    },
+    {
+     "city_id": 63020,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Guimbal"
+    },
+    {
+     "city_id": 63021,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Igbaras"
+    },
+    {
+     "city_id": 63022,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Iloilo City (Capital)"
+    },
+    {
+     "city_id": 63023,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Janiuay"
+    },
+    {
+     "city_id": 63025,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Lambunao"
+    },
+    {
+     "city_id": 63026,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Leganes"
+    },
+    {
+     "city_id": 63027,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Lemery"
+    },
+    {
+     "city_id": 63028,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Leon"
+    },
+    {
+     "city_id": 63029,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Maasin"
+    },
+    {
+     "city_id": 63030,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Miagao"
+    },
+    {
+     "city_id": 63031,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Mina"
+    },
+    {
+     "city_id": 63032,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "New Lucena"
+    },
+    {
+     "city_id": 63034,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Oton"
+    },
+    {
+     "city_id": 63035,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "City Of Passi"
+    },
+    {
+     "city_id": 63036,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Pavia"
+    },
+    {
+     "city_id": 63037,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Pototan"
+    },
+    {
+     "city_id": 63038,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "San Dionisio"
+    },
+    {
+     "city_id": 63039,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "San Enrique"
+    },
+    {
+     "city_id": 63040,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "San Joaquin"
+    },
+    {
+     "city_id": 63041,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 63042,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "San Rafael"
+    },
+    {
+     "city_id": 63043,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Santa Barbara"
+    },
+    {
+     "city_id": 63044,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Sara"
+    },
+    {
+     "city_id": 63045,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Tigbauan"
+    },
+    {
+     "city_id": 63046,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Tubungan"
+    },
+    {
+     "city_id": 63047,
+     "region_id": 6,
+     "province_id": 630,
+     "city_name": "Zarraga"
+    },
+    {
+     "city_id": 64501,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Bacolod City (Capital)"
+    },
+    {
+     "city_id": 64502,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Bago City"
+    },
+    {
+     "city_id": 64503,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Binalbagan"
+    },
+    {
+     "city_id": 64504,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Cadiz City"
+    },
+    {
+     "city_id": 64505,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Calatrava"
+    },
+    {
+     "city_id": 64506,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Candoni"
+    },
+    {
+     "city_id": 64507,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Cauayan"
+    },
+    {
+     "city_id": 64508,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Enrique B. Magalona (Saravia)"
+    },
+    {
+     "city_id": 64509,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Escalante"
+    },
+    {
+     "city_id": 64510,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Himamaylan"
+    },
+    {
+     "city_id": 64511,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Hinigaran"
+    },
+    {
+     "city_id": 64512,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Hinoba-an (Asia)"
+    },
+    {
+     "city_id": 64513,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Ilog"
+    },
+    {
+     "city_id": 64514,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Isabela"
+    },
+    {
+     "city_id": 64515,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Kabankalan"
+    },
+    {
+     "city_id": 64516,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "La Carlota City"
+    },
+    {
+     "city_id": 64517,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "La Castellana"
+    },
+    {
+     "city_id": 64518,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Manapla"
+    },
+    {
+     "city_id": 64519,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Moises Padilla (Magallon)"
+    },
+    {
+     "city_id": 64520,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Murcia"
+    },
+    {
+     "city_id": 64521,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Pontevedra"
+    },
+    {
+     "city_id": 64522,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Pulupandan"
+    },
+    {
+     "city_id": 64523,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Sagay City"
+    },
+    {
+     "city_id": 64524,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "San Carlos City"
+    },
+    {
+     "city_id": 64525,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "San Enrique"
+    },
+    {
+     "city_id": 64526,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Silay City"
+    },
+    {
+     "city_id": 64527,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Sipalay"
+    },
+    {
+     "city_id": 64528,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Talisay"
+    },
+    {
+     "city_id": 64529,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Toboso"
+    },
+    {
+     "city_id": 64530,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Valladolid"
+    },
+    {
+     "city_id": 64531,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "City Of Victorias"
+    },
+    {
+     "city_id": 64532,
+     "region_id": 6,
+     "province_id": 645,
+     "city_name": "Salvador Benedicto"
+    },
+    {
+     "city_id": 67901,
+     "region_id": 6,
+     "province_id": 679,
+     "city_name": "Buenavista"
+    },
+    {
+     "city_id": 67902,
+     "region_id": 6,
+     "province_id": 679,
+     "city_name": "Jordan (Capital)"
+    },
+    {
+     "city_id": 67903,
+     "region_id": 6,
+     "province_id": 679,
+     "city_name": "Nueva Valencia"
+    },
+    {
+     "city_id": 67904,
+     "region_id": 6,
+     "province_id": 679,
+     "city_name": "San Lorenzo"
+    },
+    {
+     "city_id": 67905,
+     "region_id": 6,
+     "province_id": 679,
+     "city_name": "Sibunag"
+    },
+    {
+     "city_id": 71201,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Alburquerque"
+    },
+    {
+     "city_id": 71202,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Alicia"
+    },
+    {
+     "city_id": 71203,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Anda"
+    },
+    {
+     "city_id": 71204,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Antequera"
+    },
+    {
+     "city_id": 71205,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Baclayon"
+    },
+    {
+     "city_id": 71206,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Balilihan"
+    },
+    {
+     "city_id": 71207,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Batuan"
+    },
+    {
+     "city_id": 71208,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Bilar"
+    },
+    {
+     "city_id": 71209,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Buenavista"
+    },
+    {
+     "city_id": 71210,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Calape"
+    },
+    {
+     "city_id": 71211,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Candijay"
+    },
+    {
+     "city_id": 71212,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 71213,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Catigbian"
+    },
+    {
+     "city_id": 71214,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Clarin"
+    },
+    {
+     "city_id": 71215,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Corella"
+    },
+    {
+     "city_id": 71216,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Cortes"
+    },
+    {
+     "city_id": 71217,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Dagohoy"
+    },
+    {
+     "city_id": 71218,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Danao"
+    },
+    {
+     "city_id": 71219,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Dauis"
+    },
+    {
+     "city_id": 71220,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Dimiao"
+    },
+    {
+     "city_id": 71221,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Duero"
+    },
+    {
+     "city_id": 71222,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Garcia Hernandez"
+    },
+    {
+     "city_id": 71223,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Guindulman"
+    },
+    {
+     "city_id": 71224,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Inabanga"
+    },
+    {
+     "city_id": 71225,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Jagna"
+    },
+    {
+     "city_id": 71226,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Jetafe"
+    },
+    {
+     "city_id": 71227,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Lila"
+    },
+    {
+     "city_id": 71228,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Loay"
+    },
+    {
+     "city_id": 71229,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Loboc"
+    },
+    {
+     "city_id": 71230,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Loon"
+    },
+    {
+     "city_id": 71231,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Mabini"
+    },
+    {
+     "city_id": 71232,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Maribojoc"
+    },
+    {
+     "city_id": 71233,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Panglao"
+    },
+    {
+     "city_id": 71234,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 71235,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Pres. Carlos P. Garcia (Pitogo)"
+    },
+    {
+     "city_id": 71236,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Sagbayan (Borja)"
+    },
+    {
+     "city_id": 71237,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 71238,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 71239,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Sevilla"
+    },
+    {
+     "city_id": 71240,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Sierra Bullones"
+    },
+    {
+     "city_id": 71241,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Sikatuna"
+    },
+    {
+     "city_id": 71242,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Tagbilaran City (Capital)"
+    },
+    {
+     "city_id": 71243,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Talibon"
+    },
+    {
+     "city_id": 71244,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Trinidad"
+    },
+    {
+     "city_id": 71245,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Tubigon"
+    },
+    {
+     "city_id": 71246,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Ubay"
+    },
+    {
+     "city_id": 71247,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Valencia"
+    },
+    {
+     "city_id": 71248,
+     "region_id": 7,
+     "province_id": 712,
+     "city_name": "Bien Unido"
+    },
+    {
+     "city_id": 72201,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Alcantara"
+    },
+    {
+     "city_id": 72202,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Alcoy"
+    },
+    {
+     "city_id": 72203,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Alegria"
+    },
+    {
+     "city_id": 72204,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Aloguinsan"
+    },
+    {
+     "city_id": 72205,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Argao"
+    },
+    {
+     "city_id": 72206,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Asturias"
+    },
+    {
+     "city_id": 72207,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Badian"
+    },
+    {
+     "city_id": 72208,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Balamban"
+    },
+    {
+     "city_id": 72209,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Bantayan"
+    },
+    {
+     "city_id": 72210,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Barili"
+    },
+    {
+     "city_id": 72211,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "City Of Bogo"
+    },
+    {
+     "city_id": 72212,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Boljoon"
+    },
+    {
+     "city_id": 72213,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Borbon"
+    },
+    {
+     "city_id": 72214,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "City Of Carcar"
+    },
+    {
+     "city_id": 72215,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 72216,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Catmon"
+    },
+    {
+     "city_id": 72217,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Cebu City (Capital)"
+    },
+    {
+     "city_id": 72218,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Compostela"
+    },
+    {
+     "city_id": 72219,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Consolacion"
+    },
+    {
+     "city_id": 72220,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Cordova"
+    },
+    {
+     "city_id": 72221,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Daanbantayan"
+    },
+    {
+     "city_id": 72222,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Dalaguete"
+    },
+    {
+     "city_id": 72223,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Danao City"
+    },
+    {
+     "city_id": 72224,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Dumanjug"
+    },
+    {
+     "city_id": 72225,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Ginatilan"
+    },
+    {
+     "city_id": 72226,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Lapu-lapu City (Opon)"
+    },
+    {
+     "city_id": 72227,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Liloan"
+    },
+    {
+     "city_id": 72228,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Madridejos"
+    },
+    {
+     "city_id": 72229,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Malabuyoc"
+    },
+    {
+     "city_id": 72230,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Mandaue City"
+    },
+    {
+     "city_id": 72231,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Medellin"
+    },
+    {
+     "city_id": 72232,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Minglanilla"
+    },
+    {
+     "city_id": 72233,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Moalboal"
+    },
+    {
+     "city_id": 72234,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "City Of Naga"
+    },
+    {
+     "city_id": 72235,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Oslob"
+    },
+    {
+     "city_id": 72236,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 72237,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Pinamungahan"
+    },
+    {
+     "city_id": 72238,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Poro"
+    },
+    {
+     "city_id": 72239,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Ronda"
+    },
+    {
+     "city_id": 72240,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Samboan"
+    },
+    {
+     "city_id": 72241,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "San Fernando"
+    },
+    {
+     "city_id": 72242,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "San Francisco"
+    },
+    {
+     "city_id": 72243,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "San Remigio"
+    },
+    {
+     "city_id": 72244,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Santa Fe"
+    },
+    {
+     "city_id": 72245,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Santander"
+    },
+    {
+     "city_id": 72246,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Sibonga"
+    },
+    {
+     "city_id": 72247,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Sogod"
+    },
+    {
+     "city_id": 72248,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Tabogon"
+    },
+    {
+     "city_id": 72249,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Tabuelan"
+    },
+    {
+     "city_id": 72250,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "City Of Talisay"
+    },
+    {
+     "city_id": 72251,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Toledo City"
+    },
+    {
+     "city_id": 72252,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Tuburan"
+    },
+    {
+     "city_id": 72253,
+     "region_id": 7,
+     "province_id": 722,
+     "city_name": "Tudela"
+    },
+    {
+     "city_id": 74601,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Amlan (Ayuquitan)"
+    },
+    {
+     "city_id": 74602,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Ayungon"
+    },
+    {
+     "city_id": 74603,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Bacong"
+    },
+    {
+     "city_id": 74604,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Bais City"
+    },
+    {
+     "city_id": 74605,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Basay"
+    },
+    {
+     "city_id": 74606,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "City Of Bayawan (Tulong)"
+    },
+    {
+     "city_id": 74607,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Bindoy (Payabon)"
+    },
+    {
+     "city_id": 74608,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Canlaon City"
+    },
+    {
+     "city_id": 74609,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Dauin"
+    },
+    {
+     "city_id": 74610,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Dumaguete City (Capital)"
+    },
+    {
+     "city_id": 74611,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "City Of Guihulngan"
+    },
+    {
+     "city_id": 74612,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Jimalalud"
+    },
+    {
+     "city_id": 74613,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "La Libertad"
+    },
+    {
+     "city_id": 74614,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Mabinay"
+    },
+    {
+     "city_id": 74615,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Manjuyod"
+    },
+    {
+     "city_id": 74616,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Pamplona"
+    },
+    {
+     "city_id": 74617,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 74618,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Santa Catalina"
+    },
+    {
+     "city_id": 74619,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Siaton"
+    },
+    {
+     "city_id": 74620,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Sibulan"
+    },
+    {
+     "city_id": 74621,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "City Of Tanjay"
+    },
+    {
+     "city_id": 74622,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Tayasan"
+    },
+    {
+     "city_id": 74623,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Valencia (Luzurriaga)"
+    },
+    {
+     "city_id": 74624,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Vallehermoso"
+    },
+    {
+     "city_id": 74625,
+     "region_id": 7,
+     "province_id": 746,
+     "city_name": "Zamboanguita"
+    },
+    {
+     "city_id": 76101,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "Enrique Villanueva"
+    },
+    {
+     "city_id": 76102,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "Larena"
+    },
+    {
+     "city_id": 76103,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "Lazi"
+    },
+    {
+     "city_id": 76104,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "Maria"
+    },
+    {
+     "city_id": 76105,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "San Juan"
+    },
+    {
+     "city_id": 76106,
+     "region_id": 7,
+     "province_id": 761,
+     "city_name": "Siquijor (Capital)"
+    },
+    {
+     "city_id": 82601,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Arteche"
+    },
+    {
+     "city_id": 82602,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Balangiga"
+    },
+    {
+     "city_id": 82603,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Balangkayan"
+    },
+    {
+     "city_id": 82604,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "City Of Borongan (Capital)"
+    },
+    {
+     "city_id": 82605,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Can-avid"
+    },
+    {
+     "city_id": 82606,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Dolores"
+    },
+    {
+     "city_id": 82607,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "General Macarthur"
+    },
+    {
+     "city_id": 82608,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Giporlos"
+    },
+    {
+     "city_id": 82609,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Guiuan"
+    },
+    {
+     "city_id": 82610,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Hernani"
+    },
+    {
+     "city_id": 82611,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Jipapad"
+    },
+    {
+     "city_id": 82612,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Lawaan"
+    },
+    {
+     "city_id": 82613,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Llorente"
+    },
+    {
+     "city_id": 82614,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Maslog"
+    },
+    {
+     "city_id": 82615,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Maydolong"
+    },
+    {
+     "city_id": 82616,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Mercedes"
+    },
+    {
+     "city_id": 82617,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Oras"
+    },
+    {
+     "city_id": 82618,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Quinapondan"
+    },
+    {
+     "city_id": 82619,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Salcedo"
+    },
+    {
+     "city_id": 82620,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "San Julian"
+    },
+    {
+     "city_id": 82621,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "San Policarpo"
+    },
+    {
+     "city_id": 82622,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Sulat"
+    },
+    {
+     "city_id": 82623,
+     "region_id": 8,
+     "province_id": 826,
+     "city_name": "Taft"
+    },
+    {
+     "city_id": 83701,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Abuyog"
+    },
+    {
+     "city_id": 83702,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Alangalang"
+    },
+    {
+     "city_id": 83703,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Albuera"
+    },
+    {
+     "city_id": 83705,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Babatngon"
+    },
+    {
+     "city_id": 83706,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Barugo"
+    },
+    {
+     "city_id": 83707,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Bato"
+    },
+    {
+     "city_id": 83708,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "City Of Baybay"
+    },
+    {
+     "city_id": 83710,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Burauen"
+    },
+    {
+     "city_id": 83713,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Calubian"
+    },
+    {
+     "city_id": 83714,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Capoocan"
+    },
+    {
+     "city_id": 83715,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Carigara"
+    },
+    {
+     "city_id": 83717,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Dagami"
+    },
+    {
+     "city_id": 83718,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Dulag"
+    },
+    {
+     "city_id": 83719,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Hilongos"
+    },
+    {
+     "city_id": 83720,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Hindang"
+    },
+    {
+     "city_id": 83721,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Inopacan"
+    },
+    {
+     "city_id": 83722,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Isabel"
+    },
+    {
+     "city_id": 83723,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Jaro"
+    },
+    {
+     "city_id": 83724,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Javier (Bugho)"
+    },
+    {
+     "city_id": 83725,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Julita"
+    },
+    {
+     "city_id": 83726,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Kananga"
+    },
+    {
+     "city_id": 83728,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "La Paz"
+    },
+    {
+     "city_id": 83729,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Leyte"
+    },
+    {
+     "city_id": 83730,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Macarthur"
+    },
+    {
+     "city_id": 83731,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Mahaplag"
+    },
+    {
+     "city_id": 83733,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Matag-ob"
+    },
+    {
+     "city_id": 83734,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Matalom"
+    },
+    {
+     "city_id": 83735,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Mayorga"
+    },
+    {
+     "city_id": 83736,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Merida"
+    },
+    {
+     "city_id": 83738,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Ormoc City"
+    },
+    {
+     "city_id": 83739,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Palo"
+    },
+    {
+     "city_id": 83740,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Palompon"
+    },
+    {
+     "city_id": 83741,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Pastrana"
+    },
+    {
+     "city_id": 83742,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 83743,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 83744,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Santa Fe"
+    },
+    {
+     "city_id": 83745,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tabango"
+    },
+    {
+     "city_id": 83746,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tabontabon"
+    },
+    {
+     "city_id": 83747,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tacloban City (Capital)"
+    },
+    {
+     "city_id": 83748,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tanauan"
+    },
+    {
+     "city_id": 83749,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tolosa"
+    },
+    {
+     "city_id": 83750,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Tunga"
+    },
+    {
+     "city_id": 83751,
+     "region_id": 8,
+     "province_id": 837,
+     "city_name": "Villaba"
+    },
+    {
+     "city_id": 84801,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Allen"
+    },
+    {
+     "city_id": 84802,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Biri"
+    },
+    {
+     "city_id": 84803,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Bobon"
+    },
+    {
+     "city_id": 84804,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Capul"
+    },
+    {
+     "city_id": 84805,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Catarman (Capital)"
+    },
+    {
+     "city_id": 84806,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Catubig"
+    },
+    {
+     "city_id": 84807,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Gamay"
+    },
+    {
+     "city_id": 84808,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Laoang"
+    },
+    {
+     "city_id": 84809,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Lapinig"
+    },
+    {
+     "city_id": 84810,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Las Navas"
+    },
+    {
+     "city_id": 84811,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Lavezares"
+    },
+    {
+     "city_id": 84812,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Mapanas"
+    },
+    {
+     "city_id": 84813,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Mondragon"
+    },
+    {
+     "city_id": 84814,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Palapag"
+    },
+    {
+     "city_id": 84815,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Pambujan"
+    },
+    {
+     "city_id": 84816,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Rosario"
+    },
+    {
+     "city_id": 84817,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "San Antonio"
+    },
+    {
+     "city_id": 84818,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 84819,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "San Jose"
+    },
+    {
+     "city_id": 84820,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "San Roque"
+    },
+    {
+     "city_id": 84821,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "San Vicente"
+    },
+    {
+     "city_id": 84822,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Silvino Lobos"
+    },
+    {
+     "city_id": 84823,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Victoria"
+    },
+    {
+     "city_id": 84824,
+     "region_id": 8,
+     "province_id": 848,
+     "city_name": "Lope De Vega"
+    },
+    {
+     "city_id": 86001,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Almagro"
+    },
+    {
+     "city_id": 86002,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Basey"
+    },
+    {
+     "city_id": 86003,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Calbayog City"
+    },
+    {
+     "city_id": 86004,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Calbiga"
+    },
+    {
+     "city_id": 86005,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "City Of Catbalogan (Capital)"
+    },
+    {
+     "city_id": 86006,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Daram"
+    },
+    {
+     "city_id": 86007,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Gandara"
+    },
+    {
+     "city_id": 86008,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Hinabangan"
+    },
+    {
+     "city_id": 86009,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Jiabong"
+    },
+    {
+     "city_id": 86010,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Marabut"
+    },
+    {
+     "city_id": 86011,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Matuguinao"
+    },
+    {
+     "city_id": 86012,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Motiong"
+    },
+    {
+     "city_id": 86013,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Pinabacdao"
+    },
+    {
+     "city_id": 86014,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "San Jose De Buan"
+    },
+    {
+     "city_id": 86015,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "San Sebastian"
+    },
+    {
+     "city_id": 86016,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Santa Margarita"
+    },
+    {
+     "city_id": 86017,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Santa Rita"
+    },
+    {
+     "city_id": 86018,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Santo Niño"
+    },
+    {
+     "city_id": 86019,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Talalora"
+    },
+    {
+     "city_id": 86020,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Tarangnan"
+    },
+    {
+     "city_id": 86021,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Villareal"
+    },
+    {
+     "city_id": 86022,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Paranas (Wright)"
+    },
+    {
+     "city_id": 86023,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Zumarraga"
+    },
+    {
+     "city_id": 86024,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Tagapul-an"
+    },
+    {
+     "city_id": 86025,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "San Jorge"
+    },
+    {
+     "city_id": 86026,
+     "region_id": 8,
+     "province_id": 860,
+     "city_name": "Pagsanghan"
+    },
+    {
+     "city_id": 86401,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Anahawan"
+    },
+    {
+     "city_id": 86402,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Bontoc"
+    },
+    {
+     "city_id": 86403,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Hinunangan"
+    },
+    {
+     "city_id": 86404,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Hinundayan"
+    },
+    {
+     "city_id": 86405,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Libagon"
+    },
+    {
+     "city_id": 86406,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Liloan"
+    },
+    {
+     "city_id": 86407,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "City Of Maasin (Capital)"
+    },
+    {
+     "city_id": 86408,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Macrohon"
+    },
+    {
+     "city_id": 86409,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Malitbog"
+    },
+    {
+     "city_id": 86410,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Padre Burgos"
+    },
+    {
+     "city_id": 86411,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Pintuyan"
+    },
+    {
+     "city_id": 86412,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Saint Bernard"
+    },
+    {
+     "city_id": 86413,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "San Francisco"
+    },
+    {
+     "city_id": 86414,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "San Juan (Cabalian)"
+    },
+    {
+     "city_id": 86415,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "San Ricardo"
+    },
+    {
+     "city_id": 86416,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Silago"
+    },
+    {
+     "city_id": 86417,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Sogod"
+    },
+    {
+     "city_id": 86418,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Tomas Oppus"
+    },
+    {
+     "city_id": 86419,
+     "region_id": 8,
+     "province_id": 864,
+     "city_name": "Limasawa"
+    },
+    {
+     "city_id": 87801,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Almeria"
+    },
+    {
+     "city_id": 87802,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Biliran"
+    },
+    {
+     "city_id": 87803,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Cabucgayan"
+    },
+    {
+     "city_id": 87804,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Caibiran"
+    },
+    {
+     "city_id": 87805,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Culaba"
+    },
+    {
+     "city_id": 87806,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Kawayan"
+    },
+    {
+     "city_id": 87807,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Maripipi"
+    },
+    {
+     "city_id": 87808,
+     "region_id": 8,
+     "province_id": 878,
+     "city_name": "Naval (Capital)"
+    },
+    {
+     "city_id": 97201,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Dapitan City"
+    },
+    {
+     "city_id": 97202,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Dipolog City (Capital)"
+    },
+    {
+     "city_id": 97203,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Katipunan"
+    },
+    {
+     "city_id": 97204,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "La Libertad"
+    },
+    {
+     "city_id": 97205,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Labason"
+    },
+    {
+     "city_id": 97206,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Liloy"
+    },
+    {
+     "city_id": 97207,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Manukan"
+    },
+    {
+     "city_id": 97208,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Mutia"
+    },
+    {
+     "city_id": 97209,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Piñan (New Piñan)"
+    },
+    {
+     "city_id": 97210,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Polanco"
+    },
+    {
+     "city_id": 97211,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Pres. Manuel A. Roxas"
+    },
+    {
+     "city_id": 97212,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Rizal"
+    },
+    {
+     "city_id": 97213,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Salug"
+    },
+    {
+     "city_id": 97214,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Sergio Osmeña Sr."
+    },
+    {
+     "city_id": 97215,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Siayan"
+    },
+    {
+     "city_id": 97216,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Sibuco"
+    },
+    {
+     "city_id": 97217,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Sibutad"
+    },
+    {
+     "city_id": 97218,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Sindangan"
+    },
+    {
+     "city_id": 97219,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Siocon"
+    },
+    {
+     "city_id": 97220,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Sirawai"
+    },
+    {
+     "city_id": 97221,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Tampilisan"
+    },
+    {
+     "city_id": 97222,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Jose Dalman (Ponot)"
+    },
+    {
+     "city_id": 97223,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Gutalac"
+    },
+    {
+     "city_id": 97224,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Baliguian"
+    },
+    {
+     "city_id": 97225,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Godod"
+    },
+    {
+     "city_id": 97226,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Bacungan (Leon T. Postigo)"
+    },
+    {
+     "city_id": 97227,
+     "region_id": 9,
+     "province_id": 972,
+     "city_name": "Kalawit"
+    },
+    {
+     "city_id": 97302,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Aurora"
+    },
+    {
+     "city_id": 97303,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Bayog"
+    },
+    {
+     "city_id": 97305,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Dimataling"
+    },
+    {
+     "city_id": 97306,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Dinas"
+    },
+    {
+     "city_id": 97307,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Dumalinao"
+    },
+    {
+     "city_id": 97308,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Dumingag"
+    },
+    {
+     "city_id": 97311,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Kumalarang"
+    },
+    {
+     "city_id": 97312,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Labangan"
+    },
+    {
+     "city_id": 97313,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Lapuyan"
+    },
+    {
+     "city_id": 97315,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Mahayag"
+    },
+    {
+     "city_id": 97317,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Margosatubig"
+    },
+    {
+     "city_id": 97318,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Midsalip"
+    },
+    {
+     "city_id": 97319,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Molave"
+    },
+    {
+     "city_id": 97322,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Pagadian City (Capital)"
+    },
+    {
+     "city_id": 97323,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Ramon Magsaysay (Liargo)"
+    },
+    {
+     "city_id": 97324,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 97325,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "San Pablo"
+    },
+    {
+     "city_id": 97327,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Tabina"
+    },
+    {
+     "city_id": 97328,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Tambulig"
+    },
+    {
+     "city_id": 97330,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Tukuran"
+    },
+    {
+     "city_id": 97332,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Zamboanga City"
+    },
+    {
+     "city_id": 97333,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Lakewood"
+    },
+    {
+     "city_id": 97337,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Josefina"
+    },
+    {
+     "city_id": 97338,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Pitogo"
+    },
+    {
+     "city_id": 97340,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Sominot (Don Mariano Marcos)"
+    },
+    {
+     "city_id": 97341,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Vincenzo A. Sagun"
+    },
+    {
+     "city_id": 97343,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Guipos"
+    },
+    {
+     "city_id": 97344,
+     "region_id": 9,
+     "province_id": 973,
+     "city_name": "Tigbao"
+    },
+    {
+     "city_id": 98301,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Alicia"
+    },
+    {
+     "city_id": 98302,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Buug"
+    },
+    {
+     "city_id": 98303,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Diplahan"
+    },
+    {
+     "city_id": 98304,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Imelda"
+    },
+    {
+     "city_id": 98305,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Ipil (Capital)"
+    },
+    {
+     "city_id": 98306,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Kabasalan"
+    },
+    {
+     "city_id": 98307,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Mabuhay"
+    },
+    {
+     "city_id": 98308,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Malangas"
+    },
+    {
+     "city_id": 98309,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Naga"
+    },
+    {
+     "city_id": 98310,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Olutanga"
+    },
+    {
+     "city_id": 98311,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Payao"
+    },
+    {
+     "city_id": 98312,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Roseller Lim"
+    },
+    {
+     "city_id": 98313,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Siay"
+    },
+    {
+     "city_id": 98314,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Talusan"
+    },
+    {
+     "city_id": 98315,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Titay"
+    },
+    {
+     "city_id": 98316,
+     "region_id": 9,
+     "province_id": 983,
+     "city_name": "Tungawan"
+    },
+    {
+     "city_id": 99701,
+     "region_id": 9,
+     "province_id": 997,
+     "city_name": "City Of Isabela"
+    },
+    {
+     "city_id": 101301,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Baungon"
+    },
+    {
+     "city_id": 101302,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Damulog"
+    },
+    {
+     "city_id": 101303,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Dangcagan"
+    },
+    {
+     "city_id": 101304,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Don Carlos"
+    },
+    {
+     "city_id": 101305,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Impasug-ong"
+    },
+    {
+     "city_id": 101306,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Kadingilan"
+    },
+    {
+     "city_id": 101307,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Kalilangan"
+    },
+    {
+     "city_id": 101308,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Kibawe"
+    },
+    {
+     "city_id": 101309,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Kitaotao"
+    },
+    {
+     "city_id": 101310,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Lantapan"
+    },
+    {
+     "city_id": 101311,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Libona"
+    },
+    {
+     "city_id": 101312,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "City Of Malaybalay (Capital)"
+    },
+    {
+     "city_id": 101313,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Malitbog"
+    },
+    {
+     "city_id": 101314,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Manolo Fortich"
+    },
+    {
+     "city_id": 101315,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Maramag"
+    },
+    {
+     "city_id": 101316,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Pangantucan"
+    },
+    {
+     "city_id": 101317,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Quezon"
+    },
+    {
+     "city_id": 101318,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "San Fernando"
+    },
+    {
+     "city_id": 101319,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Sumilao"
+    },
+    {
+     "city_id": 101320,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Talakag"
+    },
+    {
+     "city_id": 101321,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "City Of Valencia"
+    },
+    {
+     "city_id": 101322,
+     "region_id": 10,
+     "province_id": 1013,
+     "city_name": "Cabanglasan"
+    },
+    {
+     "city_id": 101801,
+     "region_id": 10,
+     "province_id": 1018,
+     "city_name": "Catarman"
+    },
+    {
+     "city_id": 101802,
+     "region_id": 10,
+     "province_id": 1018,
+     "city_name": "Guinsiliban"
+    },
+    {
+     "city_id": 101803,
+     "region_id": 10,
+     "province_id": 1018,
+     "city_name": "Mahinog"
+    },
+    {
+     "city_id": 101804,
+     "region_id": 10,
+     "province_id": 1018,
+     "city_name": "Mambajao (Capital)"
+    },
+    {
+     "city_id": 101805,
+     "region_id": 10,
+     "province_id": 1018,
+     "city_name": "Sagay"
+    },
+    {
+     "city_id": 103501,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Bacolod"
+    },
+    {
+     "city_id": 103502,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Baloi"
+    },
+    {
+     "city_id": 103503,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Baroy"
+    },
+    {
+     "city_id": 103504,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Iligan City"
+    },
+    {
+     "city_id": 103505,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Kapatagan"
+    },
+    {
+     "city_id": 103506,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Sultan Naga Dimaporo (Karomatan)"
+    },
+    {
+     "city_id": 103507,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Kauswagan"
+    },
+    {
+     "city_id": 103508,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Kolambugan"
+    },
+    {
+     "city_id": 103509,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Lala"
+    },
+    {
+     "city_id": 103510,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Linamon"
+    },
+    {
+     "city_id": 103511,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Magsaysay"
+    },
+    {
+     "city_id": 103512,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Maigo"
+    },
+    {
+     "city_id": 103513,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Matungao"
+    },
+    {
+     "city_id": 103514,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Munai"
+    },
+    {
+     "city_id": 103515,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Nunungan"
+    },
+    {
+     "city_id": 103516,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Pantao Ragat"
+    },
+    {
+     "city_id": 103517,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Poona Piagapo"
+    },
+    {
+     "city_id": 103518,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Salvador"
+    },
+    {
+     "city_id": 103519,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Sapad"
+    },
+    {
+     "city_id": 103520,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Tagoloan"
+    },
+    {
+     "city_id": 103521,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Tangcal"
+    },
+    {
+     "city_id": 103522,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Tubod (Capital)"
+    },
+    {
+     "city_id": 103523,
+     "region_id": 10,
+     "province_id": 1035,
+     "city_name": "Pantar"
+    },
+    {
+     "city_id": 104201,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Aloran"
+    },
+    {
+     "city_id": 104202,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Baliangao"
+    },
+    {
+     "city_id": 104203,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Bonifacio"
+    },
+    {
+     "city_id": 104204,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Calamba"
+    },
+    {
+     "city_id": 104205,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Clarin"
+    },
+    {
+     "city_id": 104206,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Concepcion"
+    },
+    {
+     "city_id": 104207,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Jimenez"
+    },
+    {
+     "city_id": 104208,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Lopez Jaena"
+    },
+    {
+     "city_id": 104209,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Oroquieta City (Capital)"
+    },
+    {
+     "city_id": 104210,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Ozamis City"
+    },
+    {
+     "city_id": 104211,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Panaon"
+    },
+    {
+     "city_id": 104212,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Plaridel"
+    },
+    {
+     "city_id": 104213,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Sapang Dalaga"
+    },
+    {
+     "city_id": 104214,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Sinacaban"
+    },
+    {
+     "city_id": 104215,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Tangub City"
+    },
+    {
+     "city_id": 104216,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Tudela"
+    },
+    {
+     "city_id": 104217,
+     "region_id": 10,
+     "province_id": 1042,
+     "city_name": "Don Victoriano Chiongbian  (Don Mariano Marcos)"
+    },
+    {
+     "city_id": 104301,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Alubijid"
+    },
+    {
+     "city_id": 104302,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Balingasag"
+    },
+    {
+     "city_id": 104303,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Balingoan"
+    },
+    {
+     "city_id": 104304,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Binuangan"
+    },
+    {
+     "city_id": 104305,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Cagayan De Oro City (Capital)"
+    },
+    {
+     "city_id": 104306,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Claveria"
+    },
+    {
+     "city_id": 104307,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "City Of El Salvador"
+    },
+    {
+     "city_id": 104308,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Gingoog City"
+    },
+    {
+     "city_id": 104309,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Gitagum"
+    },
+    {
+     "city_id": 104310,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Initao"
+    },
+    {
+     "city_id": 104311,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Jasaan"
+    },
+    {
+     "city_id": 104312,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Kinoguitan"
+    },
+    {
+     "city_id": 104313,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Lagonglong"
+    },
+    {
+     "city_id": 104314,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Laguindingan"
+    },
+    {
+     "city_id": 104315,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Libertad"
+    },
+    {
+     "city_id": 104316,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Lugait"
+    },
+    {
+     "city_id": 104317,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Magsaysay (Linugos)"
+    },
+    {
+     "city_id": 104318,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Manticao"
+    },
+    {
+     "city_id": 104319,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Medina"
+    },
+    {
+     "city_id": 104320,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Naawan"
+    },
+    {
+     "city_id": 104321,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Opol"
+    },
+    {
+     "city_id": 104322,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Salay"
+    },
+    {
+     "city_id": 104323,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Sugbongcogon"
+    },
+    {
+     "city_id": 104324,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Tagoloan"
+    },
+    {
+     "city_id": 104325,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Talisayan"
+    },
+    {
+     "city_id": 104326,
+     "region_id": 10,
+     "province_id": 1043,
+     "city_name": "Villanueva"
+    },
+    {
+     "city_id": 112301,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Asuncion (Saug)"
+    },
+    {
+     "city_id": 112303,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 112305,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Kapalong"
+    },
+    {
+     "city_id": 112314,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "New Corella"
+    },
+    {
+     "city_id": 112315,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "City Of Panabo"
+    },
+    {
+     "city_id": 112317,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Island Garden City Of Samal"
+    },
+    {
+     "city_id": 112318,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Santo Tomas"
+    },
+    {
+     "city_id": 112319,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "City Of Tagum (Capital)"
+    },
+    {
+     "city_id": 112322,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Talaingod"
+    },
+    {
+     "city_id": 112323,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "Braulio E. Dujali"
+    },
+    {
+     "city_id": 112324,
+     "region_id": 11,
+     "province_id": 1123,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 112401,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Bansalan"
+    },
+    {
+     "city_id": 112402,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Davao City"
+    },
+    {
+     "city_id": 112403,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "City Of Digos (Capital)"
+    },
+    {
+     "city_id": 112404,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Hagonoy"
+    },
+    {
+     "city_id": 112406,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Kiblawan"
+    },
+    {
+     "city_id": 112407,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Magsaysay"
+    },
+    {
+     "city_id": 112408,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Malalag"
+    },
+    {
+     "city_id": 112410,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Matanao"
+    },
+    {
+     "city_id": 112411,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Padada"
+    },
+    {
+     "city_id": 112412,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 112414,
+     "region_id": 11,
+     "province_id": 1124,
+     "city_name": "Sulop"
+    },
+    {
+     "city_id": 112501,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Baganga"
+    },
+    {
+     "city_id": 112502,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Banaybanay"
+    },
+    {
+     "city_id": 112503,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Boston"
+    },
+    {
+     "city_id": 112504,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Caraga"
+    },
+    {
+     "city_id": 112505,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Cateel"
+    },
+    {
+     "city_id": 112506,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Governor Generoso"
+    },
+    {
+     "city_id": 112507,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Lupon"
+    },
+    {
+     "city_id": 112508,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Manay"
+    },
+    {
+     "city_id": 112509,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "City Of Mati (Capital)"
+    },
+    {
+     "city_id": 112510,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 112511,
+     "region_id": 11,
+     "province_id": 1125,
+     "city_name": "Tarragona"
+    },
+    {
+     "city_id": 118201,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Compostela"
+    },
+    {
+     "city_id": 118202,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Laak (San Vicente)"
+    },
+    {
+     "city_id": 118203,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Mabini (Doña Alicia)"
+    },
+    {
+     "city_id": 118204,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Maco"
+    },
+    {
+     "city_id": 118205,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Maragusan (San Mariano)"
+    },
+    {
+     "city_id": 118206,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Mawab"
+    },
+    {
+     "city_id": 118207,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Monkayo"
+    },
+    {
+     "city_id": 118208,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Montevista"
+    },
+    {
+     "city_id": 118209,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Nabunturan (Capital)"
+    },
+    {
+     "city_id": 118210,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "New Bataan"
+    },
+    {
+     "city_id": 118211,
+     "region_id": 11,
+     "province_id": 1182,
+     "city_name": "Pantukan"
+    },
+    {
+     "city_id": 118601,
+     "region_id": 11,
+     "province_id": 1186,
+     "city_name": "Don Marcelino"
+    },
+    {
+     "city_id": 118602,
+     "region_id": 11,
+     "province_id": 1186,
+     "city_name": "Jose Abad Santos (Trinidad)"
+    },
+    {
+     "city_id": 118603,
+     "region_id": 11,
+     "province_id": 1186,
+     "city_name": "Malita"
+    },
+    {
+     "city_id": 118604,
+     "region_id": 11,
+     "province_id": 1186,
+     "city_name": "Santa Maria"
+    },
+    {
+     "city_id": 118605,
+     "region_id": 11,
+     "province_id": 1186,
+     "city_name": "Sarangani"
+    },
+    {
+     "city_id": 124701,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Alamada"
+    },
+    {
+     "city_id": 124702,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 124703,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Kabacan"
+    },
+    {
+     "city_id": 124704,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "City Of Kidapawan (Capital)"
+    },
+    {
+     "city_id": 124705,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Libungan"
+    },
+    {
+     "city_id": 124706,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Magpet"
+    },
+    {
+     "city_id": 124707,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Makilala"
+    },
+    {
+     "city_id": 124708,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Matalam"
+    },
+    {
+     "city_id": 124709,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Midsayap"
+    },
+    {
+     "city_id": 124710,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "M'lang"
+    },
+    {
+     "city_id": 124711,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Pigkawayan"
+    },
+    {
+     "city_id": 124712,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Pikit"
+    },
+    {
+     "city_id": 124713,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "President Roxas"
+    },
+    {
+     "city_id": 124714,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Tulunan"
+    },
+    {
+     "city_id": 124715,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Antipas"
+    },
+    {
+     "city_id": 124716,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Banisilan"
+    },
+    {
+     "city_id": 124717,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Aleosan"
+    },
+    {
+     "city_id": 124718,
+     "region_id": 12,
+     "province_id": 1247,
+     "city_name": "Arakan"
+    },
+    {
+     "city_id": 126302,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Banga"
+    },
+    {
+     "city_id": 126303,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "General Santos City (Dadiangas)"
+    },
+    {
+     "city_id": 126306,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "City Of Koronadal (Capital)"
+    },
+    {
+     "city_id": 126311,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Norala"
+    },
+    {
+     "city_id": 126312,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Polomolok"
+    },
+    {
+     "city_id": 126313,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Surallah"
+    },
+    {
+     "city_id": 126314,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Tampakan"
+    },
+    {
+     "city_id": 126315,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Tantangan"
+    },
+    {
+     "city_id": 126316,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "T'boli"
+    },
+    {
+     "city_id": 126317,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Tupi"
+    },
+    {
+     "city_id": 126318,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Santo Niño"
+    },
+    {
+     "city_id": 126319,
+     "region_id": 12,
+     "province_id": 1263,
+     "city_name": "Lake Sebu"
+    },
+    {
+     "city_id": 126501,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Bagumbayan"
+    },
+    {
+     "city_id": 126502,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Columbio"
+    },
+    {
+     "city_id": 126503,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Esperanza"
+    },
+    {
+     "city_id": 126504,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Isulan (Capital)"
+    },
+    {
+     "city_id": 126505,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Kalamansig"
+    },
+    {
+     "city_id": 126506,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Lebak"
+    },
+    {
+     "city_id": 126507,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Lutayan"
+    },
+    {
+     "city_id": 126508,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Lambayong (Mariano Marcos)"
+    },
+    {
+     "city_id": 126509,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Palimbang"
+    },
+    {
+     "city_id": 126510,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "President Quirino"
+    },
+    {
+     "city_id": 126511,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "City Of Tacurong"
+    },
+    {
+     "city_id": 126512,
+     "region_id": 12,
+     "province_id": 1265,
+     "city_name": "Sen. Ninoy Aquino"
+    },
+    {
+     "city_id": 128001,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Alabel (Capital)"
+    },
+    {
+     "city_id": 128002,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Glan"
+    },
+    {
+     "city_id": 128003,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Kiamba"
+    },
+    {
+     "city_id": 128004,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Maasim"
+    },
+    {
+     "city_id": 128005,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Maitum"
+    },
+    {
+     "city_id": 128006,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Malapatan"
+    },
+    {
+     "city_id": 128007,
+     "region_id": 12,
+     "province_id": 1280,
+     "city_name": "Malungon"
+    },
+    {
+     "city_id": 129804,
+     "region_id": 12,
+     "province_id": 1298,
+     "city_name": "Cotabato City"
+    },
+    {
+     "city_id": 133901,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Tondo I \/ Ii"
+    },
+    {
+     "city_id": 133902,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Binondo"
+    },
+    {
+     "city_id": 133903,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Quiapo"
+    },
+    {
+     "city_id": 133904,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "San Nicolas"
+    },
+    {
+     "city_id": 133905,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Santa Cruz"
+    },
+    {
+     "city_id": 133906,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Sampaloc"
+    },
+    {
+     "city_id": 133907,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 133908,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Ermita"
+    },
+    {
+     "city_id": 133909,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Intramuros"
+    },
+    {
+     "city_id": 133910,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Malate"
+    },
+    {
+     "city_id": 133911,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Paco"
+    },
+    {
+     "city_id": 133912,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Pandacan"
+    },
+    {
+     "city_id": 133913,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Port Area"
+    },
+    {
+     "city_id": 133914,
+     "region_id": 13,
+     "province_id": 1339,
+     "city_name": "Santa Ana"
+    },
+    {
+     "city_id": 137401,
+     "region_id": 13,
+     "province_id": 1374,
+     "city_name": "City Of Mandaluyong"
+    },
+    {
+     "city_id": 137402,
+     "region_id": 13,
+     "province_id": 1374,
+     "city_name": "City Of Marikina"
+    },
+    {
+     "city_id": 137403,
+     "region_id": 13,
+     "province_id": 1374,
+     "city_name": "City Of Pasig"
+    },
+    {
+     "city_id": 137404,
+     "region_id": 13,
+     "province_id": 1374,
+     "city_name": "Quezon City"
+    },
+    {
+     "city_id": 137405,
+     "region_id": 13,
+     "province_id": 1374,
+     "city_name": "City Of San Juan"
+    },
+    {
+     "city_id": 137501,
+     "region_id": 13,
+     "province_id": 1375,
+     "city_name": "Caloocan City"
+    },
+    {
+     "city_id": 137502,
+     "region_id": 13,
+     "province_id": 1375,
+     "city_name": "City Of Malabon"
+    },
+    {
+     "city_id": 137503,
+     "region_id": 13,
+     "province_id": 1375,
+     "city_name": "City Of Navotas"
+    },
+    {
+     "city_id": 137504,
+     "region_id": 13,
+     "province_id": 1375,
+     "city_name": "City Of Valenzuela"
+    },
+    {
+     "city_id": 137601,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "City Of Las Piñas"
+    },
+    {
+     "city_id": 137602,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "City Of Makati"
+    },
+    {
+     "city_id": 137603,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "City Of Muntinlupa"
+    },
+    {
+     "city_id": 137604,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "City Of Parañaque"
+    },
+    {
+     "city_id": 137605,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "Pasay City"
+    },
+    {
+     "city_id": 137606,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "Pateros"
+    },
+    {
+     "city_id": 137607,
+     "region_id": 13,
+     "province_id": 1376,
+     "city_name": "Taguig City"
+    },
+    {
+     "city_id": 140101,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Bangued (Capital)"
+    },
+    {
+     "city_id": 140102,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Boliney"
+    },
+    {
+     "city_id": 140103,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Bucay"
+    },
+    {
+     "city_id": 140104,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Bucloc"
+    },
+    {
+     "city_id": 140105,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Daguioman"
+    },
+    {
+     "city_id": 140106,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Danglas"
+    },
+    {
+     "city_id": 140107,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Dolores"
+    },
+    {
+     "city_id": 140108,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "La Paz"
+    },
+    {
+     "city_id": 140109,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Lacub"
+    },
+    {
+     "city_id": 140110,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Lagangilang"
+    },
+    {
+     "city_id": 140111,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Lagayan"
+    },
+    {
+     "city_id": 140112,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Langiden"
+    },
+    {
+     "city_id": 140113,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Licuan-baay (Licuan)"
+    },
+    {
+     "city_id": 140114,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Luba"
+    },
+    {
+     "city_id": 140115,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Malibcong"
+    },
+    {
+     "city_id": 140116,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Manabo"
+    },
+    {
+     "city_id": 140117,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Peñarrubia"
+    },
+    {
+     "city_id": 140118,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Pidigan"
+    },
+    {
+     "city_id": 140119,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 140120,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Sallapadan"
+    },
+    {
+     "city_id": 140121,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 140122,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "San Juan"
+    },
+    {
+     "city_id": 140123,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "San Quintin"
+    },
+    {
+     "city_id": 140124,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Tayum"
+    },
+    {
+     "city_id": 140125,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Tineg"
+    },
+    {
+     "city_id": 140126,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Tubo"
+    },
+    {
+     "city_id": 140127,
+     "region_id": 14,
+     "province_id": 1401,
+     "city_name": "Villaviciosa"
+    },
+    {
+     "city_id": 141101,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Atok"
+    },
+    {
+     "city_id": 141102,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Baguio City"
+    },
+    {
+     "city_id": 141103,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Bakun"
+    },
+    {
+     "city_id": 141104,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Bokod"
+    },
+    {
+     "city_id": 141105,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Buguias"
+    },
+    {
+     "city_id": 141106,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Itogon"
+    },
+    {
+     "city_id": 141107,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Kabayan"
+    },
+    {
+     "city_id": 141108,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Kapangan"
+    },
+    {
+     "city_id": 141109,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Kibungan"
+    },
+    {
+     "city_id": 141110,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "La Trinidad (Capital)"
+    },
+    {
+     "city_id": 141111,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Mankayan"
+    },
+    {
+     "city_id": 141112,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Sablan"
+    },
+    {
+     "city_id": 141113,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Tuba"
+    },
+    {
+     "city_id": 141114,
+     "region_id": 14,
+     "province_id": 1411,
+     "city_name": "Tublay"
+    },
+    {
+     "city_id": 142701,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Banaue"
+    },
+    {
+     "city_id": 142702,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Hungduan"
+    },
+    {
+     "city_id": 142703,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Kiangan"
+    },
+    {
+     "city_id": 142704,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Lagawe (Capital)"
+    },
+    {
+     "city_id": 142705,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Lamut"
+    },
+    {
+     "city_id": 142706,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Mayoyao"
+    },
+    {
+     "city_id": 142707,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Alfonso Lista (Potia)"
+    },
+    {
+     "city_id": 142708,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Aguinaldo"
+    },
+    {
+     "city_id": 142709,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Hingyon"
+    },
+    {
+     "city_id": 142710,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Tinoc"
+    },
+    {
+     "city_id": 142711,
+     "region_id": 14,
+     "province_id": 1427,
+     "city_name": "Asipulo"
+    },
+    {
+     "city_id": 143201,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Balbalan"
+    },
+    {
+     "city_id": 143206,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Lubuagan"
+    },
+    {
+     "city_id": 143208,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Pasil"
+    },
+    {
+     "city_id": 143209,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Pinukpuk"
+    },
+    {
+     "city_id": 143211,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Rizal (Liwan)"
+    },
+    {
+     "city_id": 143213,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "City Of Tabuk (Capital)"
+    },
+    {
+     "city_id": 143214,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Tanudan"
+    },
+    {
+     "city_id": 143215,
+     "region_id": 14,
+     "province_id": 1432,
+     "city_name": "Tinglayan"
+    },
+    {
+     "city_id": 144401,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Barlig"
+    },
+    {
+     "city_id": 144402,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Bauko"
+    },
+    {
+     "city_id": 144403,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Besao"
+    },
+    {
+     "city_id": 144404,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Bontoc (Capital)"
+    },
+    {
+     "city_id": 144405,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Natonin"
+    },
+    {
+     "city_id": 144406,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Paracelis"
+    },
+    {
+     "city_id": 144407,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Sabangan"
+    },
+    {
+     "city_id": 144408,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Sadanga"
+    },
+    {
+     "city_id": 144409,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Sagada"
+    },
+    {
+     "city_id": 144410,
+     "region_id": 14,
+     "province_id": 1444,
+     "city_name": "Tadian"
+    },
+    {
+     "city_id": 148101,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Calanasan (Bayag)"
+    },
+    {
+     "city_id": 148102,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Conner"
+    },
+    {
+     "city_id": 148103,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Flora"
+    },
+    {
+     "city_id": 148104,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Kabugao (Capital)"
+    },
+    {
+     "city_id": 148105,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Luna"
+    },
+    {
+     "city_id": 148106,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Pudtol"
+    },
+    {
+     "city_id": 148107,
+     "region_id": 14,
+     "province_id": 1481,
+     "city_name": "Santa Marcela"
+    },
+    {
+     "city_id": 150702,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "City Of Lamitan"
+    },
+    {
+     "city_id": 150703,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Lantawan"
+    },
+    {
+     "city_id": 150704,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Maluso"
+    },
+    {
+     "city_id": 150705,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Sumisip"
+    },
+    {
+     "city_id": 150706,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Tipo-tipo"
+    },
+    {
+     "city_id": 150707,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Tuburan"
+    },
+    {
+     "city_id": 150708,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Akbar"
+    },
+    {
+     "city_id": 150709,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Al-barka"
+    },
+    {
+     "city_id": 150710,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Hadji Mohammad Ajul"
+    },
+    {
+     "city_id": 150711,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Ungkaya Pukan"
+    },
+    {
+     "city_id": 150712,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Hadji Muhtamad"
+    },
+    {
+     "city_id": 150713,
+     "region_id": 15,
+     "province_id": 1507,
+     "city_name": "Tabuan-lasa"
+    },
+    {
+     "city_id": 153601,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Bacolod-kalawi (Bacolod Grande)"
+    },
+    {
+     "city_id": 153602,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Balabagan"
+    },
+    {
+     "city_id": 153603,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Balindong (Watu)"
+    },
+    {
+     "city_id": 153604,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Bayang"
+    },
+    {
+     "city_id": 153605,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Binidayan"
+    },
+    {
+     "city_id": 153606,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Bubong"
+    },
+    {
+     "city_id": 153607,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Butig"
+    },
+    {
+     "city_id": 153609,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Ganassi"
+    },
+    {
+     "city_id": 153610,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Kapai"
+    },
+    {
+     "city_id": 153611,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Lumba-bayabao (Maguing)"
+    },
+    {
+     "city_id": 153612,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Lumbatan"
+    },
+    {
+     "city_id": 153613,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Madalum"
+    },
+    {
+     "city_id": 153614,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Madamba"
+    },
+    {
+     "city_id": 153615,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Malabang"
+    },
+    {
+     "city_id": 153616,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Marantao"
+    },
+    {
+     "city_id": 153617,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Marawi City (Capital)"
+    },
+    {
+     "city_id": 153618,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Masiu"
+    },
+    {
+     "city_id": 153619,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Mulondo"
+    },
+    {
+     "city_id": 153620,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Pagayawan (Tatarikan)"
+    },
+    {
+     "city_id": 153621,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Piagapo"
+    },
+    {
+     "city_id": 153622,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Poona Bayabao (Gata)"
+    },
+    {
+     "city_id": 153623,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Pualas"
+    },
+    {
+     "city_id": 153624,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Ditsaan-ramain"
+    },
+    {
+     "city_id": 153625,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Saguiaran"
+    },
+    {
+     "city_id": 153626,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Tamparan"
+    },
+    {
+     "city_id": 153627,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Taraka"
+    },
+    {
+     "city_id": 153628,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Tubaran"
+    },
+    {
+     "city_id": 153629,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Tugaya"
+    },
+    {
+     "city_id": 153630,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Wao"
+    },
+    {
+     "city_id": 153631,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Marogong"
+    },
+    {
+     "city_id": 153632,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Calanogas"
+    },
+    {
+     "city_id": 153633,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Buadiposo-buntong"
+    },
+    {
+     "city_id": 153634,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Maguing"
+    },
+    {
+     "city_id": 153635,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Picong (Sultan Gumander)"
+    },
+    {
+     "city_id": 153636,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Lumbayanague"
+    },
+    {
+     "city_id": 153637,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Bumbaran"
+    },
+    {
+     "city_id": 153638,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Tagoloan Ii"
+    },
+    {
+     "city_id": 153639,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Kapatagan"
+    },
+    {
+     "city_id": 153640,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Sultan Dumalondong"
+    },
+    {
+     "city_id": 153641,
+     "region_id": 15,
+     "province_id": 1536,
+     "city_name": "Lumbaca-unayan"
+    },
+    {
+     "city_id": 153801,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Ampatuan"
+    },
+    {
+     "city_id": 153802,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Buldon"
+    },
+    {
+     "city_id": 153803,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Buluan"
+    },
+    {
+     "city_id": 153805,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Paglas"
+    },
+    {
+     "city_id": 153806,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Piang"
+    },
+    {
+     "city_id": 153807,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Odin Sinsuat (Dinaig)"
+    },
+    {
+     "city_id": 153808,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Shariff Aguak (Maganoy) (Capital)"
+    },
+    {
+     "city_id": 153809,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Matanog"
+    },
+    {
+     "city_id": 153810,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Pagalungan"
+    },
+    {
+     "city_id": 153811,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Parang"
+    },
+    {
+     "city_id": 153812,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Sultan Kudarat (Nuling)"
+    },
+    {
+     "city_id": 153813,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Sultan Sa Barongis (Lambayong)"
+    },
+    {
+     "city_id": 153814,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Kabuntalan (Tumbao)"
+    },
+    {
+     "city_id": 153815,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Upi"
+    },
+    {
+     "city_id": 153816,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Talayan"
+    },
+    {
+     "city_id": 153817,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "South Upi"
+    },
+    {
+     "city_id": 153818,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Barira"
+    },
+    {
+     "city_id": 153819,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Gen. S. K. Pendatun"
+    },
+    {
+     "city_id": 153820,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Mamasapano"
+    },
+    {
+     "city_id": 153821,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Talitay"
+    },
+    {
+     "city_id": 153822,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Pagagawan"
+    },
+    {
+     "city_id": 153823,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Paglat"
+    },
+    {
+     "city_id": 153824,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Sultan Mastura"
+    },
+    {
+     "city_id": 153825,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Guindulungan"
+    },
+    {
+     "city_id": 153826,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Saudi-ampatuan"
+    },
+    {
+     "city_id": 153827,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Unsay"
+    },
+    {
+     "city_id": 153828,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Abdullah Sangki"
+    },
+    {
+     "city_id": 153829,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Rajah Buayan"
+    },
+    {
+     "city_id": 153830,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Blah T. Sinsuat"
+    },
+    {
+     "city_id": 153831,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Anggal Midtimbang"
+    },
+    {
+     "city_id": 153832,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Mangudadatu"
+    },
+    {
+     "city_id": 153833,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Pandag"
+    },
+    {
+     "city_id": 153834,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Northern Kabuntalan"
+    },
+    {
+     "city_id": 153835,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Hoffer Ampatuan"
+    },
+    {
+     "city_id": 153836,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Datu Salibo"
+    },
+    {
+     "city_id": 153837,
+     "region_id": 15,
+     "province_id": 1538,
+     "city_name": "Shariff Saydona Mustapha"
+    },
+    {
+     "city_id": 156601,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Indanan"
+    },
+    {
+     "city_id": 156602,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Jolo (Capital)"
+    },
+    {
+     "city_id": 156603,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Kalingalan Caluang"
+    },
+    {
+     "city_id": 156604,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Luuk"
+    },
+    {
+     "city_id": 156605,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Maimbung"
+    },
+    {
+     "city_id": 156606,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Hadji Panglima Tahil (Marunggas)"
+    },
+    {
+     "city_id": 156607,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Old Panamao"
+    },
+    {
+     "city_id": 156608,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Pangutaran"
+    },
+    {
+     "city_id": 156609,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Parang"
+    },
+    {
+     "city_id": 156610,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Pata"
+    },
+    {
+     "city_id": 156611,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Patikul"
+    },
+    {
+     "city_id": 156612,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Siasi"
+    },
+    {
+     "city_id": 156613,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Talipao"
+    },
+    {
+     "city_id": 156614,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Tapul"
+    },
+    {
+     "city_id": 156615,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Tongkil"
+    },
+    {
+     "city_id": 156616,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Panglima Estino (New Panamao)"
+    },
+    {
+     "city_id": 156617,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Lugus"
+    },
+    {
+     "city_id": 156618,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Pandami"
+    },
+    {
+     "city_id": 156619,
+     "region_id": 15,
+     "province_id": 1566,
+     "city_name": "Omar"
+    },
+    {
+     "city_id": 157001,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Panglima Sugala (Balimbing)"
+    },
+    {
+     "city_id": 157002,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Bongao (Capital)"
+    },
+    {
+     "city_id": 157003,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Mapun (Cagayan De Tawi-tawi)"
+    },
+    {
+     "city_id": 157004,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Simunul"
+    },
+    {
+     "city_id": 157005,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Sitangkai"
+    },
+    {
+     "city_id": 157006,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "South Ubian"
+    },
+    {
+     "city_id": 157007,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Tandubas"
+    },
+    {
+     "city_id": 157008,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Turtle Islands"
+    },
+    {
+     "city_id": 157009,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Languyan"
+    },
+    {
+     "city_id": 157010,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Sapa-sapa"
+    },
+    {
+     "city_id": 157011,
+     "region_id": 15,
+     "province_id": 1570,
+     "city_name": "Sibutu"
+    },
+    {
+     "city_id": 160201,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Buenavista"
+    },
+    {
+     "city_id": 160202,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Butuan City (Capital)"
+    },
+    {
+     "city_id": 160203,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "City Of Cabadbaran"
+    },
+    {
+     "city_id": 160204,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 160205,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Jabonga"
+    },
+    {
+     "city_id": 160206,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Kitcharao"
+    },
+    {
+     "city_id": 160207,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Las Nieves"
+    },
+    {
+     "city_id": 160208,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Magallanes"
+    },
+    {
+     "city_id": 160209,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Nasipit"
+    },
+    {
+     "city_id": 160210,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Santiago"
+    },
+    {
+     "city_id": 160211,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Tubay"
+    },
+    {
+     "city_id": 160212,
+     "region_id": 16,
+     "province_id": 1602,
+     "city_name": "Remedios T. Romualdez"
+    },
+    {
+     "city_id": 160301,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "City Of Bayugan"
+    },
+    {
+     "city_id": 160302,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Bunawan"
+    },
+    {
+     "city_id": 160303,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Esperanza"
+    },
+    {
+     "city_id": 160304,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "La Paz"
+    },
+    {
+     "city_id": 160305,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Loreto"
+    },
+    {
+     "city_id": 160306,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Prosperidad (Capital)"
+    },
+    {
+     "city_id": 160307,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Rosario"
+    },
+    {
+     "city_id": 160308,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "San Francisco"
+    },
+    {
+     "city_id": 160309,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "San Luis"
+    },
+    {
+     "city_id": 160310,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Santa Josefa"
+    },
+    {
+     "city_id": 160311,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Talacogon"
+    },
+    {
+     "city_id": 160312,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Trento"
+    },
+    {
+     "city_id": 160313,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Veruela"
+    },
+    {
+     "city_id": 160314,
+     "region_id": 16,
+     "province_id": 1603,
+     "city_name": "Sibagat"
+    },
+    {
+     "city_id": 166701,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Alegria"
+    },
+    {
+     "city_id": 166702,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Bacuag"
+    },
+    {
+     "city_id": 166704,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Burgos"
+    },
+    {
+     "city_id": 166706,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Claver"
+    },
+    {
+     "city_id": 166707,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Dapa"
+    },
+    {
+     "city_id": 166708,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Del Carmen"
+    },
+    {
+     "city_id": 166710,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "General Luna"
+    },
+    {
+     "city_id": 166711,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Gigaquit"
+    },
+    {
+     "city_id": 166714,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Mainit"
+    },
+    {
+     "city_id": 166715,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Malimono"
+    },
+    {
+     "city_id": 166716,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Pilar"
+    },
+    {
+     "city_id": 166717,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Placer"
+    },
+    {
+     "city_id": 166718,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "San Benito"
+    },
+    {
+     "city_id": 166719,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "San Francisco (Anao-aon)"
+    },
+    {
+     "city_id": 166720,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "San Isidro"
+    },
+    {
+     "city_id": 166721,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Santa Monica (Sapao)"
+    },
+    {
+     "city_id": 166722,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Sison"
+    },
+    {
+     "city_id": 166723,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Socorro"
+    },
+    {
+     "city_id": 166724,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Surigao City (Capital)"
+    },
+    {
+     "city_id": 166725,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Tagana-an"
+    },
+    {
+     "city_id": 166727,
+     "region_id": 16,
+     "province_id": 1667,
+     "city_name": "Tubod"
+    },
+    {
+     "city_id": 166801,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Barobo"
+    },
+    {
+     "city_id": 166802,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Bayabas"
+    },
+    {
+     "city_id": 166803,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "City Of Bislig"
+    },
+    {
+     "city_id": 166804,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Cagwait"
+    },
+    {
+     "city_id": 166805,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Cantilan"
+    },
+    {
+     "city_id": 166806,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Carmen"
+    },
+    {
+     "city_id": 166807,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Carrascal"
+    },
+    {
+     "city_id": 166808,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Cortes"
+    },
+    {
+     "city_id": 166809,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Hinatuan"
+    },
+    {
+     "city_id": 166810,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Lanuza"
+    },
+    {
+     "city_id": 166811,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Lianga"
+    },
+    {
+     "city_id": 166812,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Lingig"
+    },
+    {
+     "city_id": 166813,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Madrid"
+    },
+    {
+     "city_id": 166814,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Marihatag"
+    },
+    {
+     "city_id": 166815,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "San Agustin"
+    },
+    {
+     "city_id": 166816,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "San Miguel"
+    },
+    {
+     "city_id": 166817,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Tagbina"
+    },
+    {
+     "city_id": 166818,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "Tago"
+    },
+    {
+     "city_id": 166819,
+     "region_id": 16,
+     "province_id": 1668,
+     "city_name": "City Of Tandag (Capital)"
+    },
+    {
+     "city_id": 168501,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Basilisa (Rizal)"
+    },
+    {
+     "city_id": 168502,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Cagdianao"
+    },
+    {
+     "city_id": 168503,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Dinagat"
+    },
+    {
+     "city_id": 168504,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Libjo (Albor)"
+    },
+    {
+     "city_id": 168505,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Loreto"
+    },
+    {
+     "city_id": 168506,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "San Jose (Capital)"
+    },
+    {
+     "city_id": 168507,
+     "region_id": 16,
+     "province_id": 1685,
+     "city_name": "Tubajon"
+    }
+   ]
