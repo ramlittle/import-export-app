@@ -19,6 +19,7 @@ import Calendar from './tests/FullCalendar/Calendar';
 import FileUpload from './tests/fileUpload/FileUpload';
 import ShoppingCart from './tests/autorefresh/ShoppingCart'
 import UpdateCityTableWithZip from './tests/insertingData/UpdateCityTableWithZip';
+import ReactDatatable from './tests/ReactDataTable/ReactDataTable'
 // CSS
 import './index.css'
 import './css/App.css'
@@ -44,6 +45,7 @@ const App = () => {
           <Route path='/NoPermission' element={<NoPermission />} />
           <Route path='/ShoppingCart' element={<ShoppingCart />} />
           <Route path='/UpdateCityTableWithZip' element={<UpdateCityTableWithZip />} />
+          <Route path='/ReactDatatable' element={<ReactDatatable />} />
         </Routes>
       
     </>
