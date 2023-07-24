@@ -17,9 +17,9 @@ import MyPage from './tests/MyPage'
 import GlobalSearchSample from './tests/GlobalSearchSample/GlobalSearchSample'
 import Calendar from './tests/FullCalendar/Calendar';
 import FileUpload from './tests/fileUpload/FileUpload';
-import ShoppingCart from './tests/autorefresh/ShoppingCart'
+import ShoppingCart from './tests/shoppingCart/ShoppingCart'
 // import UpdateCityTableWithZip from './tests/insertingData/UpdateCityTableWithZip';
-import CompleteDataTable from './tests/CompleteDataTable/CompleteDataTable'
+import DataTable from './tests/CompleteDataTable/DataTable'
 // CSS
 import './index.css'
 import './css/App.css'
@@ -45,7 +45,7 @@ const App = () => {
           <Route path='/NoPermission' element={<NoPermission />} />
           <Route path='/ShoppingCart' element={<ShoppingCart />} />
           {/* <Route path='/UpdateCityTableWithZip' element={<UpdateCityTableWithZip />} /> */}
-          <Route path='/CompleteDataTable' element={<CompleteDataTable />} />
+          <Route path='/DataTable' element={<DataTable />} />
         </Routes>
       
     </>
