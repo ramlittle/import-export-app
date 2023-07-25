@@ -1,6 +1,6 @@
 import Cities from './cities.json'
 import ZipCodes from './zipcodes.json'
-import ReactHTMLTableToExcel from 'react-html-table-to-excel';
+
 const UpdateCityTableWithZip=()=>{
     const zipList=ZipCodes;
     const cityList=Cities;
@@ -46,14 +46,14 @@ const UpdateCityTableWithZip=()=>{
     insertZipsToNewList(newList,zipList,cityList);
     return (
         <>
-        <ReactHTMLTableToExcel
+        {/* <ReactHTMLTableToExcel
                     id="test-table-xls-button"
                     className="download-table-xls-button"
                     table="divToExport"
                     filename="exportedData"
                     sheet="sheet1"
                     buttonText="Download Excel"
-                />
+                /> */}
             <table border='1' id='divToExport'>
                 <thead>
                 <tr>

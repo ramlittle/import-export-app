@@ -20,6 +20,8 @@ import FileUpload from './tests/fileUpload/FileUpload';
 import ShoppingCart from './tests/shoppingCart/ShoppingCart'
 // import UpdateCityTableWithZip from './tests/insertingData/UpdateCityTableWithZip';
 import DataTable from './tests/CompleteDataTable/DataTable'
+import ExcelImporter from './tests/ImportExcel/ExcelImporter';
+
 // CSS
 import './index.css'
 import './css/App.css'
@@ -46,6 +48,9 @@ const App = () => {
           <Route path='/ShoppingCart' element={<ShoppingCart />} />
           {/* <Route path='/UpdateCityTableWithZip' element={<UpdateCityTableWithZip />} /> */}
           <Route path='/DataTable' element={<DataTable />} />
+          <Route path='/ExcelImporter' element={<ExcelImporter />} />
+          
+
         </Routes>
       
     </>
