@@ -1,13 +1,13 @@
 
 import { useState, useEffect } from 'react'
 import * as XLSX from 'xlsx'
-import { addTitle,insertAfterSpecificKey } from './functions.js'
+import { addTitle,insertAfterSpecificKey,knowDivider } from './functions.js'
 
 const ExcelImporter = () => {
 
     const [excelData, setExcelData] = useState(null);
     const [payListTitle, setPaylistTitle] = useState('')
-
+    const [divider,setDivider]=useState(0);
     const handleFileChange = (e) => {
         const file = e.target.files[0];
         if (!file) return;
@@ -30,6 +30,7 @@ const ExcelImporter = () => {
             const newValue = "";
             const updatedArray = insertAfterSpecificKey(jsonData);
             console.log(updatedArray);
+            knowDivider(updatedArray)
             setExcelData(addTitle(updatedArray, payListTitle));
             
         };
@@ -78,10 +79,11 @@ const ExcelImporter = () => {
                                 <strong>{obj.title}</strong>
                             </div>
                             <div className=''>
-                                <table className='ring-2 w-full'>
+                                <table className='ring-2 w-full text-xs'>
                                     <tbody>
-                                    {Object.entries(obj).map(([key, value]) => (
+                                    {Object.entries(obj).map(([key, value],index) => (
                                         <tr key={key}>
+                                            {/* {console.log('index',index)} */}
                                             {
                                              key ==='Net Amount' || key ==='Employee Name' || key === 'Basic Salary'? 
                                              <>
@@ -102,10 +104,13 @@ const ExcelImporter = () => {
                                                         <td ><strong className='ml-5 overline'><u>{value}</u></strong></td>
                                                     </>
                                                         :
-                                                        <>
-                                                            <td className=''>{key}</td>
-                                                            <td><span className='ml-5'>{value} </span></td>
-                                                        </>
+                                                            key ==='title'?
+                                                            null
+                                                            :
+                                                            <>
+                                                                <td className=''>{key}</td>
+                                                                <td><span className='ml-5'>{value} </span></td>
+                                                            </>
                                             }
                                         </tr>
                                     ))}

@@ -29,3 +29,15 @@ export function insertAfterSpecificKey(array) {
   return newArray
 
 }
+
+export function knowDivider(excelData){
+  console.log('heres excel Data',excelData[0])
+  const keys=Object.keys(excelData[0])
+  console.log('keys here', keys)
+  for(let i=0;i<keys.length;i++){
+    if(keys[i]==='LESS DEDUCTIONS'){
+      console.log('heres obtained index of less deduction',i)
+      return i;
+    }
+  }
+}
