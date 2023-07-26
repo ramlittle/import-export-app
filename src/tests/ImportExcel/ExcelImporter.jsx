@@ -28,7 +28,7 @@ const ExcelImporter = () => {
             const targetKey = "Total Earned";
             const newKey = "LESS DEDUCTIONS";
             const newValue = "";
-            const updatedArray = insertAfterSpecificKey(jsonData, targetKey, newKey, newValue);
+            const updatedArray = insertAfterSpecificKey(jsonData);
             console.log(updatedArray);
             setExcelData(addTitle(updatedArray, payListTitle));
             
