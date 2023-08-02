@@ -1,0 +1,416 @@
+[
+    {
+     "uid": 1,
+     "id": 1,
+     "name": "John Doe",
+     "age": 30,
+     "email": "john@example.com",
+     "type": "JC",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 2,
+     "name": "Jane Smith",
+     "age": 25,
+     "email": "jane@example.com",
+     "type": "JC",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 3,
+     "name": "ricadoo",
+     "age": 40,
+     "email": "ricadoob@example.com",
+     "type": "DTTB",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 4,
+     "name": "bocadoo",
+     "age": 41.6666666666667,
+     "email": "bocadoo@example.com",
+     "type": "DTTB",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 5,
+     "name": "rendon",
+     "age": 46.6666666666667,
+     "email": "rendonb@example.com",
+     "type": "PS",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 6,
+     "name": "mooray",
+     "age": 51.6666666666667,
+     "email": "mooray@example.com",
+     "type": "PS",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 7,
+     "name": "grayson",
+     "age": 56.6666666666667,
+     "email": "grayson@example.com",
+     "type": "REGULAR",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 8,
+     "name": "batman",
+     "age": 61.6666666666667,
+     "email": "batman@example.com",
+     "type": "REGULAR",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 9,
+     "name": "flash",
+     "age": 66.6666666666667,
+     "email": "flash@example.com",
+     "type": "JC",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 10,
+     "name": "jenny",
+     "age": 71.6666666666667,
+     "email": "jenny@example.com",
+     "type": "JC",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 11,
+     "name": "chand",
+     "age": 76.6666666666667,
+     "email": "chand@example.com",
+     "type": "DTTB",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 12,
+     "name": "junyo",
+     "age": 81.6666666666667,
+     "email": "hunyo@example.com",
+     "type": "DTTB",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 13,
+     "name": "danilo",
+     "age": 86.6666666666667,
+     "email": "danilo@example.com",
+     "type": "PS",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 14,
+     "name": "ameria",
+     "age": 91.6666666666667,
+     "email": "ameria@example.com",
+     "type": "PS",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 15,
+     "name": "katar",
+     "age": 96.6666666666667,
+     "email": "katar@example.com",
+     "type": "REGULAR",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 16,
+     "name": "shoes",
+     "age": 101.666666666667,
+     "email": "shoes@example.com",
+     "type": "REGULAR",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 17,
+     "name": "keys",
+     "age": 106.666666666667,
+     "email": "keys@example.com",
+     "type": "JC",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 18,
+     "name": "legs",
+     "age": 111.666666666667,
+     "email": "legs@example.com",
+     "type": "JC",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 19,
+     "name": "arms",
+     "age": 116.666666666667,
+     "email": "arms@example.com",
+     "type": "DTTB",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 20,
+     "name": "singit",
+     "age": 121.666666666667,
+     "email": "singit@example.com",
+     "type": "DTTB",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 21,
+     "name": "kati",
+     "age": 126.666666666667,
+     "email": "kati@example.com",
+     "type": "PS",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 22,
+     "name": "dark",
+     "age": 131.666666666667,
+     "email": "dark@example.com",
+     "type": "PS",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 23,
+     "name": "malapit",
+     "age": 136.666666666667,
+     "email": "malapit@example.com",
+     "type": "REGULAR",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 24,
+     "name": "nadin",
+     "age": 141.666666666667,
+     "email": "nadin@example.com",
+     "type": "REGULAR",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 25,
+     "name": "medyas",
+     "age": 146.666666666667,
+     "email": "medyas@example.com",
+     "type": "JC",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 27,
+     "name": "avocado",
+     "age": 151.666666666667,
+     "email": "avocado@example.com",
+     "type": "JC",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 28,
+     "name": "bobocado",
+     "age": 156.666666666667,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 29,
+     "name": "vovocano",
+     "age": 161.666666666667,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 30,
+     "name": "volcano",
+     "age": 166.666666666667,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 31,
+     "name": "laptop",
+     "age": 171.666666666667,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 32,
+     "name": "mouse",
+     "age": 176.666666666667,
+     "email": "avocado@example.com",
+     "type": "REGULAR",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 33,
+     "name": "lowbite",
+     "age": 181.666666666667,
+     "email": "avocado@example.com",
+     "type": "REGULAR",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 34,
+     "name": "frostbite",
+     "age": 186.666666666668,
+     "email": "avocado@example.com",
+     "type": "JC",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 35,
+     "name": "raegoo",
+     "age": 191.666666666668,
+     "email": "avocado@example.com",
+     "type": "JC",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 36,
+     "name": "egan",
+     "age": 196.666666666668,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 37,
+     "name": "wires",
+     "age": 201.666666666668,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 38,
+     "name": "Bags",
+     "age": 206.666666666668,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 39,
+     "name": "fan",
+     "age": 211.666666666668,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 40,
+     "name": "pen",
+     "age": 216.666666666667,
+     "email": "avocado@example.com",
+     "type": "REGULAR",
+     "office": "RD"
+    },
+    {
+     "uid": 1,
+     "id": 41,
+     "name": "drink",
+     "age": 221.666666666667,
+     "email": "avocado@example.com",
+     "type": "REGULAR",
+     "office": "CDC"
+    },
+    {
+     "uid": 1,
+     "id": 42,
+     "name": "slap",
+     "age": 226.666666666667,
+     "email": "avocado@example.com",
+     "type": "JC",
+     "office": "RESU"
+    },
+    {
+     "uid": 1,
+     "id": 43,
+     "name": "naptime",
+     "age": 231.666666666667,
+     "email": "avocado@example.com",
+     "type": "JC",
+     "office": "MSD"
+    },
+    {
+     "uid": 1,
+     "id": 44,
+     "name": "gaptime",
+     "age": 236.666666666667,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "ICT"
+    },
+    {
+     "uid": 1,
+     "id": 45,
+     "name": "parttime",
+     "age": 241.666666666667,
+     "email": "avocado@example.com",
+     "type": "DTTB",
+     "office": "ARD"
+    },
+    {
+     "uid": 1,
+     "id": 46,
+     "name": "lacktime",
+     "age": 246.666666666667,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "HEMS"
+    },
+    {
+     "uid": 1,
+     "id": 47,
+     "name": "simsim",
+     "age": 251.666666666667,
+     "email": "avocado@example.com",
+     "type": "PS",
+     "office": "RD"
+    }
+   ]

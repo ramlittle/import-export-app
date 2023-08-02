@@ -20,8 +20,10 @@ import FileUpload from './tests/fileUpload/FileUpload';
 import ShoppingCart from './tests/shoppingCart/ShoppingCart'
 // import UpdateCityTableWithZip from './tests/insertingData/UpdateCityTableWithZip';
 import DataTable from './tests/CompleteDataTable/DataTable'
+import MainPage from './tests/CompleteDataTable/MainPage';
 import ExcelImporter from './tests/ImportExcel/ExcelImporter';
 import KitchenSinkDataTable from './tests/KitchenSinkDataTable/KitchenSinkDataTable'
+
 
 // CSS
 import './index.css'
@@ -51,6 +53,7 @@ const App = () => {
           <Route path='/DataTable' element={<DataTable />} />
           <Route path='/ExcelImporter' element={<ExcelImporter />} />
           <Route path='/KitchenSinkDataTable' element={<KitchenSinkDataTable />} />
+          <Route path='/MainPage' element={<MainPage />} />
           
 
         </Routes>

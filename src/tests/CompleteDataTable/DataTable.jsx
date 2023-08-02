@@ -117,36 +117,37 @@ const DataTable = () => {
         placeholder="Search"
         value={searchTerm}
         onChange={handleSearch}
-        className="search-input"
+        className="p-2"
       />
-      <div className="entries-per-page">
-        <label>Show entries:</label>
-        <select value={itemsPerPage} onChange={handleItemsPerPageChange}>
+      <div className="">
+        <label className='text-xl m-2'>Show entries:</label>
+        <select value={itemsPerPage} onChange={handleItemsPerPageChange} className='text-lg p-2'>
           <option value={5}>5</option>
           <option value={10}>10</option>
           <option value={20}>20</option>
           {/* Add more options as needed */}
         </select>
       </div>
-      <table className="data-table">
+      <table className="border border-green-100 w-full text-center">
         <thead>
-          <tr>
-            <th onClick={() => handleSort("id")}>ID</th>
-            <th onClick={() => handleSort("name")}>Name</th>
-            <th onClick={() => handleSort("age")}>Age</th>
+          <tr className='bg-blue-200'>
+            <th onClick={() => handleSort("id")} className='p-1 text-lg'>ID</th>
+            <th onClick={() => handleSort("name")} className='p-1 text-lg'>Name</th>
+            <th onClick={() => handleSort("age")} className='p-1 text-lg'>Age</th>
           </tr>
         </thead>
         <tbody>
           {currentItems.map((item) => (
             <tr key={item.id}>
-              <td>{item.id}</td>
-              <td>{item.name}</td>
-              <td>{item.age}</td>
+              <td className='p-1 text-lg'>{item.id}</td>
+              <td className='p-1 text-lg'>{item.name}</td>
+              <td className='p-1 text-lg'>{item.age}</td>
             </tr>
           ))}
         </tbody>
       </table>
-      <div className="pagination">
+
+      <div className="bg-blue-200">
         <button
           onClick={handlePreviousClick}
           disabled={currentPage === 1}
