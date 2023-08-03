@@ -15,9 +15,10 @@ to avoid changing the .id, let's check data first if has id column, if none, we 
  * @props data =  obtained when this ocmponent is used
   */
 import { useState, useEffect } from 'react'
-const DRYDataTable = ({ data, hiddenColumns }) => {
+const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
 
     // STATES
+    const [tableData, setTableData] = useState(data)
     const [selectedRows, setSelectedRows] = useState([]);
     const [rowsPerPage, setRowsPerPage] = useState(10);
     const [currentPage, setCurrentPage] = useState(1);
@@ -25,24 +26,25 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
     const [searchQuery, setSearchQuery] = useState('');
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
     const [columnFilters, setColumnFilters] = useState({});
-
+    const [message, setMessage] = useState('')
 
     // VARIABLES 
     const headers = Object.keys(data[0]); //extra headers
     const filteredHeaders = headers.filter((header) => !hiddenColumns.includes(header));
-    const totalPages = Math.ceil(data.length / rowsPerPage);
-    const firstRecordIndex = (currentPage - 1) * rowsPerPage + 1; //used for pagination display of how many records
-    const lastRecordIndex = Math.min(firstRecordIndex + rowsPerPage - 1, data.length); //used for pagination display of how many records
+    const totalPages = Math.ceil(tableData.length / rowsPerPage);
+    let tempData = [];
+    // const firstRecordIndex = (currentPage - 1) * rowsPerPage + 1; //used for pagination display of how many records
+    // const lastRecordIndex = Math.min(firstRecordIndex + rowsPerPage - 1, data.length); //used for pagination display of how many records
 
     // FUNCTIONS
 
     //handle record selection
     const handleRowSelect = (id) => {
         if (id === 'all') {
-            if (selectedRows.length === data.length) {
+            if (selectedRows.length === tableData.length) {
                 setSelectedRows([]);
             } else {
-                const allIds = data.map((record) => record.id);
+                const allIds = tableData.map((record) => record.id);
                 setSelectedRows(allIds);
             }
         } else {
@@ -89,22 +91,45 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
 
     // Handle column filtering
     const handleColumnFilter = (column, value) => {
-
         setColumnFilters((prevFilters) => ({
             ...prevFilters,
             [column]: value.toLowerCase(),
         }));
-
-
     };
 
-    // EFFECTS
+    // reset button aka filters
+    const handleReset = () => {
+        alert('you cliecked me')
+        setTableData(data)
+        setSearchQuery('')
+        setSortConfig({ key: null, direction: null })
+        setSelectedRows([])
+        setColumnFilters([])
+        setRowsPerPage(10)
+    }
 
-    //handle update of records per pagination
-    useEffect(() => {
+    //handle SingleDelete
+    const handleSingleDelete = (recordId) => {
         const startIndex = (currentPage - 1) * rowsPerPage;
         const endIndex = startIndex + rowsPerPage;
+        console.log(`you clicked single delete to ${recordId}`)
+        const confirmBox = window.confirm(`You are trying to delete record with ID ${recordId}`)
+        if (confirmBox) {
+            setMessage(`You've deleted record with ID ${recordId}`)
+            const newList = tableData.filter(data => {
+                return data.id !== recordId
+            })
+            console.log('newList', newList)
+            setTableData(newList)
+            tempData = newList
+            console.log('tempData', tempData)
+            
+            const filteredAndSortedData=applyGlobalSearchAndColumnFilter(tempData); 
+            setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
+        }
+    }
 
+    const applyGlobalSearchAndColumnFilter=(data)=>{
         // Apply global search
         const filteredData = data.filter((record) =>
             Object.values(record).some((value) =>
@@ -118,6 +143,16 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                 String(record[column]).toLowerCase().includes(filterValue)
             )
         );
+        return filteredAndSortedData;
+    }
+    // EFFECTS
+
+    //handle update of records per pagination
+    useEffect(() => {
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+
+        const filteredAndSortedData=applyGlobalSearchAndColumnFilter(data);
 
         // Sorting the data based on sortConfig
         if (sortConfig.key) {
@@ -131,12 +166,13 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
         }
 
         setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
-    }, [data, rowsPerPage, currentPage, searchQuery, sortConfig, columnFilters]);
+        setTableData(filteredAndSortedData)
+    }, [rowsPerPage, currentPage, searchQuery, sortConfig, columnFilters]);
 
     return (
         <div>
             <div>
-                <p>Selected {selectedRows.length} out of {data.length} records.</p>
+                <p>Selected {selectedRows.length} out of {tableData.length} records.</p>
             </div>
             {/* GLOBAL SEARCH */}
             <div>
@@ -146,6 +182,8 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
+                <button onClick={handleReset}>Reset</button>
+                {message}
             </div>
             {/* Select Rows Per Page */}
             <div>
@@ -163,26 +201,7 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
 
             <table className='w-full'>
                 <thead className='bg-neutral-500 text-white'>
-                    <tr>
-                        <th className='ring-2 text-center p-2'>
-                            <input
-                                type="checkbox"
-                                onChange={() => { }}
-                                checked={selectedRows.length === data.length}
-                                onClick={() => handleRowSelect('all')}
-                            />
-                        </th>
-                        {filteredHeaders.map((header, index) => (
-                            <th className='ring-2 text-center p-2 text-lg'
-                                key={index} onClick={() => handleColumnSort(header)}>
-                                {header}
-                                {sortConfig.key === header && (
-                                    <span>{sortConfig.direction === 'ascending' ? '▲' : '▼'}</span>
-                                )}
-                            </th>
-                        ))}
-                    </tr>
-                     {/* Column filters */}
+                    {/* Column filters */}
                     <tr className='text-black'>
                         <th></th>
                         {filteredHeaders.map((header, index) => (
@@ -195,7 +214,31 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                                 />
                             </th>
                         ))}
+                        <th></th>
                     </tr>
+                    <tr>
+                        <th className='ring-2 text-center p-2'>
+                            <input
+                                type="checkbox"
+                                onChange={() => { }}
+                                checked={selectedRows.length === tableData.length}
+                                onClick={() => handleRowSelect('all')}
+                            />
+                        </th>
+                        {filteredHeaders.map((header, index) => (
+                            <th className='ring-2 text-center p-2 text-lg'
+                                key={index} onClick={() => handleColumnSort(header)}>
+                                {header}
+                                {sortConfig.key === header && (
+                                    <span>{sortConfig.direction === 'ascending' ? '▲' : '▼'}</span>
+                                )}
+                            </th>
+                        ))}
+                        <th className='ring-2 text-center p-2 text-lg'>
+                            Action
+                        </th>
+                    </tr>
+
                 </thead>
                 <tbody>
                     {currentData.map((record, index) => (
@@ -211,6 +254,9 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                                 <td className='ring-2 text-center p-2'
                                     key={index}>{record[header]}</td>
                             ))}
+                            <td className='flex ring-2 justify-center'>
+                                <button className='m-2 ring-2' onClick={() => handleSingleDelete(record.id)}>Delete</button>
+                            </td>
                         </tr>
                     ))}
                 </tbody>
@@ -218,8 +264,18 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
             <div className='flex gap-2 flex-col ring-2 text-center'>
                 <div>
                     <p>
-                        Showing {firstRecordIndex} to {lastRecordIndex} of {data.length} records
+                        {/* Showing {firstRecordIndex} to {lastRecordIndex} of {tableData.length} records */}
+                        {
+                        rowsPerPage > tableData.length ? 
+                        <p>Showing {tableData.length} of {tableData.length} records</p>
+                        :
+                        <p>Showing {rowsPerPage} of {tableData.length} records</p>
+                        }
+                        
                     </p>
+                </div>
+                <div>
+                    <p>Pages: {currentPage}/{totalPages}</p>
                 </div>
                 <div className='flex gap-2 justify-center'>
                     <button onClick={handleFirstPage} disabled={currentPage === 1}>First Page</button>
