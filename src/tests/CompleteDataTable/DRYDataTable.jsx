@@ -24,7 +24,7 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
     const [currentData, setCurrentData] = useState([]);
     const [searchQuery, setSearchQuery] = useState('');
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
-    
+    const [columnFilters, setColumnFilters] = useState({});
 
     // VARIABLES 
     const headers = Object.keys(data[0]); //extra headers
@@ -78,13 +78,21 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
     //sort records based on column selected
     const handleColumnSort = (key) => {
         if (sortConfig.key === key) {
-          // Reverse the direction if the same column header is clicked again
-          setSortConfig({ key, direction: sortConfig.direction === 'ascending' ? 'descending' : 'ascending' });
+            // Reverse the direction if the same column header is clicked again
+            setSortConfig({ key, direction: sortConfig.direction === 'ascending' ? 'descending' : 'ascending' });
         } else {
-          // Set a new column for sorting and set the default direction to ascending
-          setSortConfig({ key, direction: 'ascending' });
+            // Set a new column for sorting and set the default direction to ascending
+            setSortConfig({ key, direction: 'ascending' });
         }
-      };
+    };
+
+    // Handle column filtering
+    const handleColumnFilter = (column, value) => {
+        setColumnFilters((prevFilters) => ({
+            ...prevFilters,
+            [column]: value.toLowerCase(),
+        }));
+    };
 
     // EFFECTS
 
@@ -92,14 +100,24 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
     useEffect(() => {
         const startIndex = (currentPage - 1) * rowsPerPage;
         const endIndex = startIndex + rowsPerPage;
+
+        // Apply global search
         const filteredData = data.filter((record) =>
             Object.values(record).some((value) =>
                 String(value).toLowerCase().includes(searchQuery.toLowerCase())
             )
         );
+
+        // Apply column filters
+        const filteredAndSortedData = filteredData.filter((record) =>
+            Object.entries(columnFilters).every(([column, filterValue]) =>
+                record[column].toLowerCase().includes(filterValue)
+            )
+        );
+
         // Sorting the data based on sortConfig
         if (sortConfig.key) {
-            filteredData.sort((a, b) => {
+            filteredAndSortedData.sort((a, b) => {
                 const aValue = a[sortConfig.key];
                 const bValue = b[sortConfig.key];
                 if (aValue < bValue) return sortConfig.direction === 'ascending' ? -1 : 1;
@@ -107,18 +125,22 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                 return 0;
             });
         }
-        setCurrentData(filteredData.slice(startIndex, endIndex));
-    }, [data, rowsPerPage, currentPage, searchQuery,sortConfig]);
+
+        setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
+    }, [data, rowsPerPage, currentPage, searchQuery, sortConfig, columnFilters]);
+
+    // ... (Existing code remains the same)
 
     return (
         <div>
             <div>
                 <p>Selected {selectedRows.length} out of {data.length} records.</p>
             </div>
+            {/* GLOBAL SEARCH */}
             <div>
                 <input
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Global Search..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
@@ -135,6 +157,18 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                     {/* Add more options as needed */}
                 </select>
             </div>
+            {/* Column filters */}
+            <div>
+                {filteredHeaders.map((header, index) => (
+                    <input
+                        key={index}
+                        type="text"
+                        placeholder={`Filter ${header}`}
+                        value={columnFilters[header] || ''}
+                        onChange={(e) => handleColumnFilter(header, e.target.value)}
+                    />
+                ))}
+            </div>
             <table>
                 <thead>
                     <tr>
@@ -148,11 +182,11 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                         </th>
                         {filteredHeaders.map((header, index) => (
                             <th key={index} onClick={() => handleColumnSort(header)}>
-                            {header}
-                            {sortConfig.key === header && (
-                              <span>{sortConfig.direction === 'ascending' ? '▲' : '▼'}</span>
-                            )}
-                          </th>
+                                {header}
+                                {sortConfig.key === header && (
+                                    <span>{sortConfig.direction === 'ascending' ? '▲' : '▼'}</span>
+                                )}
+                            </th>
                         ))}
                     </tr>
                 </thead>
