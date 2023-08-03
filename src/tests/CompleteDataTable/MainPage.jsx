@@ -2,7 +2,7 @@ import DRYDataTable from './DRYDataTable';
 import React, { useState, useEffect } from 'react';
 import data from './sampleData.json'
 
-const hiddenColumns = ['id', 'uid'];
+const hiddenColumns = [];
 
 const MainPage = () => {
     

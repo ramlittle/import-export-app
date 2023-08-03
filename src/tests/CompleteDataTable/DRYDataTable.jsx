@@ -26,6 +26,7 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
     const [columnFilters, setColumnFilters] = useState({});
 
+
     // VARIABLES 
     const headers = Object.keys(data[0]); //extra headers
     const filteredHeaders = headers.filter((header) => !hiddenColumns.includes(header));
@@ -88,10 +89,13 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
 
     // Handle column filtering
     const handleColumnFilter = (column, value) => {
+
         setColumnFilters((prevFilters) => ({
             ...prevFilters,
             [column]: value.toLowerCase(),
         }));
+
+
     };
 
     // EFFECTS
@@ -111,7 +115,7 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
         // Apply column filters
         const filteredAndSortedData = filteredData.filter((record) =>
             Object.entries(columnFilters).every(([column, filterValue]) =>
-                record[column].toLowerCase().includes(filterValue)
+                String(record[column]).toLowerCase().includes(filterValue)
             )
         );
 
@@ -129,8 +133,6 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
         setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
     }, [data, rowsPerPage, currentPage, searchQuery, sortConfig, columnFilters]);
 
-    // ... (Existing code remains the same)
-
     return (
         <div>
             <div>
@@ -145,6 +147,7 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
             </div>
+            {/* Select Rows Per Page */}
             <div>
                 <label>Rows per page:</label>
                 <select value={rowsPerPage} onChange={handleRowsPerPageChange}>
@@ -153,26 +156,15 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                     <option value={20}>20</option>
                     <option value={25}>25</option>
                     <option value={50}>50</option>
-                    <option value={data.length}>Show All</option>
+                    <option value={data.length}>All</option>
                     {/* Add more options as needed */}
                 </select>
             </div>
-            {/* Column filters */}
-            <div>
-                {filteredHeaders.map((header, index) => (
-                    <input
-                        key={index}
-                        type="text"
-                        placeholder={`Filter ${header}`}
-                        value={columnFilters[header] || ''}
-                        onChange={(e) => handleColumnFilter(header, e.target.value)}
-                    />
-                ))}
-            </div>
-            <table>
-                <thead>
+
+            <table className='w-full'>
+                <thead className='bg-neutral-500 text-white'>
                     <tr>
-                        <th>
+                        <th className='ring-2 text-center p-2'>
                             <input
                                 type="checkbox"
                                 onChange={() => { }}
@@ -181,7 +173,8 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                             />
                         </th>
                         {filteredHeaders.map((header, index) => (
-                            <th key={index} onClick={() => handleColumnSort(header)}>
+                            <th className='ring-2 text-center p-2 text-lg'
+                                key={index} onClick={() => handleColumnSort(header)}>
                                 {header}
                                 {sortConfig.key === header && (
                                     <span>{sortConfig.direction === 'ascending' ? '▲' : '▼'}</span>
@@ -189,11 +182,25 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                             </th>
                         ))}
                     </tr>
+                     {/* Column filters */}
+                    <tr className='text-black'>
+                        <th></th>
+                        {filteredHeaders.map((header, index) => (
+                            <th key={index}>
+                                <input className='w-[95%] m-2 p-1'
+                                    type="text"
+                                    placeholder={`Filter ${header}`}
+                                    value={columnFilters[header] || ''}
+                                    onChange={(e) => handleColumnFilter(header, e.target.value)}
+                                />
+                            </th>
+                        ))}
+                    </tr>
                 </thead>
                 <tbody>
                     {currentData.map((record, index) => (
                         <tr key={index}>
-                            <td>
+                            <td className='ring-2 text-center p-2'>
                                 <input
                                     type="checkbox"
                                     onChange={() => handleRowSelect(record.id)}
@@ -201,20 +208,26 @@ const DRYDataTable = ({ data, hiddenColumns }) => {
                                 />
                             </td>
                             {filteredHeaders.map((header, index) => (
-                                <td key={index}>{record[header]}</td>
+                                <td className='ring-2 text-center p-2'
+                                    key={index}>{record[header]}</td>
                             ))}
                         </tr>
                     ))}
                 </tbody>
             </table>
-            <div>
-                <p>
-                    Showing {firstRecordIndex} to {lastRecordIndex} of {data.length} records.
-                </p>
-                <button onClick={handleFirstPage} disabled={currentPage === 1}>First Page</button>
-                <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
-                <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
-                <button onClick={handleLastPage} disabled={currentPage === totalPages}>Last Page</button>
+            <div className='flex gap-2 flex-col ring-2 text-center'>
+                <div>
+                    <p>
+                        Showing {firstRecordIndex} to {lastRecordIndex} of {data.length} records
+                    </p>
+                </div>
+                <div className='flex gap-2 justify-center'>
+                    <button onClick={handleFirstPage} disabled={currentPage === 1}>First Page</button>
+                    <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
+                    <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+                    <button onClick={handleLastPage} disabled={currentPage === totalPages}>Last Page</button>
+                </div>
+
             </div>
 
         </div>
