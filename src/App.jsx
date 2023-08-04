@@ -23,7 +23,7 @@ import DataTable from './tests/CompleteDataTable/DataTable'
 import MainPage from './tests/CompleteDataTable/MainPage';
 import ExcelImporter from './tests/ImportExcel/ExcelImporter';
 import KitchenSinkDataTable from './tests/KitchenSinkDataTable/KitchenSinkDataTable'
-
+import ViewRecord from './tests/CompleteDataTable/ViewRecord.jsx'
 
 // CSS
 import './index.css'
@@ -54,8 +54,7 @@ const App = () => {
           <Route path='/ExcelImporter' element={<ExcelImporter />} />
           <Route path='/KitchenSinkDataTable' element={<KitchenSinkDataTable />} />
           <Route path='/MainPage' element={<MainPage />} />
-          
-
+          <Route path='/ViewRecord' element={<ViewRecord />} />
         </Routes>
       
     </>

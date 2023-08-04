@@ -15,7 +15,7 @@ to avoid changing the .id, let's check data first if has id column, if none, we 
  * @props data =  obtained when this ocmponent is used
   */
 import { useState, useEffect } from 'react'
-const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
+const DRYDataTable = ({ data, hiddenColumns, buttons, ACTIONS }) => {
 
     // STATES
     const [tableData, setTableData] = useState(data)
@@ -27,7 +27,7 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
     const [columnFilters, setColumnFilters] = useState({});
     const [message, setMessage] = useState('')
-
+    console.log('ACTIONS from CHILdren', ACTIONS)
     // VARIABLES 
     const headers = Object.keys(data[0]); //extra headers
     const filteredHeaders = headers.filter((header) => !hiddenColumns.includes(header));
@@ -121,31 +121,31 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
             })
             setTableData(newList)
             tempData = newList
-            
-            const filteredAndSortedData=applyGlobalSearchAndColumnFilter(tempData); 
+
+            const filteredAndSortedData = applyGlobalSearchAndColumnFilter(tempData);
             setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
         }
     }
 
     //handle selectedDelete
-    const handleDeleteSelected=()=>{
+    const handleDeleteSelected = () => {
         const startIndex = (currentPage - 1) * rowsPerPage;
         const endIndex = startIndex + rowsPerPage;
 
-        const newList = tableData.filter(data=>{
-            if(!selectedRows.includes(data.id)){
+        const newList = tableData.filter(data => {
+            if (!selectedRows.includes(data.id)) {
                 return data
             }
-        })        
-        console.log('old list',tableData)
-        console.log('newList',newList)
+        })
+        console.log('old list', tableData)
+        console.log('newList', newList)
         setTableData(newList)
-        
-        const filteredAndSortedData=applyGlobalSearchAndColumnFilter(newList); 
+
+        const filteredAndSortedData = applyGlobalSearchAndColumnFilter(newList);
         setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
     }
 
-    const applyGlobalSearchAndColumnFilter=(data)=>{
+    const applyGlobalSearchAndColumnFilter = (data) => {
         // Apply global search
         const filteredData = data.filter((record) =>
             Object.values(record).some((value) =>
@@ -168,7 +168,7 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
         const startIndex = (currentPage - 1) * rowsPerPage;
         const endIndex = startIndex + rowsPerPage;
 
-        const filteredAndSortedData=applyGlobalSearchAndColumnFilter(data);
+        const filteredAndSortedData = applyGlobalSearchAndColumnFilter(data);
 
         // Sorting the data based on sortConfig
         if (sortConfig.key) {
@@ -189,7 +189,7 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
         <div>
             <div>
                 <span>Selected {selectedRows.length} out of {tableData.length} records.</span>
-                <button className='ring-2 p-1'onClick={handleDeleteSelected}>Delete</button>
+                <button className='ring-2 p-1' onClick={handleDeleteSelected}>Delete</button>
             </div>
             {/* GLOBAL SEARCH */}
             <div>
@@ -273,6 +273,11 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
                             ))}
                             <td className='flex ring-2 justify-center'>
                                 <button className='m-2 ring-2' onClick={() => handleSingleDelete(record.id)}>Delete</button>
+                                {
+                                    Object.keys(ACTIONS).map((key,index) => {
+                                        return <button key={index} className='m2 ring-2 p-2' onClick={() => buttons(key, record.id)}>{key}</button>
+                                    })
+                                }
                             </td>
                         </tr>
                     ))}
@@ -283,12 +288,12 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
                     <p>
                         {/* Showing {firstRecordIndex} to {lastRecordIndex} of {tableData.length} records */}
                         {
-                        rowsPerPage > tableData.length ? 
-                        <p>Showing {tableData.length} of {tableData.length} records</p>
-                        :
-                        <p>Showing {rowsPerPage} of {tableData.length} records</p>
+                            rowsPerPage > tableData.length ?
+                                <p>Showing {tableData.length} of {tableData.length} records</p>
+                                :
+                                <p>Showing {rowsPerPage} of {tableData.length} records</p>
                         }
-                        
+
                     </p>
                 </div>
                 <div>
