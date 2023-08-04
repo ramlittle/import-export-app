@@ -119,14 +119,30 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
             const newList = tableData.filter(data => {
                 return data.id !== recordId
             })
-            console.log('newList', newList)
             setTableData(newList)
             tempData = newList
-            console.log('tempData', tempData)
             
             const filteredAndSortedData=applyGlobalSearchAndColumnFilter(tempData); 
             setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
         }
+    }
+
+    //handle selectedDelete
+    const handleDeleteSelected=()=>{
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+
+        const newList = tableData.filter(data=>{
+            if(!selectedRows.includes(data.id)){
+                return data
+            }
+        })        
+        console.log('old list',tableData)
+        console.log('newList',newList)
+        setTableData(newList)
+        
+        const filteredAndSortedData=applyGlobalSearchAndColumnFilter(newList); 
+        setCurrentData(filteredAndSortedData.slice(startIndex, endIndex));
     }
 
     const applyGlobalSearchAndColumnFilter=(data)=>{
@@ -172,7 +188,8 @@ const DRYDataTable = ({ data, hiddenColumns, actionButtons }) => {
     return (
         <div>
             <div>
-                <p>Selected {selectedRows.length} out of {tableData.length} records.</p>
+                <span>Selected {selectedRows.length} out of {tableData.length} records.</span>
+                <button className='ring-2 p-1'onClick={handleDeleteSelected}>Delete</button>
             </div>
             {/* GLOBAL SEARCH */}
             <div>
