@@ -1,0 +1,100 @@
+[
+    {
+        "system_id": "DOHCAR-202300002",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300003",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300004",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300005",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300006",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300007",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300008",
+        "profession": "Non-Professional",
+        "tax_code": "8",
+        "ewt": "2",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300007",
+        "profession": "Professional",
+        "tax_code": "8",
+        "ewt": "5",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300009",
+        "profession": "Professional",
+        "tax_code": "gt",
+        "ewt": "5",
+        "pt": "3"
+    },
+    {
+        "system_id": "DOHCAR-202300010",
+        "profession": "Professional",
+        "tax_code": "gt",
+        "ewt": "5",
+        "pt": "3"
+    },
+    {
+        "system_id": "DOHCAR-202300011",
+        "profession": "Non-Professional",
+        "tax_code": "gt",
+        "ewt": "2",
+        "pt": "3"
+    },
+    {
+        "system_id": "DOHCAR-202300012",
+        "profession": "Non-Professional",
+        "tax_code": "gt",
+        "ewt": "2",
+        "pt": "3"
+    },
+    {
+        "system_id": "DOHCAR-202300013",
+        "profession": "Professional",
+        "tax_code": "up",
+        "ewt": "0",
+        "pt": "0"
+    },
+    {
+        "system_id": "DOHCAR-202300014",
+        "profession": "Professional",
+        "tax_code": "up",
+        "ewt": "0",
+        "pt": "0"
+    }
+]
